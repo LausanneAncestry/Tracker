@@ -18,7 +18,7 @@ def in_range_or_None(test_value: any, left: any, right: any):
 def value_or_None(test_str: str):
 	if not isinstance(test_str, str):
 		return None
-	if test_str in [None, "", ".", "·"]:
+	if test_str in [None, "", ".", "·", "?"]:
 		return None
 	return test_str
 

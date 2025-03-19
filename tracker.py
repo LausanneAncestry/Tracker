@@ -41,12 +41,13 @@ def find_person(
         if are_close_enough(person.last_name, candidate.last_name) and are_close_enough(
             person.first_name, candidate.first_name
         ):
-            candidates.append(candidate)
+            if person.origin == None or are_close_enough(person.origin, candidate.origin):
+                candidates.append(candidate)
     if len(candidates) == 1:
         return [candidates[0]]
 
     if len(candidates) > 1:
-        if person.origin != None:
+        """ if person.origin != None:
             candidates_with_same_origin: List[CensusEntryInfo] = []
             for candidate in candidates:
                 if are_close_enough(person.origin, candidate.origin):
@@ -54,7 +55,7 @@ def find_person(
             if len(candidates_with_same_origin) == 1:
                 return candidates_with_same_origin
             elif len(candidates_with_same_origin) > 1:
-                candidates = candidates_with_same_origin
+                candidates = candidates_with_same_origin """
 
         if person.birth_year != None:
             candidates_with_same_birth_year: List[CensusEntryInfo] = []
@@ -139,8 +140,8 @@ def track_persons():
         next_year = census_years[year_index + 1]
 
         tracking_summary = track_persons_between_2_census(
-            get_all_census_entries(census_year=current_year, adults=False, children=True),
-            get_all_census_entries(census_year=next_year, adults=True, children=False),
+            get_all_census_entries(census_year=current_year, adults=False, children=False),
+            get_all_census_entries(census_year=next_year, adults=False, children=False),
         )
         print(tracking_summary)
         for first_entry, second_entry in tracking_summary.tracked_entries:

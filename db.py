@@ -91,7 +91,7 @@ def get_all_census_entries(census_year: Optional[int] = None, adults=True, child
 
 def clear_and_insert_many_census_entries(census_entries: List[CensusEntryInfo]):
 	def insert_many_census_entries(census_entries: List[CensusEntryInfo]):
-		if len(census_entries) <= 5000:
+		if len(census_entries) <= 500:
 			CensusEntry.insert_many(map(lambda entry: vars(entry), census_entries)).execute()
 		else:
 			mid = len(census_entries) // 2
@@ -105,6 +105,22 @@ def insert_many_persons(persons: List[PersonInfo]):
 
 def get_next_person_id():
 	return (Person.select(fn.MAX(Person.id)).scalar() or -1) + 1
+
+def get_all_person_entries():
+	entries = Person.select()
+	
+	# Convert each entry to a PersonInfo dataclass
+	person_entries_info = [
+		PersonInfo(
+			id=entry.id,
+			first_name=entry.first_name,
+			last_name=entry.last_name,
+			parent=None
+		)
+		for entry in entries
+	]
+
+	return person_entries_info
 
 if __name__ == "__main__":
 	reset_database()

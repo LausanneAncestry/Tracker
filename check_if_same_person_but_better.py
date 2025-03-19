@@ -70,6 +70,7 @@ for person_found in people_found:
             #loop through switch indexes:
             for index in switch_indexes:
                 #all entries up to index are the same person
+                #if there is None before Person --> no parent then parent so different person
                 pass
 
 print(people_to_treat_counter)

@@ -115,7 +115,7 @@ def get_all_person_entries():
 			id=entry.id,
 			first_name=entry.first_name,
 			last_name=entry.last_name,
-			parent=None
+			parent=entry.parent_id
 		)
 		for entry in entries
 	]

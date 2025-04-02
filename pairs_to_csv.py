@@ -11,7 +11,9 @@ data = {
     "son_last_name": [],
     "son_id": [],
     "son_job": [],
-    "son_census_entries": []
+    "son_census_entries": [],
+    "son_birth_year": [],
+    "father_birth_year": []
 }
 
 all_entries = get_all_census_entries(adults=False, children=False)
@@ -35,6 +37,8 @@ for person in people_with_fathers:
     data["father_census_entries"].append([entry.id for entry in father_census_entries])
     data["son_census_entries"].append([entry.id for entry in son_census_entries])
     data["son_job"].append(set([entry.job for entry in son_census_entries if entry.job is not None]))
+    data['son_birth_year'].append(set([entry.birth_year for entry in son_census_entries if entry.birth_year is not None]))
+    data['father_birth_year'].append(set([entry.birth_year for entry in father_census_entries if entry.birth_year is not None]))
 
 print(data)
 

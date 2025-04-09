@@ -4,30 +4,55 @@ import os
 
 from dataclasses import dataclass, field, asdict
 from typing import List, Dict
+from utils import Timer
 
 @dataclass
 class PersonWithCensusEntries(PersonInfo):
-    census_entries: Dict[str, CensusEntryInfo] = field(default_factory=dict)
+	census_entries: Dict[str, CensusEntryInfo] = field(default_factory=dict)
 
-people_to_export: List[PersonWithCensusEntries] = []
+def json_export(target="./out/export.json"):
+	"""
+	Exports a list of people with their census entries to a JSON file.
 
-all_people = get_all_person_entries()
-people_with_fathers = [person for person in all_people if person.parent != None]
-for person in people_with_fathers:
-	print(person)
-	if person.parent != None:
-		parent: Person = Person.get(Person.id == person.parent)
-		if parent.parent == None:
-			parent = personToInfo(parent)
-			parent: PersonWithCensusEntries = PersonWithCensusEntries(**asdict(parent))
-			parent.census_entries = get_census_entries_of_person(parent.id)
-			people_to_export.append(asdict(parent))
+	This function retrieves all person entries from the database, filters those
+	who have a parent, and processes each person to include their census entries.
+	If a person's parent does not have a parent themselves, the parent's information
+	is also included in the export. The resulting data is written to 'export.json'
+	in the 'out' directory.
 
-	person = PersonWithCensusEntries(**asdict(person))
-	person.census_entries = get_census_entries_of_person(person.id)
-	people_to_export.append(asdict(person))
+	Steps:
+	1. Retrieve all person entries from the database.
+	2. Filter persons who have a parent.
+	3. For each person with a parent, retrieve and include the parent's information
+	   if the parent does not have a parent themselves.
+	4. Convert each person to a PersonWithCensusEntries object and retrieve their
+	   census entries.
+	5. Ensure the 'out' directory exists and write the data to 'export.json'.
+	"""
 
-os.makedirs("./out", exist_ok=True)
-with open('./out/export.json', 'w') as json_file:
-	json.dump(people_to_export, json_file, indent=4)
+	timer = Timer(f"Exporting to {target}...")
+	people_to_export: List[PersonWithCensusEntries] = []
+
+	all_people = get_all_person_entries()
+	people_with_fathers = [person for person in all_people if person.parent != None]
+	for person in people_with_fathers:
+		if person.parent != None:
+			parent: Person = Person.get(Person.id == person.parent)
+			if parent.parent == None:
+				parent = personToInfo(parent)
+				parent: PersonWithCensusEntries = PersonWithCensusEntries(**asdict(parent))
+				parent.census_entries = get_census_entries_of_person(parent.id)
+				people_to_export.append(asdict(parent))
+
+		person = PersonWithCensusEntries(**asdict(person))
+		person.census_entries = get_census_entries_of_person(person.id)
+		people_to_export.append(asdict(person))
+
+	os.makedirs(os.path.dirname(target), exist_ok=True)
+	with open(target, 'w') as json_file:
+		json.dump(people_to_export, json_file)
+		timer.tac()
+
+if __name__ == "__main__":
+	json_export()
 

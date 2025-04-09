@@ -1,11 +1,15 @@
 from db import reset_database, close_database
 from populator import populate_database
 from tracker import track_persons
+from post_tracking import post_tracking
+from json_export import json_export
 
 def main():
 	reset_database()
 	populate_database()
 	track_persons()
+	post_tracking()
+	json_export()
 	close_database()
 	# run manually check_if_same_person_but_better
 	# run manually pairs_to_csv -> generates 'csv_paires.csv'

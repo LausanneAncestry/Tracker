@@ -1,6 +1,6 @@
 from peewee import *
 from dataclasses import dataclass
-from typing import Optional, List
+from typing import Optional, List, Union
 
 import os
 
@@ -85,10 +85,12 @@ def reset_database():
 def close_database():
 	db.close()
 
-def get_census_entries_of_person(id: int):
-	entries = CensusEntry.select().where(CensusEntry.person == id)
-	census_entries_info = {entry.id: censusEntryToInfo(entry) for entry in entries}
-	return census_entries_info
+def get_census_entries_of_person(personId: int, asCensusEntryInfo=True) -> Union[List[CensusEntry], List[CensusEntryInfo]]:
+	entries = CensusEntry.select().where(CensusEntry.person == personId).execute()
+	if asCensusEntryInfo:
+		return [censusEntryToInfo(entry) for entry in entries]
+	else:
+		return [entry for entry in entries]
 
 def get_all_census_entries(census_year: Optional[int] = None) -> List[CensusEntryInfo]:
 	# Query all entries from the CensusEntry table
@@ -118,16 +120,14 @@ def insert_many_persons(persons: List[PersonInfo]):
 def get_next_person_id():
 	return (Person.select(fn.MAX(Person.id)).scalar() or -1) + 1
 
-def get_all_person_entries():
-	entries = Person.select()
+def get_all_person_entries(asPersonInfo=True) -> Union[List[Person], List[PersonInfo]]:
+	entries = Person.select().execute()
 	
-	# Convert each entry to a PersonInfo dataclass
-	person_entries_info = [
-		personToInfo(entry)
-		for entry in entries
-	]
-
-	return person_entries_info	
+	if asPersonInfo:
+		# Convert each entry to a PersonInfo dataclass
+		return [personToInfo(entry) for entry in entries]
+	else:
+		return entries
 
 if __name__ == "__main__":
 	reset_database()

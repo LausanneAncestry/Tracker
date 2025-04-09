@@ -37,5 +37,5 @@ class Timer:
             print(start_message)
         self.start_at = time()
 
-    def tac(self, sentence="Elapsed time: {TIME}"):
+    def tac(self, sentence="Done in {TIME}"):
         print(sentence.replace("{TIME}", f"{round(time() - self.start_at, 4)}s"))

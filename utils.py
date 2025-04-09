@@ -28,3 +28,12 @@ def are_close_enough(name1: str, name2: str, cutoff: float = 0.8) -> bool:
 		return False
 	# see documentation here: https://rapidfuzz.github.io/Levenshtein/levenshtein.html
 	return True if ratio(name1.lower(), name2.lower(), score_cutoff=cutoff) > 0.0 else False
+
+class Timer:
+    def __init__(self, start_message: Optional[str] = None):
+        if start_message:
+            print(start_message)
+        self.start_at = time()
+
+    def tac(self, sentence="Elapsed time: {TIME}"):
+        print(sentence.replace("{TIME}", f"{round(time() - self.start_at, 4)}s"))

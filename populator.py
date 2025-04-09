@@ -5,7 +5,6 @@ from typing import Optional, Tuple, List
 from utils import *
 from pathlib import Path
 
-from super_timer import Timer
 from estimate_birth_date import estimate_birth_date
 
 def process_entry(

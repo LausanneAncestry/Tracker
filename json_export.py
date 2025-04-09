@@ -1,5 +1,6 @@
 from db import Person, personToInfo, PersonInfo, CensusEntryInfo, get_all_person_entries, get_census_entries_of_person
 import json
+import os
 
 from dataclasses import dataclass, field, asdict
 from typing import List, Dict
@@ -26,6 +27,7 @@ for person in people_with_fathers:
 	person.census_entries = get_census_entries_of_person(person.id)
 	people_to_export.append(asdict(person))
 
-with open('dst/export.json', 'w') as json_file:
+os.makedirs("./out", exist_ok=True)
+with open('./out/export.json', 'w') as json_file:
 	json.dump(people_to_export, json_file, indent=4)
 

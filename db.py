@@ -2,7 +2,10 @@ from peewee import *
 from dataclasses import dataclass
 from typing import Optional, List
 
-db = SqliteDatabase('super_census.db')
+import os
+
+os.makedirs("./out", exist_ok=True)
+db = SqliteDatabase('./out/super_census.db')
 db.connect()
 
 class BaseModel(Model):

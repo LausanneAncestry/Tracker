@@ -2,10 +2,7 @@ from db import CensusEntry, Person, CensusEntryInfo, get_all_census_entries
 from peewee import fn
 from dataclasses import dataclass
 from typing import List, Tuple
-from utils import are_close_enough
-
-from super_timer import Timer
-
+from utils import Timer, are_close_enough
 
 @dataclass
 class TrackingSummary:

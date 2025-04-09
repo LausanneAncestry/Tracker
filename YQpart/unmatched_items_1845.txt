@@ -1,0 +1,1194 @@
+The following items were not matched successfully:
+Row number: 16
+chef_vocation: perruguo
+Unmatched terms: perruguo
+----------------------------------------
+Row number: 22
+chef_vocation: gotian
+Unmatched terms: gotian
+----------------------------------------
+Row number: 29
+chef_vocation: g licok n
+Unmatched terms: g licok n
+----------------------------------------
+Row number: 40
+chef_vocation: de carapl
+Unmatched terms: de carapl
+----------------------------------------
+Row number: 53
+chef_vocation: des permis
+Unmatched terms: des permis
+----------------------------------------
+Row number: 60
+chef_vocation: ae parase
+Unmatched terms: ae parase
+----------------------------------------
+Row number: 96
+chef_vocation: esisien
+Unmatched terms: esisien
+----------------------------------------
+Row number: 98
+chef_vocation: egok
+Unmatched terms: egok
+----------------------------------------
+Row number: 99
+chef_vocation: oid
+Unmatched terms: oid
+----------------------------------------
+Row number: 100
+chef_vocation: oid
+Unmatched terms: oid
+----------------------------------------
+Row number: 107
+chef_vocation: otz
+Unmatched terms: otz
+----------------------------------------
+Row number: 119
+chef_vocation: litat
+Unmatched terms: litat
+----------------------------------------
+Row number: 132
+chef_vocation: de para pl
+Unmatched terms: de para pl
+----------------------------------------
+Row number: 156
+chef_vocation: adiantz
+Unmatched terms: adiantz
+----------------------------------------
+Row number: 157
+chef_vocation: eud
+Unmatched terms: eud
+----------------------------------------
+Row number: 158
+chef_vocation: eud
+Unmatched terms: eud
+----------------------------------------
+Row number: 186
+chef_vocation: audiautz
+Unmatched terms: audiautz
+----------------------------------------
+Row number: 192
+chef_vocation: archs
+Unmatched terms: archs
+----------------------------------------
+Row number: 201
+chef_vocation: jenne
+Unmatched terms: jenne
+----------------------------------------
+Row number: 227
+chef_vocation: comp de ch
+Unmatched terms: comp de ch
+----------------------------------------
+Row number: 243
+chef_vocation: plugot
+Unmatched terms: plugot
+----------------------------------------
+Row number: 289
+chef_vocation: gleptralpaire
+Unmatched terms: gleptralpaire
+----------------------------------------
+Row number: 295
+chef_vocation: phtudaut
+Unmatched terms: phtudaut
+----------------------------------------
+Row number: 296
+chef_vocation: de losles|ploye a
+Unmatched terms: de losles
+----------------------------------------
+Row number: 301
+chef_vocation: veuiz
+Unmatched terms: veuiz
+----------------------------------------
+Row number: 302
+chef_vocation: wery
+Unmatched terms: wery
+----------------------------------------
+Row number: 339
+chef_vocation: annee de naissance|annier
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 344
+chef_vocation: ·|horzat
+Unmatched terms: horzat
+----------------------------------------
+Row number: 354
+chef_vocation: sique
+Unmatched terms: sique
+----------------------------------------
+Row number: 365
+chef_vocation: lgbaffre
+Unmatched terms: lgbaffre
+----------------------------------------
+Row number: 376
+chef_vocation: calflue
+Unmatched terms: calflue
+----------------------------------------
+Row number: 386
+chef_vocation: enfine
+Unmatched terms: enfine
+----------------------------------------
+Row number: 389
+chef_vocation: alflaye
+Unmatched terms: alflaye
+----------------------------------------
+Row number: 391
+chef_vocation: muret
+Unmatched terms: muret
+----------------------------------------
+Row number: 398
+chef_vocation: cla
+Unmatched terms: cla
+----------------------------------------
+Row number: 399
+chef_vocation: tetene
+Unmatched terms: tetene
+----------------------------------------
+Row number: 421
+chef_vocation: nied
+Unmatched terms: nied
+----------------------------------------
+Row number: 426
+chef_vocation: oye
+Unmatched terms: oye
+----------------------------------------
+Row number: 453
+chef_vocation: haihor
+Unmatched terms: haihor
+----------------------------------------
+Row number: 465
+chef_vocation: eusel
+Unmatched terms: eusel
+----------------------------------------
+Row number: 467
+chef_vocation: heng
+Unmatched terms: heng
+----------------------------------------
+Row number: 468
+chef_vocation: lusse
+Unmatched terms: lusse
+----------------------------------------
+Row number: 474
+chef_vocation: hafsene
+Unmatched terms: hafsene
+----------------------------------------
+Row number: 479
+chef_vocation: mlzsin
+Unmatched terms: mlzsin
+----------------------------------------
+Row number: 480
+chef_vocation: legeliant
+Unmatched terms: legeliant
+----------------------------------------
+Row number: 487
+chef_vocation: hihause
+Unmatched terms: hihause
+----------------------------------------
+Row number: 494
+chef_vocation: jee
+Unmatched terms: jee
+----------------------------------------
+Row number: 508
+chef_vocation: vegestine
+Unmatched terms: vegestine
+----------------------------------------
+Row number: 511
+chef_vocation: cegob
+Unmatched terms: cegob
+----------------------------------------
+Row number: 523
+chef_vocation: jee
+Unmatched terms: jee
+----------------------------------------
+Row number: 528
+chef_vocation: occaz
+Unmatched terms: occaz
+----------------------------------------
+Row number: 566
+chef_vocation: onnaise
+Unmatched terms: onnaise
+----------------------------------------
+Row number: 575
+chef_vocation: ranod
+Unmatched terms: ranod
+----------------------------------------
+Row number: 583
+chef_vocation: nor
+Unmatched terms: nor
+----------------------------------------
+Row number: 587
+chef_vocation: weyreron|coleinier
+Unmatched terms: weyreron
+----------------------------------------
+Row number: 605
+chef_vocation: meroy
+Unmatched terms: meroy
+----------------------------------------
+Row number: 606
+chef_vocation: assoye a|louise
+Unmatched terms: assoye a
+----------------------------------------
+Row number: 609
+chef_vocation: dapsel
+Unmatched terms: dapsel
+----------------------------------------
+Row number: 611
+chef_vocation: hnieiral
+Unmatched terms: hnieiral
+----------------------------------------
+Row number: 615
+chef_vocation: sat|uidicet
+Unmatched terms: sat|uidicet
+----------------------------------------
+Row number: 623
+chef_vocation: fet
+Unmatched terms: fet
+----------------------------------------
+Row number: 628
+chef_vocation: moicel
+Unmatched terms: moicel
+----------------------------------------
+Row number: 635
+chef_vocation: dinic
+Unmatched terms: dinic
+----------------------------------------
+Row number: 644
+chef_vocation: annee de naissance|pasteur
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 645
+chef_vocation: eugene
+Unmatched terms: eugene
+----------------------------------------
+Row number: 659
+chef_vocation: eugene
+Unmatched terms: eugene
+----------------------------------------
+Row number: 671
+chef_vocation: convain
+Unmatched terms: convain
+----------------------------------------
+Row number: 714
+chef_vocation: corisaix
+Unmatched terms: corisaix
+----------------------------------------
+Row number: 718
+chef_vocation: ·|cse
+Unmatched terms: cse
+----------------------------------------
+Row number: 741
+chef_vocation: a la louancs
+Unmatched terms: a la louancs
+----------------------------------------
+Row number: 744
+chef_vocation: clame de paix|rentiere
+Unmatched terms: clame de paix
+----------------------------------------
+Row number: 768
+chef_vocation: a la force|contoleur
+Unmatched terms: a la force
+----------------------------------------
+Row number: 770
+chef_vocation: la farce
+Unmatched terms: la farce
+----------------------------------------
+Row number: 788
+chef_vocation: susanne
+Unmatched terms: susanne
+----------------------------------------
+Row number: 822
+chef_vocation: emd le penste
+Unmatched terms: emd le penste
+----------------------------------------
+Row number: 872
+chef_vocation: simceion
+Unmatched terms: simceion
+----------------------------------------
+Row number: 961
+chef_vocation: rasson
+Unmatched terms: rasson
+----------------------------------------
+Row number: 1044
+chef_vocation: tonnall
+Unmatched terms: tonnall
+----------------------------------------
+Row number: 1114
+chef_vocation: aemo
+Unmatched terms: aemo
+----------------------------------------
+Row number: 1124
+chef_vocation: journalier|annee de naissance
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 1155
+chef_vocation: et
+Unmatched terms: et
+----------------------------------------
+Row number: 1169
+chef_vocation: urg
+Unmatched terms: urg
+----------------------------------------
+Row number: 1185
+chef_vocation: ling taill
+Unmatched terms: ling taill
+----------------------------------------
+Row number: 1218
+chef_vocation: crieur frublier
+Unmatched terms: crieur frublier
+----------------------------------------
+Row number: 1232
+chef_vocation: nigt
+Unmatched terms: nigt
+----------------------------------------
+Row number: 1236
+chef_vocation: rentier|aut bras|de fer
+Unmatched terms: aut bras|de fer
+----------------------------------------
+Row number: 1241
+chef_vocation: impind
+Unmatched terms: impind
+----------------------------------------
+Row number: 1253
+chef_vocation: riglau de paux
+Unmatched terms: riglau de paux
+----------------------------------------
+Row number: 1259
+chef_vocation: nee charlotte
+Unmatched terms: nee charlotte
+----------------------------------------
+Row number: 1260
+chef_vocation: et
+Unmatched terms: et
+----------------------------------------
+Row number: 1267
+chef_vocation: veudun
+Unmatched terms: veudun
+----------------------------------------
+Row number: 1280
+chef_vocation: frde vereri
+Unmatched terms: frde vereri
+----------------------------------------
+Row number: 1281
+chef_vocation: lse malad
+Unmatched terms: lse malad
+----------------------------------------
+Row number: 1287
+chef_vocation: intitnt
+Unmatched terms: intitnt
+----------------------------------------
+Row number: 1290
+chef_vocation: pens alimors
+Unmatched terms: pens alimors
+----------------------------------------
+Row number: 1307
+chef_vocation: berdenn
+Unmatched terms: berdenn
+----------------------------------------
+Row number: 1331
+chef_vocation: gd mentbern
+Unmatched terms: gd mentbern
+----------------------------------------
+Row number: 1347
+chef_vocation: j malat
+Unmatched terms: j malat
+----------------------------------------
+Row number: 1371
+chef_vocation: foit porge
+Unmatched terms: foit porge
+----------------------------------------
+Row number: 1379
+chef_vocation: arpaill de chouis
+Unmatched terms: arpaill de chouis
+----------------------------------------
+Row number: 1390
+chef_vocation: nix
+Unmatched terms: nix
+----------------------------------------
+Row number: 1400
+chef_vocation: lab depoig
+Unmatched terms: lab depoig
+----------------------------------------
+Row number: 1401
+chef_vocation: lab depoig
+Unmatched terms: lab depoig
+----------------------------------------
+Row number: 1404
+chef_vocation: mambelaz
+Unmatched terms: mambelaz
+----------------------------------------
+Row number: 1465
+chef_vocation: froy de la fulle|n jod
+Unmatched terms: froy de la fulle|n jod
+----------------------------------------
+Row number: 1466
+chef_vocation: cond st dilig
+Unmatched terms: cond st dilig
+----------------------------------------
+Row number: 1472
+chef_vocation: nigt
+Unmatched terms: nigt
+----------------------------------------
+Row number: 1481
+chef_vocation: fois de pel
+Unmatched terms: fois de pel
+----------------------------------------
+Row number: 1490
+chef_vocation: annee de naissance|rentier
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 1516
+chef_vocation: ge malas
+Unmatched terms: ge malas
+----------------------------------------
+Row number: 1542
+chef_vocation: annee de naissance|coutelier
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 1554
+chef_vocation: tiermeizerd
+Unmatched terms: tiermeizerd
+----------------------------------------
+Row number: 1560
+chef_vocation: manigipol
+Unmatched terms: manigipol
+----------------------------------------
+Row number: 1563
+chef_vocation: pe malan
+Unmatched terms: pe malan
+----------------------------------------
+Row number: 1609
+chef_vocation: gagne denic
+Unmatched terms: gagne denic
+----------------------------------------
+Row number: 1615
+chef_vocation: cond de dit
+Unmatched terms: cond de dit
+----------------------------------------
+Row number: 1652
+chef_vocation: fas de chap
+Unmatched terms: fas de chap
+----------------------------------------
+Row number: 1657
+chef_vocation: peans chg
+Unmatched terms: peans chg
+----------------------------------------
+Row number: 1666
+chef_vocation: thenagne
+Unmatched terms: thenagne
+----------------------------------------
+Row number: 1688
+chef_vocation: aubergiste|a l abotel|de france
+Unmatched terms: a l abotel|de france
+----------------------------------------
+Row number: 1767
+chef_vocation: voirt
+Unmatched terms: voirt
+----------------------------------------
+Row number: 1776
+chef_vocation: comme generon
+Unmatched terms: comme generon
+----------------------------------------
+Row number: 1783
+chef_vocation: mte de vauques
+Unmatched terms: mte de vauques
+----------------------------------------
+Row number: 1806
+chef_vocation: mambel
+Unmatched terms: mambel
+----------------------------------------
+Row number: 1831
+chef_vocation: ouv cordon
+Unmatched terms: ouv cordon
+----------------------------------------
+Row number: 1850
+chef_vocation: muret
+Unmatched terms: muret
+----------------------------------------
+Row number: 1851
+chef_vocation: ministre|wesler
+Unmatched terms: wesler
+----------------------------------------
+Row number: 1862
+chef_vocation: pries
+Unmatched terms: pries
+----------------------------------------
+Row number: 1885
+chef_vocation: venues delioez
+Unmatched terms: venues delioez
+----------------------------------------
+Row number: 1908
+chef_vocation: cont d esaat
+Unmatched terms: cont d esaat
+----------------------------------------
+Row number: 1915
+chef_vocation: mte fans
+Unmatched terms: mte fans
+----------------------------------------
+Row number: 1921
+chef_vocation: repancon
+Unmatched terms: repancon
+----------------------------------------
+Row number: 1996
+chef_vocation: md de pharb
+Unmatched terms: md de pharb
+----------------------------------------
+Row number: 2006
+chef_vocation: coune
+Unmatched terms: coune
+----------------------------------------
+Row number: 2018
+chef_vocation: mambat
+Unmatched terms: mambat
+----------------------------------------
+Row number: 2023
+chef_vocation: md ambet
+Unmatched terms: md ambet
+----------------------------------------
+Row number: 2034
+chef_vocation: laitier|coumton
+Unmatched terms: coumton
+----------------------------------------
+Row number: 2039
+chef_vocation: son patis fis
+Unmatched terms: son patis fis
+----------------------------------------
+Row number: 2066
+chef_vocation: juy
+Unmatched terms: juy
+----------------------------------------
+Row number: 2074
+chef_vocation: jostitut
+Unmatched terms: jostitut
+----------------------------------------
+Row number: 2089
+chef_vocation: huiff d vax
+Unmatched terms: huiff d vax
+----------------------------------------
+Row number: 2113
+chef_vocation: mte de lanques
+Unmatched terms: mte de lanques
+----------------------------------------
+Row number: 2135
+chef_vocation: nit|meneidlier
+Unmatched terms: nit
+----------------------------------------
+Row number: 2139
+chef_vocation: voint
+Unmatched terms: voint
+----------------------------------------
+Row number: 2145
+chef_vocation: blauck de pho
+Unmatched terms: blauck de pho
+----------------------------------------
+Row number: 2147
+chef_vocation: mv de kablam
+Unmatched terms: mv de kablam
+----------------------------------------
+Row number: 2151
+chef_vocation: nigd
+Unmatched terms: nigd
+----------------------------------------
+Row number: 2152
+chef_vocation: mant
+Unmatched terms: mant
+----------------------------------------
+Row number: 2153
+chef_vocation: mte de laugres
+Unmatched terms: mte de laugres
+----------------------------------------
+Row number: 2154
+chef_vocation: nix
+Unmatched terms: nix
+----------------------------------------
+Row number: 2170
+chef_vocation: boulaux
+Unmatched terms: boulaux
+----------------------------------------
+Row number: 2201
+chef_vocation: depreti
+Unmatched terms: depreti
+----------------------------------------
+Row number: 2203
+chef_vocation: ponsitut
+Unmatched terms: ponsitut
+----------------------------------------
+Row number: 2216
+chef_vocation: pigan
+Unmatched terms: pigan
+----------------------------------------
+Row number: 2219
+chef_vocation: laumenc|fe de de chandelle
+Unmatched terms: laumenc
+----------------------------------------
+Row number: 2229
+chef_vocation: mre de murig
+Unmatched terms: mre de murig
+----------------------------------------
+Row number: 2251
+chef_vocation: serf devt
+Unmatched terms: serf devt
+----------------------------------------
+Row number: 2266
+chef_vocation: admust
+Unmatched terms: admust
+----------------------------------------
+Row number: 2276
+chef_vocation: cordoux
+Unmatched terms: cordoux
+----------------------------------------
+Row number: 2343
+chef_vocation: incurable
+Unmatched terms: incurable
+----------------------------------------
+Row number: 2359
+chef_vocation: conservtr des char|pnsemi a
+Unmatched terms: pnsemi a
+----------------------------------------
+Row number: 2360
+chef_vocation: janni
+Unmatched terms: janni
+----------------------------------------
+Row number: 2378
+chef_vocation: essud
+Unmatched terms: essud
+----------------------------------------
+Row number: 2379
+chef_vocation: essud
+Unmatched terms: essud
+----------------------------------------
+Row number: 2381
+chef_vocation: turl
+Unmatched terms: turl
+----------------------------------------
+Row number: 2404
+chef_vocation: intend obs
+Unmatched terms: intend obs
+----------------------------------------
+Row number: 2409
+chef_vocation: d de debes
+Unmatched terms: d de debes
+----------------------------------------
+Row number: 2437
+chef_vocation: aubergiste|le toix
+Unmatched terms: le toix
+----------------------------------------
+Row number: 2441
+chef_vocation: refancon|annee de naissance
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 2453
+chef_vocation: jux
+Unmatched terms: jux
+----------------------------------------
+Row number: 2458
+chef_vocation: matimation
+Unmatched terms: matimation
+----------------------------------------
+Row number: 2461
+chef_vocation: corrorgus
+Unmatched terms: corrorgus
+----------------------------------------
+Row number: 2477
+chef_vocation: boussauge
+Unmatched terms: boussauge
+----------------------------------------
+Row number: 2485
+chef_vocation: baille de pr
+Unmatched terms: baille de pr
+----------------------------------------
+Row number: 2492
+chef_vocation: ouv cordon
+Unmatched terms: ouv cordon
+----------------------------------------
+Row number: 2493
+chef_vocation: gy fset risse
+Unmatched terms: gy fset risse
+----------------------------------------
+Row number: 2513
+chef_vocation: concierge d|la maison de ville
+Unmatched terms: la maison de ville
+----------------------------------------
+Row number: 2522
+chef_vocation: canementin
+Unmatched terms: canementin
+----------------------------------------
+Row number: 2547
+chef_vocation: proprich
+Unmatched terms: proprich
+----------------------------------------
+Row number: 2550
+chef_vocation: cordaz
+Unmatched terms: cordaz
+----------------------------------------
+Row number: 2559
+chef_vocation: lingere|nee de naisse
+Unmatched terms: nee de naisse
+----------------------------------------
+Row number: 2562
+chef_vocation: maun
+Unmatched terms: maun
+----------------------------------------
+Row number: 2585
+chef_vocation: pogonse
+Unmatched terms: pogonse
+----------------------------------------
+Row number: 2598
+chef_vocation: journ
+Unmatched terms: journ
+----------------------------------------
+Row number: 2605
+chef_vocation: s vorentin
+Unmatched terms: s vorentin
+----------------------------------------
+Row number: 2608
+chef_vocation: faid de babouche
+Unmatched terms: faid de babouche
+----------------------------------------
+Row number: 2647
+chef_vocation: folenses
+Unmatched terms: folenses
+----------------------------------------
+Row number: 2658
+chef_vocation: henalion
+Unmatched terms: henalion
+----------------------------------------
+Row number: 2664
+chef_vocation: louis|pension
+Unmatched terms: louis
+----------------------------------------
+Row number: 2670
+chef_vocation: corchatto
+Unmatched terms: corchatto
+----------------------------------------
+Row number: 2696
+chef_vocation: honatin
+Unmatched terms: honatin
+----------------------------------------
+Row number: 2749
+chef_vocation: jeurn
+Unmatched terms: jeurn
+----------------------------------------
+Row number: 2779
+chef_vocation: cogense
+Unmatched terms: cogense
+----------------------------------------
+Row number: 2798
+chef_vocation: marchio|pacaptuz
+Unmatched terms: pacaptuz
+----------------------------------------
+Row number: 2821
+chef_vocation: annee de naissance|comierge
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 2849
+chef_vocation: jonnald
+Unmatched terms: jonnald
+----------------------------------------
+Row number: 2876
+chef_vocation: stroyorde ville
+Unmatched terms: stroyorde ville
+----------------------------------------
+Row number: 2877
+chef_vocation: jean
+Unmatched terms: jean
+----------------------------------------
+Row number: 2881
+chef_vocation: fronalion
+Unmatched terms: fronalion
+----------------------------------------
+Row number: 2882
+chef_vocation: meusier|siom
+Unmatched terms: siom
+----------------------------------------
+Row number: 2883
+chef_vocation: jumion
+Unmatched terms: jumion
+----------------------------------------
+Row number: 2889
+chef_vocation: seme
+Unmatched terms: seme
+----------------------------------------
+Row number: 2903
+chef_vocation: aveugle apint
+Unmatched terms: aveugle apint
+----------------------------------------
+Row number: 2905
+chef_vocation: ronsion
+Unmatched terms: ronsion
+----------------------------------------
+Row number: 2915
+chef_vocation: moe pomion
+Unmatched terms: moe pomion
+----------------------------------------
+Row number: 2922
+chef_vocation: pinglet|annee de naissance
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 2935
+chef_vocation: jenny
+Unmatched terms: jenny
+----------------------------------------
+Row number: 2936
+chef_vocation: jenny
+Unmatched terms: jenny
+----------------------------------------
+Row number: 2939
+chef_vocation: reg
+Unmatched terms: reg
+----------------------------------------
+Row number: 2964
+chef_vocation: jub de carguette
+Unmatched terms: jub de carguette
+----------------------------------------
+Row number: 2968
+chef_vocation: tg d efavie
+Unmatched terms: tg d efavie
+----------------------------------------
+Row number: 2972
+chef_vocation: luge dappel
+Unmatched terms: luge dappel
+----------------------------------------
+Row number: 2973
+chef_vocation: greffier en|lappe
+Unmatched terms: lappe
+----------------------------------------
+Row number: 2992
+chef_vocation: reg
+Unmatched terms: reg
+----------------------------------------
+Row number: 3037
+chef_vocation: jiqui
+Unmatched terms: jiqui
+----------------------------------------
+Row number: 3045
+chef_vocation: reostr
+Unmatched terms: reostr
+----------------------------------------
+Row number: 3047
+chef_vocation: vercntion
+Unmatched terms: vercntion
+----------------------------------------
+Row number: 3070
+chef_vocation: jeurne
+Unmatched terms: jeurne
+----------------------------------------
+Row number: 3071
+chef_vocation: huissier|annee de naissance
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 3075
+chef_vocation: peinturier|annee de naissance
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 3103
+chef_vocation: cordaz
+Unmatched terms: cordaz
+----------------------------------------
+Row number: 3127
+chef_vocation: jenne
+Unmatched terms: jenne
+----------------------------------------
+Row number: 3128
+chef_vocation: pilende|nee de naisse
+Unmatched terms: pilende|nee de naisse
+----------------------------------------
+Row number: 3130
+chef_vocation: mouation
+Unmatched terms: mouation
+----------------------------------------
+Row number: 3149
+chef_vocation: cordaz
+Unmatched terms: cordaz
+----------------------------------------
+Row number: 3167
+chef_vocation: pient
+Unmatched terms: pient
+----------------------------------------
+Row number: 3168
+chef_vocation: frong de bax
+Unmatched terms: frong de bax
+----------------------------------------
+Row number: 3183
+chef_vocation: seponet
+Unmatched terms: seponet
+----------------------------------------
+Row number: 3195
+chef_vocation: lab de cigares
+Unmatched terms: lab de cigares
+----------------------------------------
+Row number: 3204
+chef_vocation: annee de naissance|tailleuse
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 3212
+chef_vocation: teopriet
+Unmatched terms: teopriet
+----------------------------------------
+Row number: 3218
+chef_vocation: pintier|temui
+Unmatched terms: temui
+----------------------------------------
+Row number: 3228
+chef_vocation: jenne
+Unmatched terms: jenne
+----------------------------------------
+Row number: 3241
+chef_vocation: maniert gendoume
+Unmatched terms: maniert gendoume
+----------------------------------------
+Row number: 3257
+chef_vocation: coroz
+Unmatched terms: coroz
+----------------------------------------
+Row number: 3267
+chef_vocation: jrb de clecodat
+Unmatched terms: jrb de clecodat
+----------------------------------------
+Row number: 3273
+chef_vocation: tenn
+Unmatched terms: tenn
+----------------------------------------
+Row number: 3292
+chef_vocation: jean
+Unmatched terms: jean
+----------------------------------------
+Row number: 3294
+chef_vocation: journalier|annee de naissance
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 3298
+chef_vocation: weiberisse
+Unmatched terms: weiberisse
+----------------------------------------
+Row number: 3301
+chef_vocation: jhe pare
+Unmatched terms: jhe pare
+----------------------------------------
+Row number: 3312
+chef_vocation: jean
+Unmatched terms: jean
+----------------------------------------
+Row number: 3313
+chef_vocation: jean
+Unmatched terms: jean
+----------------------------------------
+Row number: 3319
+chef_vocation: journ
+Unmatched terms: journ
+----------------------------------------
+Row number: 3335
+chef_vocation: jen
+Unmatched terms: jen
+----------------------------------------
+Row number: 3336
+chef_vocation: s donalin
+Unmatched terms: s donalin
+----------------------------------------
+Row number: 3338
+chef_vocation: ome de perie|me depemis
+Unmatched terms: me depemis
+----------------------------------------
+Row number: 3357
+chef_vocation: leonet
+Unmatched terms: leonet
+----------------------------------------
+Row number: 3365
+chef_vocation: indetuton
+Unmatched terms: indetuton
+----------------------------------------
+Row number: 3366
+chef_vocation: bonnineur|nine
+Unmatched terms: nine
+----------------------------------------
+Row number: 3392
+chef_vocation: conuisier|vireteude
+Unmatched terms: vireteude
+----------------------------------------
+Row number: 3393
+chef_vocation: colfege
+Unmatched terms: colfege
+----------------------------------------
+Row number: 3426
+chef_vocation: cocosion
+Unmatched terms: cocosion
+----------------------------------------
+Row number: 3459
+chef_vocation: hennien|tailleur de
+Unmatched terms: hennien
+----------------------------------------
+Row number: 3485
+chef_vocation: demert|annee de naissance
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 3522
+chef_vocation: auge danpel
+Unmatched terms: auge danpel
+----------------------------------------
+Row number: 3533
+chef_vocation: jemm
+Unmatched terms: jemm
+----------------------------------------
+Row number: 3534
+chef_vocation: s recenion
+Unmatched terms: s recenion
+----------------------------------------
+Row number: 3754
+chef_vocation: lidem
+Unmatched terms: lidem
+----------------------------------------
+Row number: 3817
+chef_vocation: annee de naissance|·|annee de naissance
+Unmatched terms: annee de naissance|annee de naissance
+----------------------------------------
+Row number: 3851
+chef_vocation: annee de naissance|annee de naissance|annee de naissance
+Unmatched terms: annee de naissance|annee de naissance|annee de naissance
+----------------------------------------
+Row number: 3861
+chef_vocation: annee de naissance
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 3874
+chef_vocation: proprietaire|annee de naissance|annee de naissance
+Unmatched terms: annee de naissance|annee de naissance
+----------------------------------------
+Row number: 3879
+chef_vocation: stsserand|annee de naissance|annee de naissance|tisserand
+Unmatched terms: annee de naissance|annee de naissance
+----------------------------------------
+Row number: 3899
+chef_vocation: travaille satre|in i
+Unmatched terms: in i
+----------------------------------------
+Row number: 3907
+chef_vocation: annee de naissance|annee de naissance
+Unmatched terms: annee de naissance|annee de naissance
+----------------------------------------
+Row number: 3929
+chef_vocation: ·|annee de naissance|annee de naissance
+Unmatched terms: annee de naissance|annee de naissance
+----------------------------------------
+Row number: 3949
+chef_vocation: permis de tablen
+Unmatched terms: permis de tablen
+----------------------------------------
+Row number: 3960
+chef_vocation: naises|nee de naisse
+Unmatched terms: nee de naisse
+----------------------------------------
+Row number: 3964
+chef_vocation: nes|fermier
+Unmatched terms: nes
+----------------------------------------
+Row number: 3971
+chef_vocation: annee de naissance
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 4022
+chef_vocation: annee de naissance|jandinier
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 4036
+chef_vocation: tailleur|annee de naissance
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 4037
+chef_vocation: annee de naissance
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 4038
+chef_vocation: annee de naissance|nee aisse|annee de naissance
+Unmatched terms: annee de naissance|annee de naissance
+----------------------------------------
+Row number: 4042
+chef_vocation: formiel|annee de naissance|annee de naissance
+Unmatched terms: annee de naissance|annee de naissance
+----------------------------------------
+Row number: 4048
+chef_vocation: ne de aise|annee de naissance
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 4058
+chef_vocation: annee de naissance|nee denaisse|fermier|annee de naissance
+Unmatched terms: annee de naissance|nee denaisse|annee de naissance
+----------------------------------------
+Row number: 4060
+chef_vocation: annee de naissance
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 4062
+chef_vocation: ne
+Unmatched terms: ne
+----------------------------------------
+Row number: 4064
+chef_vocation: annee de naissance|journaliere
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 4124
+chef_vocation: labaureur|annee de naissance
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 4125
+chef_vocation: annee de naissance
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 4126
+chef_vocation: annee de naissance
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 4127
+chef_vocation: annee de naissance
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 4128
+chef_vocation: annee de naissance
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 4129
+chef_vocation: annee de naissance
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 4130
+chef_vocation: annee de naissance
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 4131
+chef_vocation: annee de naissance
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 4132
+chef_vocation: annee de naissance
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 4133
+chef_vocation: annee de naissance
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 4134
+chef_vocation: annee de naissance
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 4135
+chef_vocation: annee de naissance
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 4179
+chef_vocation: commepau de polle|agriculteur
+Unmatched terms: commepau de polle
+----------------------------------------
+Row number: 4228
+chef_vocation: id
+Unmatched terms: id
+----------------------------------------
+Row number: 4229
+chef_vocation: id
+Unmatched terms: id
+----------------------------------------
+Row number: 4230
+chef_vocation: id
+Unmatched terms: id
+----------------------------------------
+Row number: 4231
+chef_vocation: id
+Unmatched terms: id
+----------------------------------------
+Total number of unmatched terms: 314

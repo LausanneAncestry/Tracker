@@ -1,0 +1,870 @@
+The following items were not matched successfully:
+Row number: 38
+chef_vocation: professeur de|veffensiepe
+Unmatched terms: veffensiepe
+----------------------------------------
+Row number: 41
+chef_vocation: nl g
+Unmatched terms: nl g
+----------------------------------------
+Row number: 142
+chef_vocation: bmeau plaun
+Unmatched terms: bmeau plaun
+----------------------------------------
+Row number: 188
+chef_vocation: tommar
+Unmatched terms: tommar
+----------------------------------------
+Row number: 193
+chef_vocation: forteur de|eprianos
+Unmatched terms: eprianos
+----------------------------------------
+Row number: 283
+chef_vocation: fractens frostal
+Unmatched terms: fractens frostal
+----------------------------------------
+Row number: 304
+chef_vocation: yvrertion
+Unmatched terms: yvrertion
+----------------------------------------
+Row number: 311
+chef_vocation: ractens frostal
+Unmatched terms: ractens frostal
+----------------------------------------
+Row number: 322
+chef_vocation: mere pention
+Unmatched terms: mere pention
+----------------------------------------
+Row number: 347
+chef_vocation: emp dept de|spseruetin pobrie
+Unmatched terms: spseruetin pobrie
+----------------------------------------
+Row number: 369
+chef_vocation: no de
+Unmatched terms: no de
+----------------------------------------
+Row number: 428
+chef_vocation: vv de crin
+Unmatched terms: vv de crin
+----------------------------------------
+Row number: 442
+chef_vocation: marchand a|laudonnar
+Unmatched terms: laudonnar
+----------------------------------------
+Row number: 447
+chef_vocation: contusteur portes
+Unmatched terms: contusteur portes
+----------------------------------------
+Row number: 460
+chef_vocation: morrayem
+Unmatched terms: morrayem
+----------------------------------------
+Row number: 557
+chef_vocation: corneyen
+Unmatched terms: corneyen
+----------------------------------------
+Row number: 594
+chef_vocation: argovie
+Unmatched terms: argovie
+----------------------------------------
+Row number: 612
+chef_vocation: condretau d embe
+Unmatched terms: condretau d embe
+----------------------------------------
+Row number: 706
+chef_vocation: grossan
+Unmatched terms: grossan
+----------------------------------------
+Row number: 721
+chef_vocation: t de frmit
+Unmatched terms: t de frmit
+----------------------------------------
+Row number: 729
+chef_vocation: gave malise
+Unmatched terms: gave malise
+----------------------------------------
+Row number: 731
+chef_vocation: regisseur de|wabattoir pous
+Unmatched terms: wabattoir pous
+----------------------------------------
+Row number: 780
+chef_vocation: thologrophes d
+Unmatched terms: thologrophes d
+----------------------------------------
+Row number: 801
+chef_vocation: vigneron de|jeommune
+Unmatched terms: jeommune
+----------------------------------------
+Row number: 810
+chef_vocation: mde de pension
+Unmatched terms: mde de pension
+----------------------------------------
+Row number: 837
+chef_vocation: inspecteur|du thenix
+Unmatched terms: du thenix
+----------------------------------------
+Row number: 857
+chef_vocation: md de combriste
+Unmatched terms: md de combriste
+----------------------------------------
+Row number: 877
+chef_vocation: mte de pension
+Unmatched terms: mte de pension
+----------------------------------------
+Row number: 960
+chef_vocation: jete de brosses
+Unmatched terms: jete de brosses
+----------------------------------------
+Row number: 967
+chef_vocation: md de chaus
+Unmatched terms: md de chaus
+----------------------------------------
+Row number: 984
+chef_vocation: mte de pension
+Unmatched terms: mte de pension
+----------------------------------------
+Row number: 991
+chef_vocation: md de cuirs
+Unmatched terms: md de cuirs
+----------------------------------------
+Row number: 1022
+chef_vocation: dibit de pain
+Unmatched terms: dibit de pain
+----------------------------------------
+Row number: 1032
+chef_vocation: inenbles
+Unmatched terms: inenbles
+----------------------------------------
+Row number: 1093
+chef_vocation: annee de naissance|fleuriste
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 1182
+chef_vocation: ch|monhesse de|pentserse
+Unmatched terms: ch|monhesse de
+----------------------------------------
+Row number: 1186
+chef_vocation: professeur de|peisique
+Unmatched terms: peisique
+----------------------------------------
+Row number: 1245
+chef_vocation: marchand|de cluvaux
+Unmatched terms: de cluvaux
+----------------------------------------
+Row number: 1246
+chef_vocation: coulariste|trt
+Unmatched terms: trt
+----------------------------------------
+Row number: 1285
+chef_vocation: md de labacs
+Unmatched terms: md de labacs
+----------------------------------------
+Row number: 1364
+chef_vocation: docteur en|thilosophie
+Unmatched terms: thilosophie
+----------------------------------------
+Row number: 1608
+chef_vocation: rie de commune
+Unmatched terms: rie de commune
+----------------------------------------
+Row number: 1621
+chef_vocation: anv beuyer
+Unmatched terms: anv beuyer
+----------------------------------------
+Row number: 1714
+chef_vocation: modiste|annee de naissance
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 1724
+chef_vocation: mte de pension
+Unmatched terms: mte de pension
+----------------------------------------
+Row number: 1737
+chef_vocation: praf de cha
+Unmatched terms: praf de cha
+----------------------------------------
+Row number: 1758
+chef_vocation: rue de com
+Unmatched terms: rue de com
+----------------------------------------
+Row number: 1779
+chef_vocation: mte de pension
+Unmatched terms: mte de pension
+----------------------------------------
+Row number: 1785
+chef_vocation: vve de magosine
+Unmatched terms: vve de magosine
+----------------------------------------
+Row number: 1806
+chef_vocation: ane dques
+Unmatched terms: ane dques
+----------------------------------------
+Row number: 1839
+chef_vocation: mte de pension
+Unmatched terms: mte de pension
+----------------------------------------
+Row number: 1848
+chef_vocation: fch de pacofle
+Unmatched terms: fch de pacofle
+----------------------------------------
+Row number: 1891
+chef_vocation: delit de pan
+Unmatched terms: delit de pan
+----------------------------------------
+Row number: 1950
+chef_vocation: vve de magarie
+Unmatched terms: vve de magarie
+----------------------------------------
+Row number: 2003
+chef_vocation: president duc
+Unmatched terms: president duc
+----------------------------------------
+Row number: 2022
+chef_vocation: fasteur pantal
+Unmatched terms: fasteur pantal
+----------------------------------------
+Row number: 2053
+chef_vocation: la bauch
+Unmatched terms: la bauch
+----------------------------------------
+Row number: 2074
+chef_vocation: migt
+Unmatched terms: migt
+----------------------------------------
+Row number: 2207
+chef_vocation: me de tronag
+Unmatched terms: me de tronag
+----------------------------------------
+Row number: 2272
+chef_vocation: jasbefaix
+Unmatched terms: jasbefaix
+----------------------------------------
+Row number: 2299
+chef_vocation: dircet des sesultam
+Unmatched terms: dircet des sesultam
+----------------------------------------
+Row number: 2365
+chef_vocation: gh on fracitte
+Unmatched terms: gh on fracitte
+----------------------------------------
+Row number: 2398
+chef_vocation: reft de commue
+Unmatched terms: reft de commue
+----------------------------------------
+Row number: 2457
+chef_vocation: tientan cafi
+Unmatched terms: tientan cafi
+----------------------------------------
+Row number: 2461
+chef_vocation: incurable
+Unmatched terms: incurable
+----------------------------------------
+Row number: 2468
+chef_vocation: tientun caf
+Unmatched terms: tientun caf
+----------------------------------------
+Row number: 2555
+chef_vocation: allameur de gaz
+Unmatched terms: allameur de gaz
+----------------------------------------
+Row number: 2579
+chef_vocation: inecurable
+Unmatched terms: inecurable
+----------------------------------------
+Row number: 2600
+chef_vocation: nv de fricit
+Unmatched terms: nv de fricit
+----------------------------------------
+Row number: 2724
+chef_vocation: tientan cafi|rentiere
+Unmatched terms: tientan cafi
+----------------------------------------
+Row number: 2749
+chef_vocation: app de comme
+Unmatched terms: app de comme
+----------------------------------------
+Row number: 2785
+chef_vocation: peryent de jonsanmeir
+Unmatched terms: peryent de jonsanmeir
+----------------------------------------
+Row number: 2832
+chef_vocation: md de bas
+Unmatched terms: md de bas
+----------------------------------------
+Row number: 2871
+chef_vocation: varation
+Unmatched terms: varation
+----------------------------------------
+Row number: 2880
+chef_vocation: tient en cafe
+Unmatched terms: tient en cafe
+----------------------------------------
+Row number: 2895
+chef_vocation: consenateur|hypothiques
+Unmatched terms: hypothiques
+----------------------------------------
+Row number: 2898
+chef_vocation: bousser comm
+Unmatched terms: bousser comm
+----------------------------------------
+Row number: 2999
+chef_vocation: gof de muriges
+Unmatched terms: gof de muriges
+----------------------------------------
+Row number: 3034
+chef_vocation: institutrice|annee de naissance
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 3075
+chef_vocation: me fruits
+Unmatched terms: me fruits
+----------------------------------------
+Row number: 3089
+chef_vocation: md de comburte
+Unmatched terms: md de comburte
+----------------------------------------
+Row number: 3159
+chef_vocation: mte de pension
+Unmatched terms: mte de pension
+----------------------------------------
+Row number: 3167
+chef_vocation: hologeant con
+Unmatched terms: hologeant con
+----------------------------------------
+Row number: 3227
+chef_vocation: subestetu du souve|geneval
+Unmatched terms: subestetu du souve
+----------------------------------------
+Row number: 3238
+chef_vocation: prof de gymna
+Unmatched terms: prof de gymna
+----------------------------------------
+Row number: 3296
+chef_vocation: bt fe cemmu
+Unmatched terms: bt fe cemmu
+----------------------------------------
+Row number: 3351
+chef_vocation: peypetau de tolige
+Unmatched terms: peypetau de tolige
+----------------------------------------
+Row number: 3455
+chef_vocation: mazert
+Unmatched terms: mazert
+----------------------------------------
+Row number: 3463
+chef_vocation: veyer pour le ville
+Unmatched terms: veyer pour le ville
+----------------------------------------
+Row number: 3466
+chef_vocation: narbel
+Unmatched terms: narbel
+----------------------------------------
+Row number: 3504
+chef_vocation: conrtaprintiere d sbre
+Unmatched terms: conrtaprintiere d sbre
+----------------------------------------
+Row number: 3517
+chef_vocation: incurable
+Unmatched terms: incurable
+----------------------------------------
+Row number: 3533
+chef_vocation: fait phabit
+Unmatched terms: fait phabit
+----------------------------------------
+Row number: 3535
+chef_vocation: specation
+Unmatched terms: specation
+----------------------------------------
+Row number: 3544
+chef_vocation: virection des|jeanne fille
+Unmatched terms: virection des|jeanne fille
+----------------------------------------
+Row number: 3583
+chef_vocation: conducteur|dula
+Unmatched terms: dula
+----------------------------------------
+Row number: 3661
+chef_vocation: sfacution
+Unmatched terms: sfacution
+----------------------------------------
+Row number: 3711
+chef_vocation: vve de mugusien
+Unmatched terms: vve de mugusien
+----------------------------------------
+Row number: 3733
+chef_vocation: pnenrallle|no de leurs|sfrocation
+Unmatched terms: pnenrallle
+----------------------------------------
+Row number: 3757
+chef_vocation: ineurable
+Unmatched terms: ineurable
+----------------------------------------
+Row number: 3795
+chef_vocation: proeur genorel
+Unmatched terms: proeur genorel
+----------------------------------------
+Row number: 3803
+chef_vocation: d assance de case
+Unmatched terms: d assance de case
+----------------------------------------
+Row number: 3824
+chef_vocation: intreyrenaugggf
+Unmatched terms: intreyrenaugggf
+----------------------------------------
+Row number: 3845
+chef_vocation: tiont pension
+Unmatched terms: tiont pension
+----------------------------------------
+Row number: 3862
+chef_vocation: spocutrin
+Unmatched terms: spocutrin
+----------------------------------------
+Row number: 3868
+chef_vocation: reprev de com
+Unmatched terms: reprev de com
+----------------------------------------
+Row number: 3880
+chef_vocation: evancgolisle|rentiere
+Unmatched terms: evancgolisle
+----------------------------------------
+Row number: 3884
+chef_vocation: fenyer|specation
+Unmatched terms: specation
+----------------------------------------
+Row number: 3892
+chef_vocation: tros de pension
+Unmatched terms: tros de pension
+----------------------------------------
+Row number: 3899
+chef_vocation: introp engruvier
+Unmatched terms: introp engruvier
+----------------------------------------
+Row number: 3912
+chef_vocation: pens d etut
+Unmatched terms: pens d etut
+----------------------------------------
+Row number: 3913
+chef_vocation: monicisau
+Unmatched terms: monicisau
+----------------------------------------
+Row number: 3916
+chef_vocation: rentiere|tient pens|rentiere
+Unmatched terms: tient pens
+----------------------------------------
+Row number: 3933
+chef_vocation: recev de l cont
+Unmatched terms: recev de l cont
+----------------------------------------
+Row number: 3969
+chef_vocation: syvercation
+Unmatched terms: syvercation
+----------------------------------------
+Row number: 4010
+chef_vocation: specatin
+Unmatched terms: specatin
+----------------------------------------
+Row number: 4023
+chef_vocation: prect del ve|industriel
+Unmatched terms: prect del ve
+----------------------------------------
+Row number: 4029
+chef_vocation: act pastrel|tonnelier
+Unmatched terms: act pastrel
+----------------------------------------
+Row number: 4041
+chef_vocation: faub pastal
+Unmatched terms: faub pastal
+----------------------------------------
+Row number: 4049
+chef_vocation: incurable
+Unmatched terms: incurable
+----------------------------------------
+Row number: 4111
+chef_vocation: fent buv de le
+Unmatched terms: fent buv de le
+----------------------------------------
+Row number: 4112
+chef_vocation: peintre en|batiments|couturiere
+Unmatched terms: batiments
+----------------------------------------
+Row number: 4113
+chef_vocation: tient penti|tient pens
+Unmatched terms: tient penti|tient pens
+----------------------------------------
+Row number: 4149
+chef_vocation: specation|rentiere|arthopediste|rentier
+Unmatched terms: specation
+----------------------------------------
+Row number: 4156
+chef_vocation: gofe deu triber|frederic
+Unmatched terms: frederic
+----------------------------------------
+Row number: 4197
+chef_vocation: hertientenr
+Unmatched terms: hertientenr
+----------------------------------------
+Row number: 4201
+chef_vocation: specation
+Unmatched terms: specation
+----------------------------------------
+Row number: 4202
+chef_vocation: specation
+Unmatched terms: specation
+----------------------------------------
+Row number: 4230
+chef_vocation: all de gaz
+Unmatched terms: all de gaz
+----------------------------------------
+Row number: 4253
+chef_vocation: apecation
+Unmatched terms: apecation
+----------------------------------------
+Row number: 4258
+chef_vocation: charpentier|nee e naissne
+Unmatched terms: nee e naissne
+----------------------------------------
+Row number: 4266
+chef_vocation: et
+Unmatched terms: et
+----------------------------------------
+Row number: 4282
+chef_vocation: regent lausanne
+Unmatched terms: regent lausanne
+----------------------------------------
+Row number: 4317
+chef_vocation: specation
+Unmatched terms: specation
+----------------------------------------
+Row number: 4363
+chef_vocation: vve de bertine
+Unmatched terms: vve de bertine
+----------------------------------------
+Row number: 4364
+chef_vocation: vve de bertine
+Unmatched terms: vve de bertine
+----------------------------------------
+Row number: 4431
+chef_vocation: poshograpes rn
+Unmatched terms: poshograpes rn
+----------------------------------------
+Row number: 4437
+chef_vocation: paunte tappuriel
+Unmatched terms: paunte tappuriel
+----------------------------------------
+Row number: 4460
+chef_vocation: emp amardes|credet
+Unmatched terms: credet
+----------------------------------------
+Row number: 4483
+chef_vocation: meme de belai
+Unmatched terms: meme de belai
+----------------------------------------
+Row number: 4489
+chef_vocation: ingenieur|mve de pens
+Unmatched terms: mve de pens
+----------------------------------------
+Row number: 4490
+chef_vocation: mve de pens
+Unmatched terms: mve de pens
+----------------------------------------
+Row number: 4524
+chef_vocation: chef d rostitut
+Unmatched terms: chef d rostitut
+----------------------------------------
+Row number: 4552
+chef_vocation: gerant du gaz|directeur|mtreme de pension
+Unmatched terms: mtreme de pension
+----------------------------------------
+Row number: 4628
+chef_vocation: tient pens
+Unmatched terms: tient pens
+----------------------------------------
+Row number: 4633
+chef_vocation: ingenieur|rentiere|tient pens
+Unmatched terms: tient pens
+----------------------------------------
+Row number: 4657
+chef_vocation: specation
+Unmatched terms: specation
+----------------------------------------
+Row number: 4665
+chef_vocation: ef dexplostechers
+Unmatched terms: ef dexplostechers
+----------------------------------------
+Row number: 4674
+chef_vocation: loge engame
+Unmatched terms: loge engame
+----------------------------------------
+Row number: 4709
+chef_vocation: bregd de jalice
+Unmatched terms: bregd de jalice
+----------------------------------------
+Row number: 4839
+chef_vocation: ineurable
+Unmatched terms: ineurable
+----------------------------------------
+Row number: 4871
+chef_vocation: fabricant|decafi de fiques
+Unmatched terms: decafi de fiques
+----------------------------------------
+Row number: 4874
+chef_vocation: agent de|placmont
+Unmatched terms: placmont
+----------------------------------------
+Row number: 4876
+chef_vocation: tiont pension
+Unmatched terms: tiont pension
+----------------------------------------
+Row number: 4886
+chef_vocation: laitier|annee de naissance
+Unmatched terms: annee de naissance
+----------------------------------------
+Row number: 4981
+chef_vocation: leur aux preoges
+Unmatched terms: leur aux preoges
+----------------------------------------
+Row number: 5026
+chef_vocation: tient pensier
+Unmatched terms: tient pensier
+----------------------------------------
+Row number: 5029
+chef_vocation: incurable
+Unmatched terms: incurable
+----------------------------------------
+Row number: 5035
+chef_vocation: tiont pension
+Unmatched terms: tiont pension
+----------------------------------------
+Row number: 5091
+chef_vocation: guet ala|cathedrale
+Unmatched terms: guet ala|cathedrale
+----------------------------------------
+Row number: 5212
+chef_vocation: sp laveugles
+Unmatched terms: sp laveugles
+----------------------------------------
+Row number: 5241
+chef_vocation: employe aux|peliphones
+Unmatched terms: peliphones
+----------------------------------------
+Row number: 5303
+chef_vocation: plussin d etat
+Unmatched terms: plussin d etat
+----------------------------------------
+Row number: 5311
+chef_vocation: caporat gondanme
+Unmatched terms: caporat gondanme
+----------------------------------------
+Row number: 5316
+chef_vocation: fuge enfoneteur
+Unmatched terms: fuge enfoneteur
+----------------------------------------
+Row number: 5347
+chef_vocation: ineurable
+Unmatched terms: ineurable
+----------------------------------------
+Row number: 5371
+chef_vocation: epocation
+Unmatched terms: epocation
+----------------------------------------
+Row number: 5408
+chef_vocation: enfime
+Unmatched terms: enfime
+----------------------------------------
+Row number: 5553
+chef_vocation: manœuvre|nee enaissne
+Unmatched terms: nee enaissne
+----------------------------------------
+Row number: 5591
+chef_vocation: voyer d destitet
+Unmatched terms: voyer d destitet
+----------------------------------------
+Row number: 5686
+chef_vocation: ineurable
+Unmatched terms: ineurable
+----------------------------------------
+Row number: 5732
+chef_vocation: notaire et graffier|du cribunal
+Unmatched terms: du cribunal
+----------------------------------------
+Row number: 5840
+chef_vocation: ins p des prisons
+Unmatched terms: ins p des prisons
+----------------------------------------
+Row number: 5848
+chef_vocation: ilspt dassure
+Unmatched terms: ilspt dassure
+----------------------------------------
+Row number: 6013
+chef_vocation: lege engamie
+Unmatched terms: lege engamie
+----------------------------------------
+Row number: 6025
+chef_vocation: condt postab
+Unmatched terms: condt postab
+----------------------------------------
+Row number: 6076
+chef_vocation: avdeat
+Unmatched terms: avdeat
+----------------------------------------
+Row number: 6124
+chef_vocation: employe bureau|ravigation
+Unmatched terms: ravigation
+----------------------------------------
+Row number: 6186
+chef_vocation: employe|pagages
+Unmatched terms: pagages
+----------------------------------------
+Row number: 6193
+chef_vocation: aerage
+Unmatched terms: aerage
+----------------------------------------
+Row number: 6209
+chef_vocation: ineurable
+Unmatched terms: ineurable
+----------------------------------------
+Row number: 6241
+chef_vocation: ideme
+Unmatched terms: ideme
+----------------------------------------
+Row number: 6276
+chef_vocation: contremaitres y|au gaz
+Unmatched terms: au gaz
+----------------------------------------
+Row number: 6304
+chef_vocation: directeur|normales
+Unmatched terms: normales
+----------------------------------------
+Row number: 6360
+chef_vocation: marchand|chiffons|dlos
+Unmatched terms: dlos
+----------------------------------------
+Row number: 6384
+chef_vocation: svocatiors og
+Unmatched terms: svocatiors og
+----------------------------------------
+Row number: 6406
+chef_vocation: contremaitre|chez perrir otfils
+Unmatched terms: chez perrir otfils
+----------------------------------------
+Row number: 6407
+chef_vocation: teneur des baix
+Unmatched terms: teneur des baix
+----------------------------------------
+Row number: 6411
+chef_vocation: commis aulf|olpes
+Unmatched terms: olpes
+----------------------------------------
+Row number: 6418
+chef_vocation: commis|alpes
+Unmatched terms: alpes
+----------------------------------------
+Row number: 6440
+chef_vocation: maisons
+Unmatched terms: maisons
+----------------------------------------
+Row number: 6447
+chef_vocation: idemi
+Unmatched terms: idemi
+----------------------------------------
+Row number: 6545
+chef_vocation: marchand|vins
+Unmatched terms: vins
+----------------------------------------
+Row number: 6565
+chef_vocation: juge du bribunal|stederat
+Unmatched terms: stederat
+----------------------------------------
+Row number: 6583
+chef_vocation: tient pen
+Unmatched terms: tient pen
+----------------------------------------
+Row number: 6636
+chef_vocation: piqueur du|phandier gaules
+Unmatched terms: phandier gaules
+----------------------------------------
+Row number: 6646
+chef_vocation: employe|cagages
+Unmatched terms: cagages
+----------------------------------------
+Row number: 6674
+chef_vocation: tient pen
+Unmatched terms: tient pen
+----------------------------------------
+Row number: 6711
+chef_vocation: gocita
+Unmatched terms: gocita
+----------------------------------------
+Row number: 6744
+chef_vocation: restaux
+Unmatched terms: restaux
+----------------------------------------
+Row number: 6745
+chef_vocation: chef de train|prinapat
+Unmatched terms: prinapat
+----------------------------------------
+Row number: 6811
+chef_vocation: kropriel
+Unmatched terms: kropriel
+----------------------------------------
+Row number: 6833
+chef_vocation: directeur|de union du
+Unmatched terms: de union du
+----------------------------------------
+Row number: 6872
+chef_vocation: dinchice
+Unmatched terms: dinchice
+----------------------------------------
+Row number: 6902
+chef_vocation: martresse de pension
+Unmatched terms: martresse de pension
+----------------------------------------
+Row number: 6903
+chef_vocation: mactresse de pension
+Unmatched terms: mactresse de pension
+----------------------------------------
+Row number: 6973
+chef_vocation: tansenation
+Unmatched terms: tansenation
+----------------------------------------
+Row number: 7117
+chef_vocation: inspecteur|dallassane
+Unmatched terms: dallassane
+----------------------------------------
+Row number: 7139
+chef_vocation: pactau sollas
+Unmatched terms: pactau sollas
+----------------------------------------
+Row number: 7239
+chef_vocation: regisseur des|glocieres reno
+Unmatched terms: glocieres reno
+----------------------------------------
+Row number: 7296
+chef_vocation: jennies
+Unmatched terms: jennies
+----------------------------------------
+Row number: 7327
+chef_vocation: gamur
+Unmatched terms: gamur
+----------------------------------------
+Row number: 7364
+chef_vocation: airesteur des|posle
+Unmatched terms: posle
+----------------------------------------
+Row number: 7366
+chef_vocation: motion
+Unmatched terms: motion
+----------------------------------------
+Row number: 7416
+chef_vocation: idiot
+Unmatched terms: idiot
+----------------------------------------
+Row number: 7455
+chef_vocation: instrecteur|felleral
+Unmatched terms: felleral
+----------------------------------------
+Row number: 7567
+chef_vocation: nayon fo
+Unmatched terms: nayon fo
+----------------------------------------
+Total number of unmatched terms: 221

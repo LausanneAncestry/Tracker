@@ -114,7 +114,7 @@ def track_persons_between_2_census(
 
         first_year_not_matched_people = first_year_people_for_next_pass
 
-    timer.tac("Tracking finished in {TIME}")
+    timer.tac("Tracking done in {TIME}")
 
     return TrackingSummary(
         first_year=first_year,

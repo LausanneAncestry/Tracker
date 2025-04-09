@@ -94,7 +94,7 @@ def populate_database():
 						next_entry_id += 1
 						census_entries.append(child)
 
-	timer = Timer("Inserting everyone in the database...")
+	timer = Timer("Inserting everyone to the database...")
 	clear_and_insert_many_census_entries(census_entries)
 	timer.tac()
 

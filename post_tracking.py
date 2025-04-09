@@ -11,7 +11,7 @@ def find_parents_before_none(parents: List[int]):
 	return indexes
 
 def post_tracking():
-	timer = Timer(f"Start post tracking...")
+	timer = Timer(f"Starting post tracking...")
 	people_found: List[Person] = get_all_person_entries(asPersonInfo=False)
 	
 	for person in people_found:

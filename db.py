@@ -22,6 +22,14 @@ class PersonInfo:
 	last_name: str
 	parent: Optional[int] = None
 
+def personToInfo(person: Person):
+	return PersonInfo(
+		id=person.id,
+		first_name=person.first_name,
+		last_name=person.last_name,
+		parent=person.parent_id
+	)
+
 class CensusEntry(BaseModel):
 	id = AutoField()
 	census_year = IntegerField()
@@ -51,22 +59,8 @@ class CensusEntryInfo:
 	parent_census_entry: Optional[int] = None
 	person: Optional[int] = None
 
-def reset_database():
-	db.drop_tables([Person, CensusEntry], safe=True)
-	db.create_tables([Person, CensusEntry])
-
-def close_database():
-	db.close()
-
-def get_all_census_entries(census_year: Optional[int] = None) -> List[CensusEntryInfo]:
-	# Query all entries from the CensusEntry table
-	entries = CensusEntry.select()
-	if census_year:
-		entries = entries.where(CensusEntry.census_year == census_year)
-
-	# Convert each entry to a CensusEntryInfo dataclass
-	census_entries_info = [
-		CensusEntryInfo(
+def censusEntryToInfo(entry: CensusEntry):
+	return CensusEntryInfo(
 			id=entry.id,
 			census_year=entry.census_year,
 			census_row=entry.census_row,
@@ -80,8 +74,27 @@ def get_all_census_entries(census_year: Optional[int] = None) -> List[CensusEntr
 			parent_census_entry=entry.parent_census_entry.id if entry.parent_census_entry else None,
 			person=entry.person.id if entry.person else None
 		)
-		for entry in entries
-	]
+
+def reset_database():
+	db.drop_tables([Person, CensusEntry], safe=True)
+	db.create_tables([Person, CensusEntry])
+
+def close_database():
+	db.close()
+
+def get_census_entries_of_person(id: int):
+	entries = CensusEntry.select().where(CensusEntry.person == id)
+	census_entries_info = {entry.id: censusEntryToInfo(entry) for entry in entries}
+	return census_entries_info
+
+def get_all_census_entries(census_year: Optional[int] = None) -> List[CensusEntryInfo]:
+	# Query all entries from the CensusEntry table
+	entries = CensusEntry.select()
+	if census_year:
+		entries = entries.where(CensusEntry.census_year == census_year)
+
+	# Convert each entry to a CensusEntryInfo dataclass
+	census_entries_info = [censusEntryToInfo(entry) for entry in entries]
 
 	return census_entries_info
 
@@ -107,16 +120,11 @@ def get_all_person_entries():
 	
 	# Convert each entry to a PersonInfo dataclass
 	person_entries_info = [
-		PersonInfo(
-			id=entry.id,
-			first_name=entry.first_name,
-			last_name=entry.last_name,
-			parent=entry.parent_id
-		)
+		personToInfo(entry)
 		for entry in entries
 	]
 
-	return person_entries_info
+	return person_entries_info	
 
 if __name__ == "__main__":
 	reset_database()

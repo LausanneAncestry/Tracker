@@ -1,0 +1,94 @@
+The following items were not matched successfully:
+Row number: 57
+chef_vocation: geôlier à la maison de force
+Unmatched terms: geôlier à la maison de force
+----------------------------------------
+Row number: 67
+chef_vocation: ? inspection de la maison de force
+Unmatched terms: ? inspection de la maison de force
+----------------------------------------
+Row number: 1010
+chef_vocation: magasin d'ouvrage
+Unmatched terms: magasin d'ouvrage
+----------------------------------------
+Row number: 1268
+chef_vocation: ? de bas
+Unmatched terms: ? de bas
+----------------------------------------
+Row number: 1323
+chef_vocation: ? de chevaux
+Unmatched terms: ? de chevaux
+----------------------------------------
+Row number: 1515
+chef_vocation: ?… moubrin
+Unmatched terms: ?… moubrin
+----------------------------------------
+Row number: 1714
+chef_vocation: État
+Unmatched terms: État
+----------------------------------------
+Row number: 1750
+chef_vocation: ?… de l'hospice
+Unmatched terms: ?… de l'hospice
+----------------------------------------
+Row number: 2556
+chef_vocation: les filles du dit ?
+Unmatched terms: les filles du dit ?
+----------------------------------------
+Row number: 2559
+chef_vocation: Greffe mucipal
+Unmatched terms: Greffe mucipal
+----------------------------------------
+Row number: 2562
+chef_vocation: Chef du Bureau de Justice & police
+Unmatched terms: Chef du Bureau de Justice & police
+----------------------------------------
+Row number: 2595
+chef_vocation: Crieur pubic 
+Unmatched terms: Crieur pubic 
+----------------------------------------
+Row number: 2684
+chef_vocation: régente Allemande
+Unmatched terms: régente Allemande
+----------------------------------------
+Row number: 2686
+chef_vocation: Regent Allemand
+Unmatched terms: Regent Allemand
+----------------------------------------
+Row number: 2690
+chef_vocation: greffe d'Appel
+Unmatched terms: greffe d'Appel
+----------------------------------------
+Row number: 2721
+chef_vocation: Bureau d'Inspection pour les Domestiques
+Unmatched terms: Bureau d'Inspection pour les Domestiques
+----------------------------------------
+Row number: 2745
+chef_vocation: dom.
+Unmatched terms: dom.
+----------------------------------------
+Row number: 2881
+chef_vocation: proposant
+Unmatched terms: proposant
+----------------------------------------
+Row number: 3082
+chef_vocation: pasteur allemand ?
+Unmatched terms: pasteur allemand ?
+----------------------------------------
+Row number: 3121
+chef_vocation: prévoff ?
+Unmatched terms: prévoff ?
+----------------------------------------
+Row number: 3144
+chef_vocation: Président du conseil communal du Mont
+Unmatched terms: Président du conseil communal du Mont
+----------------------------------------
+Row number: 3621
+chef_vocation: regis son domaine
+Unmatched terms: regis son domaine
+----------------------------------------
+Row number: 3624
+chef_vocation: regis son domaine
+Unmatched terms: regis son domaine
+----------------------------------------
+Total number of unmatched terms: 23

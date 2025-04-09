@@ -1,0 +1,22 @@
+The following items were not matched successfully:
+Row number: 142
+chef_vocation: {'jon'}
+Unmatched terms: jon
+----------------------------------------
+Row number: 250
+chef_vocation: {'chistute'}
+Unmatched terms: chistute
+----------------------------------------
+Row number: 258
+chef_vocation: {'pe la gard'}
+Unmatched terms: pe la gard
+----------------------------------------
+Row number: 274
+chef_vocation: {'otaire|donnier'}
+Unmatched terms: otaire|donnier
+----------------------------------------
+Row number: 468
+chef_vocation: {'vi de geare'}
+Unmatched terms: vi de geare
+----------------------------------------
+Total number of unmatched terms: 5

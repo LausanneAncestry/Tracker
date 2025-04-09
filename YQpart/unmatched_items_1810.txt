@@ -1,0 +1,74 @@
+The following items were not matched successfully:
+Row number: 126
+chef_vocation: {'modiste', 'les filles du dit ?'}
+Unmatched terms: les filles du dit ?
+----------------------------------------
+Row number: 217
+chef_vocation: {'regis son domaine', 'tier?'}
+Unmatched terms: regis son domaine
+----------------------------------------
+Row number: 227
+chef_vocation: {'laboureur', 'agri'}
+Unmatched terms: agri
+----------------------------------------
+Row number: 230
+chef_vocation: {'gour', 'employe postal', 'tapissier'}
+Unmatched terms: gour
+----------------------------------------
+Row number: 271
+chef_vocation: {'pasteur', 'ministre', 'pasteur allemand ?'}
+Unmatched terms: pasteur allemand ?
+----------------------------------------
+Row number: 281
+chef_vocation: {'firge', 'cordonnier'}
+Unmatched terms: firge
+----------------------------------------
+Row number: 292
+chef_vocation: {'laboureur', 'agri'}
+Unmatched terms: agri
+----------------------------------------
+Row number: 312
+chef_vocation: {'pigueur|hes verch|louise chemins'}
+Unmatched terms: pigueur|hes verch|louise chemins
+----------------------------------------
+Row number: 332
+chef_vocation: {'som', 'casernier'}
+Unmatched terms: som
+----------------------------------------
+Row number: 354
+chef_vocation: {'gour', 'employe postal', 'tapissier'}
+Unmatched terms: gour
+----------------------------------------
+Row number: 376
+chef_vocation: {'laboureur', 'agri'}
+Unmatched terms: agri
+----------------------------------------
+Row number: 385
+chef_vocation: {'piur freblie', 'crieur public'}
+Unmatched terms: piur freblie
+----------------------------------------
+Row number: 386
+chef_vocation: {'hau chat', 'commis'}
+Unmatched terms: hau chat
+----------------------------------------
+Row number: 421
+chef_vocation: {'journalier', 'jieon'}
+Unmatched terms: jieon
+----------------------------------------
+Row number: 465
+chef_vocation: {'journalier', 'jiaque'}
+Unmatched terms: jiaque
+----------------------------------------
+Row number: 474
+chef_vocation: {'st', 'journalier'}
+Unmatched terms: st
+----------------------------------------
+Row number: 503
+chef_vocation: {'journalier', 'jiaque'}
+Unmatched terms: jiaque
+----------------------------------------
+Row number: 515
+chef_vocation: {'gimon'}
+Unmatched terms: gimon
+----------------------------------------
+Total number of unmatched terms: 18

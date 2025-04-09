@@ -1,0 +1,517 @@
+Unnamed: 0;father_first_name;father_last_name;father_id;father_job;father_census_entries;son_first_name;son_last_name;son_id;son_job;son_census_entries;son_birth_year;father_birth_year;father_job_id;father_job_norm
+0;paul;Diener;871;{'gociant', 'confiseur'};[2376, 12608, 35768];henri;manuel;406;set();[35769];{1853};{1824};{8008,3024};{'negot.','confiseur'}
+1;george;Favrat;1;{'procureur'};[1, 9629];louis;Favrat;615;{'tuteur'};[2, 9628, 31757];{1827, 1836};{1839, 1807};{9159};{'procureur'}
+2;george;Favrat;1;{'procureur'};[1, 9629];louise;Favrat;616;{'rentiere'};[3, 16079];{1800, 1828};{1839, 1807};{9159};{'procureur'}
+3;veuve;Regenass;617;{'boulanger'};[13, 9279];louise;Loire;618;set();[15, 9280];{1833, 1836};{1799};{1455};{'boulanger'}
+4;francois;Mayor;627;{'laitier', 'teinturier'};[82, 17435];charles;Capt;628;set();[85, 17437, 37548];{1867, 1835};{1796};{6656,10716};{'laitier','teinturier'}
+5;marie;Mayor;630;{'charpentier'};[89, 9572];frederic;Balissat;631;{'journalier'};[90, 9570];{1800, 1825};{1803};{2002};{'charpentier'}
+6;marie;Mayor;630;{'charpentier'};[89, 9572];marie;Balissat;632;set();[91, 14750];{1827, 1845};{1803};{2002};{'charpentier'}
+7;teypolite;Favrat;4;{'pintier', 'agriculteur'};[97, 20593];louise;Rappaz;635;{'imprimeur'};[99, 15011];{1816, 1830};{1791};{470,9048};{'agriculteur','pontière'}
+8;susette;Dubrez;648;{'journalier', 'charpentier'};[210, 9536, 35241];henriette;Regamey;649;set();[211, 9537];{1833};{1800, 1806};{2002,6556};{'charpentier','journalier'}
+9;louis;Demolin;653;{'vigneron'};[240, 9585];francois;Kohler;654;set();[241, 9586];{1833};{1808};{11072};{'vigneron'}
+10;roimord;Martel;2066;{'vigneron'};[242];charles;Kohler;655;{'journalier'};[243, 9687];{1801, 1810};{1772};{11072};{'vigneron'}
+11;paul;Bolomey;8;{'vigneron'};[246, 9600, 9929];henriette;Lavanchy;657;set();[250, 9698];{1818, 1844};{1789, 1846};{11072};{'vigneron'}
+12;jean;Miéville;2070;{'vigneron'};[286];francois;Favrat;663;"{""agent d'affaires""}";[287, 9273];{1807};{1783};{11072};{'vigneron'}
+13;marie;Fontanges;2072;{'journalier'};[297];charles;Blanc;664;{'huissier'};[298, 13083];{1812};{1774};{6556};{'journalier'}
+14;henry;Hennard;667;{'charpentier'};[316, 9360];francois;Baudet;668;{'charpentier'};[318, 9616];{1828, 1830};{1793, 1798};{2002};{'charpentier'}
+15;henry;Hennard;667;{'charpentier'};[316, 9360];louis;Baudet;669;{'journalier'};[319, 9336];{1807, 1831};{1793, 1798};{2002};{'charpentier'}
+16;louis;Magnenat;673;{'journalier'};[338, 9685];louise;Chavan;674;set();[340, 9686];{1828};{1800, 1798};{6556};{'journalier'}
+17;elie;Loire;13;{'charpentier'};[391, 9916];louis;Regamey;677;set();[393, 10433];{1831};{1801, 1844};{2002};{'charpentier'}
+18;elie;Loire;13;{'charpentier'};[391, 9916];jules;Regamey;678;set();[394, 13962];{1849};{1801, 1844};{2002};{'charpentier'}
+19;charles;Jaquillard;680;{'cordonnier'};[401, 10167];marie;Pahud;681;set();[404, 10169];{1832};{1798};{3227};{'cordonnier'}
+20;t david;Kreuchi;16;{'voiturier'};[416, 13170];louis;Brun;682;set();[418, 11429];{1842, 1819};{1848, 1794};{11110};{'voiturier'}
+21;marie;Collioud;19;{'cloutier'};[460, 9851];francois;Cerez;686;{'proprietaire'};[462, 12064];{1832, 1803};{1808, 1832};{2590};{'cloutier'}
+22;victor;Grivel;688;{'vigneron'};[482, 9706];louis;Corbaz;689;{'journalier'};[483, 9711];{1813};{1785, 1782};{11072};{'vigneron'}
+23;victor;Grivel;688;{'vigneron'};[482, 9706];charles;Corbaz;690;{'vigneron'};[487, 9806];{1824};{1785, 1782};{11072};{'vigneron'}
+24;jean;Voignard;2078;{'vigneron'};[558];jean;Peneveyre;696;{'vigneron'};[559, 20705];{1834, 1814};set();{11072};{'vigneron'}
+25;veuve de jacob;Hauri;698;{'huissier du conseil d’État', 'huissier'};[574, 9984];emilie;Gonthier;699;set();[575, 9985];{1826};{1797};{6155,?};{'huissier','?'}
+26;elizabeth;Depierre;2080;{'pintier'};[646];jaques;Dubrez;707;{'menuisier'};[649, 10391];{1824};{1793};{9048};{'pontière'}
+27;elizabeth;Depierre;2080;{'pintier'};[646];csarles;Dubrez;708;{'vigneron'};[650, 15053];{1818, 1815};{1793};{9048};{'pontière'}
+28;elizabeth;Depierre;2080;{'pintier'};[646];louise;Dubrez;709;set();[651, 10138];{1827};{1793};{9048};{'pontière'}
+29;louis;Bornand;713;{'proprietaire', 'vigneron'};[700, 15293];emile;Chatelan;714;set();[701, 15294];{1816};{1794};{11072,9281};{'vigneron','proprietaire'}
+30;louis;Bornand;713;{'proprietaire', 'vigneron'};[700, 15293];joseph;Chatelan;715;set();[702, 15295];{1821};{1794};{11072,9281};{'vigneron','proprietaire'}
+31;louis;Bornand;713;{'proprietaire', 'vigneron'};[700, 15293];marc;Chatelan;716;set();[703, 15296];{1831};{1794};{11072,9281};{'vigneron','proprietaire'}
+32;sophie;Werhly;717;{'mecanicien', 'menuisier'};[735, 19532];paul;liegme;718;set();[736, 12471];{1819, 1821};{1790, 1791};{7879,7643};{'mécanicien','menuisier'}
+33;susanne;Bonjour;38;{'conducteur de diligence'};[898, 9911];charles;Pouly;732;set();[899, 9910];{1845};{1842, 1803};{2976};{'conducteur de diligences'}
+34;louise;Mercanton;41;{'marchand', 'epicier'};[980, 10607];saufustine;Peytregnet;744;set();[982, 10608];{1820};{1785, 1786};{4827,6950};{'epicier','marchand'}
+35;gabriel;Delavaux;750;{'rentiere'};[1108, 14311];adele;Francillon;751;set();[1111, 12305];{1828, 1839};set();{9721};{'rentiere'}
+36;georgine;Maillard;756;{'proprietaire', 'menuisier'};[1189, 13139];jean jaques;Peytregnet;757;set();[1190, 13140];{1818, 1812};{1779};{7643,9281};{'menuisier','proprietaire'}
+37;stanislas;Delamadeleine;2090;{'couvreur'};[1304];louise;Corboz;765;set();[1305, 10977];{1819, 1847};{1778};{3369};{'couvreur'}
+38;se d abram ls;Langin;767;"{""maîtresse d'école"", 'couturiere'}";[1327, 10971];louis;Fritsche;768;set();[1328, 12251];{1837, 1822};{1803, 1805};{3354,7630};{'couturiere','maîtresse d'école'}
+39;veuve de jussae;Gilliéron;54;{'tanneur'};[1359, 9789];jeannette;Bally;772;set();[1360, 9838];{1824};{1835, 1795};{10606};{'tanneur'}
+40;louise fille naturelle;Hasler;2094;{'negt tanneur', 'négociant'};[1419, 13440];ernet;Mercier;777;{'negociant'};[1421, 13444];{1830};{1789};{8007,8103};{'negociant','négociante'}
+41;elie;Magnenat;63;{'pintier'};[1628, 13694];francois;Vidoudez;792;set();[1630, 13695];{1831};{1794};{9048};{'pontière'}
+42;elie;Magnenat;63;{'pintier'};[1628, 13694];cean henri;Vidoudez;793;set();[1631, 13696];{1834};{1794};{9048};{'pontière'}
+43;samuel;Monnard;68;{'charron'};[1851, 9948];francois;Devaud;807;{'charron'};[1852, 9302];{1813, 1814};{1832, 1782};{2068};{'charron'}
+44;adele;Spengler;817;{'blanchisseuse', 'sans vocation'};[1896, 16081];francois;Falconnier;818;{'gypseur/gypsier'};[1897, 11153];{1805, 1806};{1777};{10019,1371};{'sans profession','blanchisseuse'}
+45;gustave;Spengler;819;{'serrurier'};[1899, 11132];henri;Demartines;820;{'serrurier'};[1901, 11134];{1818, 1828};{1792};{10221};{'serrurier'}
+46;gustave;Spengler;819;{'serrurier'};[1899, 11132];charleser;Demartines;821;{'chapelier'};[1903, 11979];{1828};{1792};{10221};{'serrurier'}
+47;moyte;Navelot;832;{'charpentier'};[2063, 11076];louis;Vincent;833;{'charpentier'};[2064, 11078];{1825, 1829};{1790};{2002};{'charpentier'}
+48;marianne;Corbaz;78;{'banquier', 'rentier'};[2122, 10315, 13643, 34014];henri;Clavel;838;set();[2123, 10316];{1830};{1803, 1852, 1863};{1283,9716};{'banquier','rentier'}
+49;marc;Falconnier;2102;{'coiffeur'};[2164, 12365];charles;Roux;841;{'inspecteur'};[2166, 9544];{1813, 1815};{1787};{2616};{'coiffeur'}
+50;henry del;Capt;82;{'négociant', 'negociant'};[2240, 11534, 14304, 36715];henriette;Faillettaz;847;set();[2241, 14305];{1834, 1820};{1794, 1843, 1807};{8007,8007};{'negociant','negociant'}
+51;caroline;Dietrich;852;{'banquier', 'négociant'};[2278, 17134];segismond;Marcel;853;{'banquier'};[2279, 10612];{1824, 1828};{1797};{1283,8007};{'banquier','negociant'}
+52;caroline;Dietrich;852;{'banquier', 'négociant'};[2278, 17134];charles;Marcel;854;{'medecin'};[2281, 11357];{1826, 1827};{1797};{1283,8007};{'banquier','negociant'}
+53;samuel;Desvignes;86;{'serrurier', 'cordonnier'};[2302, 13963];gabriel;Baud;858;set();[2305, 14849];{1834};{1800, 1798};{3227,10221};{'cordonnier','serrurier'}
+54;jenny;Desvignes;87;set();[];julie;Renaud;859;set();[2339, 12707];{1829};set();{};{}
+55;samuel;Vonwiller;88;{'huissier'};[2341, 19219];jenny;Grandchamp;860;set();[2344, 19218];set();{1790};{6155};{'huissier'}
+56;villoir;Henry;868;{'confiseur'};[2373, 12606];victor;Manuel;870;{'negociant'};[2375, 12612];{1826, 1821};{1778};{3024};{'confiseur'}
+57;villoir;Henry;868;{'confiseur'};[2373, 12606];henri;Manuel;871;{'gociant', 'confiseur'};[2376, 12608, 35768];{1824};{1778};{3024};{'confiseur'}
+58;louis;Kessler;872;{'proprietaire et rentier', 'tailleur'};[2378, 16231];george;Faraudo;873;{'tailleur'};[2380, 11492];{1823};{1787};{10560,9383};{'tailleur','propriétaire et rentier'}
+59;georgine;Larquier;878;{'traiteur', 'rentier'};[2431, 12694];louise;Longchamp;879;set();[2432, 12695];{1830};{1798};{10876,9716};{'traiteur','rentier'}
+60;benjamin;Ramel;94;{'serrurier', 'rentier?', 'faitier'};[2469, 20096, 20734, 35487];alexandrine;Favrat;883;set();[2471, 10675];{1832};{1824, 1845, 1813};{5362,9716,10221};{'filtier','rentier','serrurier'}
+61;henriette;Wuistaz;887;{'instituteur'};[2495, 14335];louise;Dubois;888;{'negociant'};[2496, 13011];{1810, 1813};{1786, 1787};{6456};{'instituteur'}
+62;henriette;Wuistaz;887;{'instituteur'};[2495, 14335];frederich;Dubois;889;{'emailleur'};[2499, 13501];{1818};{1786, 1787};{6456};{'instituteur'}
+63;henry;? Reyler;893;{'proprietaire'};[2541, 10298];albert;De Loys;894;set();[2542, 10299];{1829};{1791};{9281};{'proprietaire'}
+64;cordance;? Reyler;897;"{'rentière …?', ""agent d'affaires""}";[2576, 11581];alexandre;Parmelin;898;set();[2578, 11582];{1830};{1797};{9721,167};{'rentiere','agent d'affaires'}
+65;marie;Olivier;910;{'avocat', 'docteur en droit ?'};[2728, 10423];eugene;Renevier;911;set();[2729, 10425];{1831};{1799};{1227,3899};{'avocat','docteur en droit'}
+66;alma;Olivier;913;{'marchand de musique', '?'};[2732, 11419];elis;Hoffmann;914;set();[2733, 11420];{1810, 1811};{1783};{·,7121};{'·','marchand de soufflets'}
+67;alma;Olivier;913;{'marchand de musique', '?'};[2732, 11419];henry;Hoffmann;915;{'commis negociant?'};[2734, 17009];{1829};{1783};{·,7121};{'·','marchand de soufflets'}
+68;vv de david moyre;Busset;106;{'comission', 'negociant'};[2788, 21112];binjamien;Longchamp;917;set();[2789, 21113];{1833, 1823};{1793, 1791};{8007,?};{'negociant','?'}
+69;emma;Bertholet;2116;{'chirurgien', 'medecin'};[2818, 11443];eugene;Mathey;920;{'medecin'};[2820, 11722];{1829, 1830};{1791};{2514,7634};{'chirurgien','medecin'}
+70;benjamin;Visinand;112;{'maréchal', 'marechal-ferrant'};[2891, 11624, 15409];jaroline;Favre;923;set();[2892, 11625];{1831};{1801, 1841};{7396,7373};{'maréchal ferrant','maréchal'}
+71;benjamin;Visinand;112;{'maréchal', 'marechal-ferrant'};[2891, 11624, 15409];louis;Favre;924;set();[2893, 11627];{1840, 1833};{1801, 1841};{7396,7373};{'maréchal ferrant','maréchal'}
+72;philippe;Visinand;113;{'marchand de vin', 'proprietaire et negociant'};[2900, 9290];jenny;Rouge;926;set();[2902, 9291];{1828, 1821};{1800};{7141,9379};{'marchand de vin','propriétaire et négociant'}
+73;philippe;Visinand;113;{'marchand de vin', 'proprietaire et negociant'};[2900, 9290];anna;Rouge;927;set();[2903, 9292];{1831};{1800};{7141,9379};{'marchand de vin','propriétaire et négociant'}
+74;jean pre fel;Nicolier;116;{'?'};[2974];henriette;Rossat;931;set();[2975, 11795];{1812};{1781};{·};{'·'}
+75;dame;Schnell;934;{'jardinier'};[3018, 21599];marie;Ortolf;935;set();[3019, 21600];{1808, 1805};set();{6526};{'jardinier'}
+76;dame;Schnell;934;{'jardinier'};[3018, 21599];alexandre;Ortolf;936;set();[3020, 21601];{1810};set();{6526};{'jardinier'}
+77;louise;Busset;119;{'commission de la 4e division'};[3036];augustine;Michoud;938;set();[3038, 12139];{1825, 1847};{1798};{?};{'?'}
+78;claude;Moreau;942;{'négociant', 'negociant'};[3070, 11984];justine;Faurer;943;set();[3073, 11985];{1821};{1785};{8007,8007};{'negociant','negociant'}
+79;veuve de philip;Herter;944;{'pharmacien'};[3076, 15900];louis;Béranger;945;set();[3078, 15901];{1832};{1803};{8886};{'pharmacien'}
+80;gabriel;Denéréaz;949;{'orfevre', 'orfèvre'};[3110, 11858];louise;Parisod;950;set();[3111, 11859];{1830};{1800};{8227,8227};{'orfèvre','orfèvre'}
+81;francois;May;951;{'chaudronnier', 'libraire'};[3124, 10665];georgine;Duret;952;set();[3126, 10666];{1826, 1827};{1791};{2101,6696};{'chaudronnier','libraire'}
+82;marc;Arnold;959;{'négociant', 'negociant'};[3182, 12944];emilie;Bonnard;960;set();[3183, 12945];{1832};{1808};{8007,8007};{'negociant','negociant'}
+83;tabine;Arnold;961;{'tailleur', 'negociant et rentier'};[3184, 15629];louis;Turin;962;set();[3185, 14397];{1824, 1843};{1799};{10560,807};{'tailleur','ancien négociant et rentier'}
+84;christian;Viller;131;{'imprimeur'};[3252, 11837, 19704];augustine;Blanchard;970;set();[3254, 18762];{1853, 1814};{1780, 1839};{6206};{'imprimeur'}
+85;christian;Viller;131;{'imprimeur'};[3252, 11837, 19704];francois;Blanchard;971;{'imprimeur'};[3256, 11839];{1830};{1780, 1839};{6206};{'imprimeur'}
+86;francois;Amann;1682;set();[];charles;Bassin;972;set();[3285, 11853];{1828};set();{};{}
+87;francois;Amann;1682;set();[];benjamin;Bassin;973;{'horloger'};[3287, 11856];{1831};set();{};{}
+88;anne pauline;Luneth;977;{'? ... aveaux', 'graveur'};[3324, 12670];emmanuel;Siber;978;set();[3325, 12672];{1834};{1807};{?,5916};{'?','graveur'}
+89;george;Perregaux;990;{'? … deur', 'fondeur'};[3485, 13775];louise;Marquis;991;set();[3486, 13781];{1849};{1800};{2607,5401};{'codeur','fondeur'}
+90;jhary;Perregaux;992;{'? … deur', 'fondeur'};[3506, 13812];charles;Ney;993;{'serrurier'};[3508, 13817];{1824, 1801};{1790};{2607,5401};{'codeur','fondeur'}
+91;id;Gex;996;{'?…sier', 'gypseur/gypsier'};[3536, 13858];samuel;Maget;998;{'gypseur/gypsier'};[3540, 14864];{1830};{1803};{5976,9932};{'gypsier','rotativiste'}
+92;freveric;Decombaz;1007;{'tapissiere', '?'};[3628, 12901];georgene;D'Illens;1008;set();[3631, 12902];{1822};set();{10620,·};{'tapissière','·'}
+93;asine;Decombaz;1009;{'tailleur de pierre', 'treillisseur'};[3634, 15523];louis;Cuérel;1010;set();[3635, 15524];{1829};{1802, 1803};{?,10574};{'?','tailleur de pierre'}
+94;asine;Decombaz;1009;{'tailleur de pierre', 'treillisseur'};[3634, 15523];henriette;Cuérel;1011;set();[3637, 15525];{1833};{1802, 1803};{?,10574};{'?','tailleur de pierre'}
+95;jaques;Degrandy;1023;{'marchand', 'negociant'};[3721, 12511];louis;Guignard;1024;{'ratier'};[3722, 12513, 24154];{1809, 1820};{1792, 1780};{8007,6950};{'negociant','marchand'}
+96;veuve de davd;Milliquet;1025;{'marchand', 'epicier etc.'};[3728, 14109];alfred;Delisle;1026;set();[3730, 14110];{1834};{1799};{4829,6950};{'epicière','marchand'}
+97;louis;Regamey;1027;{'directeur des postes', 'négociant'};[3735, 11386];cecile;Kohler;1028;set();[3739, 11387];{1829, 1830};{1792, 1796};{3753,8007};{'directeur de poste','negociant'}
+98;louis;Regamey;1027;{'directeur des postes', 'négociant'};[3735, 11386];therese;Kohler;1029;set();[3740, 11388];{1833};{1792, 1796};{3753,8007};{'directeur de poste','negociant'}
+99;benjamin;Roulet;143;{'négociant'};[3750, 14143, 21882];adolphe;Kohler;1030;{'negociant'};[3751, 14135, 21886];{1822};{1794, 1850, 1860};{8007};{'negociant'}
+100;benjamin;Roulet;143;{'négociant'};[3750, 14143, 21882];fany;Kohler;1031;set();[3752, 14140];{1827};{1794, 1850, 1860};{8007};{'negociant'}
+101;benjamin;Roulet;143;{'négociant'};[3750, 14143, 21882];emile;Kohler;1032;set();[3753, 14141];{1800, 1830};{1794, 1850, 1860};{8007};{'negociant'}
+102;frederich;Roulet;144;"{'rentier', ""juge d'appel""}";[3766, 10554, 11820];auguste;Bory;1035;set();[3767, 11821];{1823};{1793, 1852};{9716,11389};{'rentier','juge d'appel'}
+103;amram sel;Müller;147;{'concierge', 'rtonier'};[3839, 15316, 31554];louise;Chollet;1038;set();[3841, 13765];{1824};{1844, 1815, 1799};{1888,2930};{'cartonnier','concierge'}
+104;ferdinand;Blanc;2138;{'serrurier'};[3862, 14297];marc;Ballenegger;1041;set();[3865, 14298];{1825, 1823};{1789};{10221};{'serrurier'}
+105;charlotte;Hemeling;151;{'?…retain', 'rentier'};[3941, 14391, 15816];georges;Meylan;1048;set();[3942, 14392];{1805};{1816, 1777, 1787};{?,9716};{'?','rentier'}
+106;louis;Hubel;1059;{'sage-femme', 'rentiere'};[3995, 20249];frederich;Chapuis;1060;{'employe'};[3996, 9533];{1820, 1814};set();{10003,9721};{'sage femme','rentiere'}
+107;eugenie;Hermenjat;1075;{'cordonnier', '?'};[4219, 17447];henriette;Chapuis;1076;set();[4220, 20737];{1829, 1830};{1799};{·,3227};{'·','cordonnier'}
+108;sophie;Ballenegger;2300;{'cordonnier'};[4620, 16515];charlotte;Villard;1109;set();[4625, 16518];{1829};{1792, 1798};{3227};{'cordonnier'}
+109;sophie;Ballenegger;2300;{'cordonnier'};[4620, 16515];henry;Villard;1110;set();[4626, 16519];{1820, 1830};{1792, 1798};{3227};{'cordonnier'}
+110;adele;Francillon;1111;"{""juge d'appel ?"", 'greffier'}";[4642, 12927];marie;Veillon;1112;set();[4644, 12928];{1838};{1804};{11389,5928};{'juge d'appel','greffier'}
+111;suset;Bohy;178;{'traiteur'};[4684, 11149];samuel;Crausaz;1117;{'felier', 'serrurier'};[4685, 19078, 31923];{1825, 1821};{1800, 1847};{10876};{'traiteur'}
+112;chand;Bonnet;1122;{'journalier'};[4752, 16725];emarie;Berche;1123;set();[4753, 16726];{1834};{1797};{6556};{'journalier'}
+113;frederic;Bohy;181;{'propriétaire'};[4818, 18782];francois;Lemaire;1131;{'rentier'};[4819, 12997];{1812};{1780, 1839};{9281};{'proprietaire'}
+114;francois;Meyer;1132;{'rentier', 'préfet'};[4826, 14565];thiophile;Rivier;1133;set();[4832, 14567];{1832};{1791};{9134,9716};{'prefêt','rentier'}
+115;garlotte;Meyer;1134;{'professeur', '?… des finances', 'rentier'};[4835, 16424, 36771];ijulie;Berdez;1135;set();[4836, 16425];{1810};{1811, 1781, 1782};{9716,9168,?};{'rentier','professeur','?'}
+116;caroline;Lehmann;187;{'?'};[4882, 15203];francois;Paget;1139;set();[4883, 15304];{1826};{1837, 1781};{·};{'·'}
+117;louis;Foras;1153;{'notaire', 'juge de District'};[5050, 12999];douard;Vallotton;1154;set();[5051, 13000];{1834, 1831};{1801};{8020,6031};{'notaire','gérant de division'}
+118;gane;Hauser;1164;{'vigneron'};[5158, 14224];frederic;Blanc;1165;set();[5159, 20076];{1833};{1809};{11072};{'vigneron'}
+119;henry;Bonnet;202;{'poelier', 'potier de terre'};[5203, 17002];gamuel;Bachmann;1174;set();[5204, 17004];{1830};{1802};{9112,9126};{'potier de terre','poêlier'}
+120;josephine;Voirol;1182;{'ouvrier de ville', 'ermaliea', 'marbrier'};[5422, 9742, 32116];henri;Tarin;1183;set();[5423, 15555];{1832};{1805};{6946,?,8588};{'marbrier','?','ouvrier vitrier'}
+121;louise;Zeeb;216;{'ferblantier'};[5470, 15081];frederic;Schittenhelm;1190;set();[5471, 15082];{1834};{1808};{5245};{'ferblantier'}
+122;rosine;Zeeb;217;{'lessiveuse'};[5477];henriette;Bonnet;1191;set();[5478, 12644];{1850};set();{6690};{'lessiveuse'}
+123;jeann|lurie;Simsan;1192;{'ecrivain', 'écrivain'};[5485, 15339];maurice;Porchet;1193;set();[5486, 15340];{1832};{1790};{4121,4121};{'ecrivain','ecrivain'}
+124;udile;Clavel;1198;{'menuisier'};[5531, 16818];jules;Marchand;1199;set();[5532, 11026];{1848, 1833};{1801};{7643};{'menuisier'}
+125;louis;Hans Jacob;2314;{'jardinier'};[5649, 20888];georges;Curtet;1210;set();[5650, 20890];{1832};{1809};{6526};{'jardinier'}
+126;francois;Jaccoud;1212;{'modiste', 'les filles du dit ?'};[5690, 14018];louise;Piolet;1213;set();[5691, 14019];{1812, 1815};set();{?,7778};{'?','modiste'}
+127;abram louis;Meyer;1224;{'menuisier'};[5832, 10160];jean;Bruppacher;1225;set();[5835, 10161];{1832};{1793, 1798};{7643};{'menuisier'}
+128;francois;Marmet;1231;{'menuisier'};[5916, 17567];francoise;Reybaz;1232;{'menuisier'};[5918, 17569];{1829};{1782};{7643};{'menuisier'}
+129;louis;Kubli;2177;set();[6057];sophie;Nicole;1244;set();[6059, 18008];{1825};{1798};{};{}
+130;louis;Bugnion;1255;{'pintier', 'rentier'};[6204, 18227];francois;Bipperl;1256;{'ministre'};[6205, 9340];{1808, 1812};{1777};{9716,9048};{'rentier','pontière'}
+131;louis;Bugnion;1255;{'pintier', 'rentier'};[6204, 18227];henry;Bipperl;1257;{'avocat'};[6206, 18229];{1824};{1777};{9716,9048};{'rentier','pontière'}
+132;jenni;Olivier;1265;{'marchand de coton', 'fabricant de cotones'};[6277, 18304];charles;Campart;1266;set();[6279, 18305];{1833};{1795};{7261,5016};{'marchande de couronnes','fabricant de coton'}
+133;marianne;Dussin;2185;{'manoeuvre'};[6400];josephine;Belet;1278;set();[6401, 19240];{1832, 1833};{1809};{6905};{'manoeuvre'}
+134;frederich;Lavanchy;246;{'peintre', 'notaire'};[6522, 18709, 37247];eugene;Gaulis;1291;set();[6523, 18710];{1833};{1801, 1836};{8020,8777};{'notaire','peintre'}
+135;louis;Parisot;1295;{'journalier'};[6571, 18772];francois;Henny;1296;{'tonnelier'};[6572, 18636];{1822};{1803};{6556};{'journalier'}
+136;jean louis;Corboz;1304;{'avocat', 'rentier'};[6605, 18816, 32008];edouard;Secretan;1305;set();[6606, 18817, 36784];{1848, 1813};{1785, 1852};{1227,9716};{'avocat','rentier'}
+137;illane;Ravessoud;1316;{'serrurier', 'manœuvre'};[6725, 19001];jean;Gruffel;1317;{'teinturier'};[6726, 19435];{1828};{1800, 1802};{10221,6936};{'serrurier','manœuvre'}
+138;illane;Ravessoud;1316;{'serrurier', 'manœuvre'};[6725, 19001];samuel;Gruffel;1318;set();[6727, 11082];{1853};{1800, 1802};{10221,6936};{'serrurier','manœuvre'}
+139;henri;Maurer;1319;{'charpentier'};[6729, 18610];louise;Neyret;1320;set();[6732, 18611];{1820};{1781, 1775};{2002};{'charpentier'}
+140;francois;Brelaz;252;{'tailleur de pierre'};[6745, 19126];henriette;Combet;1321;set();[6748, 19027];{1828};{1800, 1853};{10574};{'tailleur de pierre'}
+141;emilie;Bovay;1322;{'journalier'};[6749, 19178];louis;Mignot;1323;{'macon'};[6750, 19181];{1814};{1780, 1783};{6556};{'journalier'}
+142;emilie;Bovay;1322;{'journalier'};[6749, 19178];francois;Mignot;1324;{'jon'};[6751, 19179, 32458];{1826, 1819, 1820};{1780, 1783};{6556};{'journalier'}
+143;emilie;Bovay;1322;{'journalier'};[6749, 19178];pouise;Mignot;1325;set();[6753, 19180];{1826};{1780, 1783};{6556};{'journalier'}
+144;francois;Noir;1326;{'armurier', 'mécanicien'};[6760, 16649];jules;Jaques;1327;set();[6761, 16650];{1817, 1844};{1784};{967,7879};{'armurier','mécanicien'}
+145;george;Maget;1329;{'charpentier'};[6772, 18588];marie;Vallotton;1330;set();[6774, 16786];{1849, 1823};{1789, 1799};{2002};{'charpentier'}
+146;veuve jn st;Parisot;1335;"{""secretaire de l'inspecteur des milices"", ""secrétaire du conseil  de l'inspection publique""}";[6818, 19268];theodore;de Vallière;1336;set();[6820, 19269];{1828};{1800, 1799};{10089,?};{'secrétaire','?'}
+147;jean;Dupertuis;1337;{'sonneur', 'macon'};[6823, 19121];jean duis;Blanc;1338;{'commis'};[6825, 11620];{1823};{1793};{10329,6830};{'sonneur','macon'}
+148;francoise;Brelaz;253;{'instituteur'};[6846, 19165];alexandre;Tissot;1341;set();[6847, 15994];{1850};{1800};{6456};{'instituteur'}
+149;jastud;Delacour;2191;set();[6882];amedee;Chavan;1343;{'tailleur de pierre'};[6883, 14842];{1813};{1769};{};{}
+150;aban jean rod;Blanc;257;{'charpentier'};[6956, 19509];marianne;Rod;1351;set();[6963, 19507];{1830};{1786, 1837};{2002};{'charpentier'}
+151;aban jean rod;Blanc;257;{'charpentier'};[6956, 19509];antoinette;Rod;1352;set();[6964, 19508];{1832};{1786, 1837};{2002};{'charpentier'}
+152;miry;Schindler;1355;{'menuisier'};[6992, 16353];elise;Mauerhofer;1356;set();[6993, 16354];{1832, 1838};set();{7643};{'menuisier'}
+153;sans;Despond;1364;{'cordonnier'};[7032, 19385];francois;Corsat;1365;{'menuisier'};[7033, 19387];{1818};{1790};{3227};{'cordonnier'}
+154;prinut;Jaquenoud;1366;{'aubergiste'};[7051, 19396];louise;Blanc;1367;{'ouvrier potier'};[7052, 9330];{1816};{1790};{1175};{'aubergiste'}
+155;prinut;Jaquenoud;1366;{'aubergiste'};[7051, 19396];aucuste;Blanc;1368;{'vendeur de vin', 'proprietaire'};[7053, 19402, 37000];{1817, 1781};{1790};{1175};{'aubergiste'}
+156;prinut;Jaquenoud;1366;{'aubergiste'};[7051, 19396];jean jacob;Blanc;1369;set();[7059, 19400];{1826};{1790};{1175};{'aubergiste'}
+157;veuve de jn elie;Emery;1374;{'procureur', 'tourneur'};[7075, 12668];jaques;Philippon;1375;{'ecrivain'};[7076, 20778];{1814};{1793, 1794};{10837,9159};{'tourneur','procureur'}
+158;francois;Dubied;1378;{'maçon'};[7093, 20694];georgine;Barraud;1379;set();[7097, 12412];{1832};{1802, 1819};{6830};{'macon'}
+159;francois;Dubied;1378;{'maçon'};[7093, 20694];rdsine;Barraud;1380;set();[7098, 12413];{1833};{1802, 1819};{6830};{'macon'}
+160;jules;Aviolat;1382;{'proprietaire', 'propriétaire'};[7122, 16957];jeanne susanne;Veyrassat;1383;set();[7123, 16958];{1816};{1792, 1774};{9281,9281};{'proprietaire','proprietaire'}
+161;fellari;Weber;1392;{'marchand', 'marchand ambulant'};[7222, 14326];louise;Nerny;1393;set();[7224, 14327];{1832};{1801, 1802};{6951,6950};{'marchand ambulant','marchand'}
+162;fellari;Weber;1392;{'marchand', 'marchand ambulant'};[7222, 14326];sophie;Nerny;1394;set();[7225, 14328];{1833, 1834};{1801, 1802};{6951,6950};{'marchand ambulant','marchand'}
+163;francois;Panchaud;1401;{'fileur', 'propriétaire'};[7275, 19538];louis;Juat;1402;{'negociant'};[7276, 19541];{1812};set();{9281,5298};{'proprietaire','fileur'}
+164;francois;Panchaud;1401;{'fileur', 'propriétaire'};[7275, 19538];charles;Juat;1403;set();[7278, 19540];{1824};set();{9281,5298};{'proprietaire','fileur'}
+165;henry;Decastel;1416;{'journalier', 'batelier'};[7410, 21051];charles;Verboux;1417;set();[7411, 21052];{1827};{1805};{1305,6556};{'batelier','journalier'}
+166;henry;Decastel;1416;{'journalier', 'batelier'};[7410, 21051];henriette;Verboux;1418;{'ouvriere'};[7413, 21040];{1825, 1831};{1805};{1305,6556};{'batelier','journalier'}
+167;jour theodore;Mercier;1423;{'perruquier', 'barbier'};[7425, 21278];jule;Visinand;1424;set();[7426, 21279];{1832, 1831};{1812};{8872,1287};{'perruquier','barbier'}
+168;casimin;Verdier;1431;{'rentiere', 'aubergiste'};[7457, 14337];augustine;Corbaz;1432;set();[7460, 14339];{1826, 1827};set();{1175,9721};{'aubergiste','rentiere'}
+169;cossari;Verdier;1433;{'journalier'};[7461, 21217];charles;Dizerens;1434;{'domestique'};[7464, 21062];{1825};{1795};{6556};{'journalier'}
+170;francois;Digonten ?;1439;{'chargeur', 'pecheur'};[7504, 21180];francois;Mogeon;1440;set();[7505, 21181];{1828};{1800};{1979,9561};{'chargeur','pêcheur'}
+171;lun;Aviolat;1442;{'batelier'};[7516, 21288];henriette;Clerc;1443;set();[7517, 21289];{1830};{1802};{1305};{'batelier'}
+172;lun;Aviolat;1442;{'batelier'};[7516, 21288];francoise;Clerc;1444;set();[7518, 21290];{1831};{1802};{1305};{'batelier'}
+173;lun;Aviolat;1442;{'batelier'};[7516, 21288];charlotte;Clerc;1445;set();[7519, 21291];{1833};{1802};{1305};{'batelier'}
+174;francois;Bovet;1448;{'pecheur', 'pêcheur'};[7531, 21204];louis;Perrin;1449;{'fille'};[7533, 21205, 34343];{1830};{1802};{9561,9561};{'pêcheur','pêcheur'}
+175;veuve elisabeth;Chatelenaz;1451;{'journalier', 'journailier'};[7540, 21168];louise;Duport;1452;set();[7541, 21169];{1816};{1777};{6557,6556};{'journalier agricole','journalier'}
+176;d veuve;Allenspache;1456;{'propriétaire', 'batelier'};[7558, 21333];susette;Mogeon;1457;set();[7559, 21227];{1827};{1798, 1823};{1305,9281};{'batelier','proprietaire'}
+177;d veuve;Allenspache;1456;{'propriétaire', 'batelier'};[7558, 21333];charles;Mogeon;1458;{'journalier'};[7560, 21449];{1829};{1798, 1823};{1305,9281};{'batelier','proprietaire'}
+178;d veuve;Allenspache;1456;{'propriétaire', 'batelier'};[7558, 21333];david;Mogeon;1459;set();[7561, 21228];{1834};{1798, 1823};{1305,9281};{'batelier','proprietaire'}
+179;vv d etienne;Blanchet;1460;{'journalier', 'gagne-denier'};[7562, 21282];daniel;Daccord;1461;{'journalier'};[7565, 21060];{1818, 1819};{1817, 1778};{?,6556};{'?','journalier'}
+180;vv d etienne;Blanchet;1460;{'journalier', 'gagne-denier'};[7562, 21282];henriette;Daccord;1462;{'ouvriere'};[7567, 21274];{1825};{1817, 1778};{?,6556};{'?','journalier'}
+181;eugene;? Vendier;1463;{'journalier', 'vigneron'};[7569, 21120];louis;Vullierat;1464;{'batelier'};[7570, 21231];{1816};{1790};{6556,11072};{'journalier','vigneron'}
+182;eugene;? Vendier;1463;{'journalier', 'vigneron'};[7569, 21120];henri;Vullierat;1465;set();[7571, 21121];{1818};{1790};{6556,11072};{'journalier','vigneron'}
+183;eugene;? Vendier;1463;{'journalier', 'vigneron'};[7569, 21120];marc;Vullierat;1466;set();[7572, 21122];{1821};{1790};{6556,11072};{'journalier','vigneron'}
+184;eugene;? Vendier;1463;{'journalier', 'vigneron'};[7569, 21120];jule;Vullierat;1467;{'couvreur'};[7574, 18472];{1826};{1790};{6556,11072};{'journalier','vigneron'}
+185;eugene;? Vendier;1463;{'journalier', 'vigneron'};[7569, 21120];jean;Vullierat;1468;set();[7576, 21124];{1834};{1790};{6556,11072};{'journalier','vigneron'}
+186;custant;Golay;2197;{'négociant', 'negociant'};[7615, 21101];julie;Brandt;1477;set();[7616, 21102];{1834};{1810};{8007,8007};{'negociant','negociant'}
+187;rosette fem de e;Muller;1483;{'gypseur/gypsier', 'vigneron'};[7674, 13296];jean louis;Chapallaz;1484;set();[7678, 21724];{1850, 1827};{1793, 1820};{5976,11072};{'gypsier','vigneron'}
+188;vouse;Bessat;2201;{'vigneron', 'agriculteur'};[7687, 21392];pierre;Milliquet;1485;{'agriculteur'};[7690, 21390];{1826};{1798};{470,11072};{'agriculteur','vigneron'}
+189;philleyipe;Cardinaux;1488;{'avocat'};[7721, 17757];lina;Conod;1489;set();[7722, 17758];{1830, 1831};{1805};{1227};{'avocat'}
+190;jean pierre;Hillinguer;1492;{'proprietaire', 'propriétaire'};[7747, 21403];charles;Forney;1493;set();[7748, 21657];{1850, 1819};{1793};{9281,9281};{'proprietaire','proprietaire'}
+191;jean pierre;Hillinguer;1492;{'proprietaire', 'propriétaire'};[7747, 21403];louise;Forney;1494;set();[7749, 21405];{1832, 1821};{1793};{9281,9281};{'proprietaire','proprietaire'}
+192;jean pierre;Hillinguer;1492;{'proprietaire', 'propriétaire'};[7747, 21403];samuel;Forney;1495;{'journalier'};[7751, 21247];{1828, 1790};{1793};{9281,9281};{'proprietaire','proprietaire'}
+193;loie;Stoz;1506;{'vigneron'};[7790, 21012];henriette;Dumuid;1507;set();[7791, 21013];{1831};{1809};{11072};{'vigneron'}
+194;loie;Stoz;1506;{'vigneron'};[7790, 21012];samuel;Dumuid;1508;set();[7792, 21014];{1833};{1809};{11072};{'vigneron'}
+195;etievz;Heinning;1512;{'propriétaire', 'rentier'};[7813, 21584];emilie;Verdeil;1513;set();[7814, 21585];{1825, 1823};{1795};{9281,9716};{'proprietaire','rentier'}
+196;etievz;Heinning;1512;{'propriétaire', 'rentier'};[7813, 21584];sophie;Verdeil;1514;set();[7817, 21586];{1834};{1795};{9281,9716};{'proprietaire','rentier'}
+197;joseph;Rappetti;1515;{'propriétaire', 'rentier'};[7818, 21604];henriette;treytorrens;1516;set();[7819, 21605];{1825};{1782, 1783};{9281,9716};{'proprietaire','rentier'}
+198;joseph;Rappetti;1515;{'propriétaire', 'rentier'};[7818, 21604];marie;treytorrens;1517;set();[7822, 21606];{1830};{1782, 1783};{9281,9716};{'proprietaire','rentier'}
+199;louise;Baud;277;{'journalier'};[7883, 9472];samuel;Nicolas;1520;{'journalier'};[7884, 18628];{1826};{1800, 1837};{6556};{'journalier'}
+200;louise;Baud;277;{'journalier'};[7883, 9472];henri;Nicolas;1521;set();[7886, 9470];{1835, 1831};{1800, 1837};{6556};{'journalier'}
+201;fraycois;Pache;279;{'proprietaire', 'propriétaire'};[7992, 19851, 20499];francois;Blanc;1528;{'agriculteur'};[7993, 21787];{1820};{1811, 1787, 1796};{9281,9281};{'proprietaire','proprietaire'}
+202;fraycois;Pache;279;{'proprietaire', 'propriétaire'};[7992, 19851, 20499];david;Blanc;1529;{'agriculteur'};[7994, 21791, 34537];{1824};{1811, 1787, 1796};{9281,9281};{'proprietaire','proprietaire'}
+203;fraycois;Pache;279;{'proprietaire', 'propriétaire'};[7992, 19851, 20499];charles henri;Blanc;1530;{'agriculteur'};[7996, 21785];{1834};{1811, 1787, 1796};{9281,9281};{'proprietaire','proprietaire'}
+204;veuve susette;Pellet;1533;{'tailleur de pierre', 'forestier'};[8015, 15541];jean charles;Regamey;1534;set();[8017, 19664];{1826, 1827};{1808, 1801};{5429,10574};{'forestier','tailleur de pierre'}
+205;veuve susette;Pellet;1533;{'tailleur de pierre', 'forestier'};[8015, 15541];jn louis;Regamey;1535;set();[8019, 19665];{1831};{1808, 1801};{5429,10574};{'forestier','tailleur de pierre'}
+206;nanette;Viret;1555;{'fermier', 'vigneron'};[8218, 20356];francois;Rappaz;1556;{'jardinier'};[8219, 18153];{1817, 1820};{1787};{5257,11072};{'fermier','vigneron'}
+207;nanette;Viret;1555;{'fermier', 'vigneron'};[8218, 20356];julie;Rappaz;1557;set();[8221, 20358];{1821};{1787};{5257,11072};{'fermier','vigneron'}
+208;henry;Peneveyre;283;{'vigneron'};[8251, 19306];daniel;Peneveyre;1560;{'vigneron'};[8255, 20935, 36092];{1832, 1818};{1784, 1849};{11072};{'vigneron'}
+209;jean;Gonthier;2209;{'maréchal'};[8273];samuel;Perret;1566;{'agriculteur'};[8275, 20980];{1810};{1772};{7373};{'maréchal'}
+210;jean;Gonthier;2209;{'maréchal'};[8273];louige;Perret;1567;set();[8279, 20995];{1818, 1851};{1772};{7373};{'maréchal'}
+211;george;Favrat;286;{'vigneron', 'agriculteur'};[8292, 20955];jenny;Kohler;1569;set();[8297, 20956];{1833, 1834};{1800};{470,11072};{'agriculteur','vigneron'}
+212;deriel;Henriod;1573;{'journalier', 'agriculteur'};[8328, 20726];jean;Perret;1574;set();[8330, 20727];{1829};{1806};{470,6556};{'agriculteur','journalier'}
+213;francois;Favrat;287;{'agriculteur'};[8331, 10023];jeannette;Pache;1575;set();[8333, 11268];{1810, 1853};{1768, 1838};{470};{'agriculteur'}
+214;augustenr;Crettin;1576;{'carrier', '?'};[8351, 20791];binjamin;Kobler;1577;set();[8352, 20792];{1827};{1802};{1873,·};{'carrier','·'}
+215;morion;Jaton;1581;{'vigneron'};[8375, 20884];danniel;Hennard;1582;set();[8377, 20885];{1820};{1786, 1788};{11072};{'vigneron'}
+216;ene;Baud;1585;{'locataire', 'journalier'};[8405, 20827];louise;Regamey;1586;set();[8408, 20829];{1832};{1783};{6556,6787};{'journalier','locataire'}
+217;sar pierre;Pache;1589;{'regis son domaine', 'tier?'};[8422, 20396];marie;Bell;1590;set();[8423, 20397];{1816, 1815};{1736, 1786};{?,5527};{'?','fûtier'}
+218;geane;Viret;1602;{'agriculteur', 'cultivateur'};[8512, 20717];georges;Buffat;1603;{'agriculteur'};[8513, 20719];{1814};{1777};{470,3445};{'agriculteur','cultivateur'}
+219;jn louis aug;Paget;292;{'journalier'};[8523, 20696];fanchette;Barraud;1604;set();[8527, 20695];{1826};{1793, 1833};{6556};{'journalier'}
+220;albertine;Paget;295;{'laboureur'};[8614, 21202];frederich;Ruchonnet;1615;set();[8615, 20448];{1830};{1851, 1790};{6634};{'laboureur'}
+221;christian fs;Lecoultre;1622;{'laboureur', 'agriculteur'};[8657, 20816];henriette;Taillens;1623;set();[8659, 20817];{1814};{1786, 1787};{6634,470};{'laboureur','agriculteur'}
+222;christian fs;Lecoultre;1622;{'laboureur', 'agriculteur'};[8657, 20816];georges;Taillens;1624;set();[8660, 20818];{1816};{1786, 1787};{6634,470};{'laboureur','agriculteur'}
+223;christian fs;Lecoultre;1622;{'laboureur', 'agriculteur'};[8657, 20816];louis;Taillens;1625;set();[8662, 20819];{1819};{1786, 1787};{6634,470};{'laboureur','agriculteur'}
+224;charles;Blanc;298;{'propriétaire'};[8727, 12376];louise;Michoud;1634;{'rentiere'};[8728, 9987];{1809};{1832, 1772};{9281};{'proprietaire'}
+225;andrine;Hans Jacob;1635;{'agriculteur'};[8730, 20611];henriette;Rey;1636;set();[8733, 20959];{1825, 1838};{1796};{470};{'agriculteur'}
+226;louis;Hansjacob;1637;{'fermier'};[8768, 20586];marie;Perriraz;1638;set();[8770, 20588];{1834};{1801, 1803};{5257};{'fermier'}
+227;marc;Martin;1643;{'laboureur', 'agri'};[8857, 19857, 36017];justin;Lavanchy;1644;{'vigneron'};[8862, 19897];{1825};{1785, 1827};{6634,?};{'laboureur','?'}
+228;louis;Pindous;1675;{'meunier', 'boucher'};[9258, 13718];benjamin;Martin;1676;{'meunier'};[9259, 19733];{1824, 1825};{1816, 1790};{1424,7699};{'boucher','meunier'}
+229;philippe;Visinand;113;{'marchand de vin', 'proprietaire et negociant'};[2900, 9290];louise;rouge;1689;{'sans vocation'};[9293, 35429];{1825, 1834};{1800};{7141,9379};{'marchand de vin','propriétaire et négociant'}
+230;acob;Bohy;829;{'gour', 'employe postal', 'tapissier'};[2046, 9364, 31945];marie;dizerens;1691;set();[9372, 31946];{1851};{1776, 1826, 1805};{?,10614,4485};{'?','tapissier','employé otl'}
+231;louise;Hurter;633;{'cordonnier'};[96, 9655];louise;dupraz;1699;set();[9656, 35945];{1856, 1847};{1826};{3227};{'cordonnier'}
+232;josephine;Voirol;1182;{'ouvrier de ville', 'ermaliea', 'marbrier'};[5422, 9742, 32116];henri;tarin;1702;set();[9745, 32117];{1844};{1805};{6946,?,8588};{'marbrier','?','ouvrier vitrier'}
+233;louis;Reynier;331;{'marchand', 'rentier'};[9899, 37529];jules;blanc;1707;{'employe s'};[9900, 36567];{1853};{1826};{9716,6950};{'rentier','marchand'}
+234;marguerite;Franchet;1712;{'proprietaire', 'negociant'};[10051, 35663];adele;henninger;1713;set();[10053, 35664];{1853};{1835, 1827};{8007,9281};{'negociant','proprietaire'}
+235;stephani;Rouge;1018;{'rentier'};[3672, 10324, 35294];berthold;van muyden;1721;set();[10328, 35295];{1852};{1814};{9716};{'rentier'}
+236;marie;Olivier;910;{'avocat', 'docteur en droit ?'};[2728, 10423];alfred;renevier;1723;{'avocat'};[10426, 22072];{1844};{1799};{1227,3899};{'avocat','docteur en droit'}
+237;marie;Champod;903;{'rentier'};[2658, 11367, 24680];henri;grenier;1732;set();[11369, 24684];{1848};{1809, 1810};{9716};{'rentier'}
+238;louis;Regamey;1027;{'directeur des postes', 'négociant'};[3735, 11386];jules;kohler;1733;set();[11389, 32710];{1837};{1792, 1796};{3753,8007};{'directeur de poste','negociant'}
+239;louise;Lauffer;1665;{'voiturier'};[9053, 11397];emile;regamey;1734;{'journalier'};[11399, 36213];{1849};{1820};{11110};{'voiturier'}
+240;gensie;Stoz;1505;{'fermier'};[7788, 11762];henriette;dumuid;1743;set();[11765, 37517];{1854};{1822};{5257};{'fermier'}
+241;gabriel;Denéréaz;949;{'orfevre', 'orfèvre'};[3110, 11858];antoine;parisod;1745;{'jormentier'};[11863, 33311];{1843, 1844};{1800};{8227,8227};{'orfèvre','orfèvre'}
+242;antoine;Minerot;1748;{'negociant', 'rentier'};[11904, 22863];jean;martinoni;1749;{'gociant'};[11906, 22479];{1837, 1839};{1808, 1806};{8007,9716};{'negociant','rentier'}
+243;antoine;Minerot;1748;{'negociant', 'rentier'};[11904, 22863];louis;martinoni;1750;{'gociant'};[11907, 22483];{1842};{1808, 1806};{8007,9716};{'negociant','rentier'}
+244;st louis;Peney;1751;{'fardonnier', 'cordonnier'};[11913, 32803];francois;schuttel;1752;set();[11914, 32804];{1854};{1821, 1822};{3227,671};{'cordonnier','amidonnier'}
+245;marc fs;Grivel;686;{'proprietaire'};[462, 12064];helene;cerez;1754;set();[12065, 22712];{1854};{1832, 1803};{9281};{'proprietaire'}
+246;perome;Vagnières;2228;{'negociant'};[12224];henri;giroud;1758;{'gociant'};[12226, 22861];{1849};{1804};{8007};{'negociant'}
+247;jeanne;Degel;1766;{'menuisier'};[13092, 37382];caroline;krieg;1767;set();[13097, 37383];{1853};{1813};{7643};{'menuisier'}
+248;albertine;Hoch;1003;{'journalière', 'cordonnier'};[3602, 13172];samuel;baud;1770;set();[13174, 25419];{1853};{1827, 1798};{3227,6596};{'cordonnier','journalière'}
+249;louise fille naturelle;Hasler;2094;{'negt tanneur', 'négociant'};[1419, 13440];adrien;mercier;1775;{'proprietaire'};[13443, 22064];{1835};{1789};{8007,8103};{'negociant','négociante'}
+250;veuve de jean;Peneveyre;432;{'limonadier'};[13558, 28277];paul;charton;1779;{'chistute'};[13560, 34547];{1844};{1816};{6753};{'limonadier'}
+251;louis;Pindous;1675;{'meunier', 'boucher'};[9258, 13718];louis;martin;1782;set();[13721, 36371];{1850, 1851};{1816, 1790};{1424,7699};{'boucher','meunier'}
+252;samuel;Martin;444;{'emouleur'};[13937, 37213];louise;rod;1784;{'auclier'};[13938, 31655];{1815, 1831};{1869, 1815};{11315};{'émouleur'}
+253;samuel;Martin;444;{'emouleur'};[13937, 37213];adele;rod;1785;set();[13939, 37214];{1841, 1871};{1869, 1815};{11315};{'émouleur'}
+254;louise;Boraley;1788;{'leuse', 'ecrivain'};[14063, 23205];jules;chavan;1789;set();[14066, 30776];{1866, 1844};set();{5306,4121};{'fileuse','ecrivain'}
+255;femme de jean;Meyer;1030;{'negociant'};[3751, 14135, 21886];amelie;kohler;1791;set();[14136, 21887];{1849};{1822};{8007};{'negociant'}
+256;femme de jean;Meyer;1030;{'negociant'};[3751, 14135, 21886];charles;kohler;1792;set();[14137, 21889];{1852};{1822};{8007};{'negociant'}
+257;femme de jean;Meyer;1030;{'negociant'};[3751, 14135, 21886];alfred;kohler;1793;set();[14138, 21888];{1854};{1822};{8007};{'negociant'}
+258;john;Masméjan;2238;{'cuisiniere'};[14527];jean louis;brelaz;1799;{'pe la gard'};[14528, 33879];{1828, 1831};set();{3440};{'cuisinière'}
+259;fanchette;Rubattel;1806;{'bucheron', 'cordonnier'};[14799, 36585];marie;mottaz;1807;set();[14802, 36586];{1848, 1849};{1817, 1819};{1598,3227};{'bucheron','cordonnier'}
+260;chanrel;Hauser;1162;{'vigneron'};[5126, 15004];louis;fleury;1812;{'vigneron'};[15005, 37367];{1827};{1787, 1789};{11072};{'vigneron'}
+261;id jean louis;Steiner;1814;{'vigneron'};[15155, 37384];louise;borgeaud;1815;set();[15156, 37385];{1848, 1852};{1818};{11072};{'vigneron'}
+262;iseal;Spitz;477;{'vigneron'};[15473];emile;regamey;1823;{'imprimeur'};[15475, 36701];{1849, 1845};{1815};{11072};{'vigneron'}
+263;veuve de jn pre;Convert;1834;{'tailleur'};[16023, 32723];joseph;graedig;1835;set();[16028, 32724];{1859, 1854};{1827};{10560};{'tailleur'}
+264;sophie;Ballenegger;2300;{'cordonnier'};[4620, 16515];felix;villard;1843;set();[16516, 37220];{1821};{1792, 1798};{3227};{'cordonnier'}
+265;susanne;Vincent;1156;{'proprietaire', 'instituteur'};[5061, 16963];alexandre;girardet;1847;set();[16964, 30523];{1856};{1795};{6456,9281};{'instituteur','proprietaire'}
+266;louise;Panchaud;1178;{'charpentier'};[5288, 17088];louise;roy;1850;set();[17090, 37296];{1834, 1869};{1800};{2002};{'charpentier'}
+267;susette;Hansjacob;514;{'employe'};[17145, 33267];alfred;rossat;1851;set();[17146, 33263];{1851, 1852};{1824, 1863};{4171};{'employé'}
+268;susette;Hansjacob;514;{'employe'};[17145, 33267];ernest;rossat;1852;set();[17147, 33264];{1852, 1855};{1824, 1863};{4171};{'employé'}
+269;louis;Franck;1856;{'journalier', 'jardinier'};[17211, 29730];eugene;jaques;1857;set();[17212, 29731];{1849, 1850};{1819};{6526,6556};{'jardinier','journalier'}
+270;edoud;Fehr;1861;{'journalier', 'gelie'};[17507, 30974];julie;girard;1862;set();[17509, 30975];{1851, 1821};{1816};{5885,6556};{'geôlier','journalier'}
+271;jean;Schmidhauser;1344;{'pasteur', 'ministre', 'pasteur allemand ?'};[6905, 17608, 37455];mathilde;blattner;1867;set();[17609, 37456];{1841};{1800};{8728,?,7757};{'pasteur','?','ministre'}
+272;marie;Junod;1385;{'domestique', 'agriculteur'};[7131, 17857, 37133];adele;curchod;1870;set();[17858, 37138];{1869};{1808, 1830};{470,3919};{'agriculteur','domestique'}
+273;etanne;Rochat;1873;{'marchande'};[17951, 23340];jenny;fiaux;1874;set();[17952, 23341];{1843};set();{7224};{'marchande'}
+274;etanne;Rochat;1873;{'marchande'};[17951, 23340];louis;fiaux;1875;{'otaire|donnier'};[17953, 23343];{1845};set();{7224};{'marchande'}
+275;etanne;Rochat;1873;{'marchande'};[17951, 23340];jules;fiaux;1876;set();[17954, 23342];{1850};set();{7224};{'marchande'}
+276;jenni;Meystre;1878;{'imprimeur', 'fiseur'};[18164, 31093];clara;genton;1879;set();[18165, 31095];{1851};{1823};{5509,6206};{'friseur','imprimeur'}
+277;jenni;Meystre;1878;{'imprimeur', 'fiseur'};[18164, 31093];emile;genton;1880;set();[18167, 31094];{1854};{1823};{5509,6206};{'friseur','imprimeur'}
+278;st elisabeth;Hans Jacob;1633;{'journalier', 'fermier'};[8720, 18330, 31038];louis;martin;1882;{'charpentier'};[18332, 36722];{1843, 1845};{1816, 1795};{5257,6556};{'fermier','journalier'}
+279;veuve de jeur pierre;Regamey;1348;{'banquier'};[6926, 18638];berthe;bugnion;1886;set();[18641, 36989];{1839};{1811, 1814};{1283};{'banquier'}
+280;jean jaq;Falacian ?;542;{'utier', 'serrurier'};[18859, 32094];edouard;diedey;1890;set();[18861, 32095];{1840};{1810};{5527,10221};{'fûtier','serrurier'}
+281;jn;Monnier;544;{'firge', 'cordonnier'};[18941, 31876];louise;michoud;1894;set();[18943, 31878];{1851};{1826};{?,3227};{'?','cordonnier'}
+282;francois;Krautler;803;{'voiturier', 'de peine au chateau?'};[1803, 18984];emile;brun;1899;{'enatiste'};[18988, 33617];{1846};{1800, 1796};{11110,?};{'voiturier','?'}
+283;henrette;? Vitschy;1672;{'tailleur', 'regent', 'forestier'};[9192, 19030, 35640];marie;corbaz;1901;set();[19031, 32168];{1869, 1839};{1816, 1838};{10560,5429,9686};{'tailleur','forestier','regent'}
+284;veuve d abram;Marguet;1006;{'journalier'};[3624, 19477];frederic;bugnion;1909;{'apprentier'};[19478, 33446];{1841};{1794, 1810};{6556};{'journalier'}
+285;susanne;Jaton;1371;{'maçon', 'macon'};[7069, 19653];jean;corsat;1913;{'entrepreneur'};[19655, 36959];{1838};{1804};{6830,6830};{'macon','macon'}
+286;susanne;Jaton;1371;{'maçon', 'macon'};[7069, 19653];emma;corsat;1914;set();[19658, 32729];{1848};{1804};{6830,6830};{'macon','macon'}
+287;faentaire;? Vitschy;1674;{'journalier', 'agriculteur'};[9242, 19731];jacques;meylan;1919;{'agriculteur'};[19732, 36339];{1816};{1780};{470,6556};{'agriculteur','journalier'}
+288;joseph;Giezendanner;1921;{'agriculteur'};[19744, 36386];rosine;martin;1922;{'aliere'};[19745, 29450];{1842, 1843};{1814};{470};{'agriculteur'}
+289;jn louis;Dutoit;563;{'agriculteur'};[19780, 32378];henri;rothen;1923;{'journalier'};[19781, 36298];{1834};{1871, 1799};{470};{'agriculteur'}
+290;jn louis;Dutoit;563;{'agriculteur'};[19780, 32378];david;rothen;1924;set();[19782, 36385];{1840};{1871, 1799};{470};{'agriculteur'}
+291;louis;Schutzmann;1930;set();[19840, 35994];eugene;blanc;1931;set();[19845, 35995];{1850};{1813};{};{}
+292;marc;Martin;1643;{'laboureur', 'agri'};[8857, 19857, 36017];edouard;lavanchy;1933;set();[19859, 36019];{1853};{1785, 1827};{6634,?};{'laboureur','?'}
+293;marie;Rochat;1935;{'ase'};[19901, 35988];marguerite jenny;lavanchy;1936;set();[19903, 34371];{1853};{1824};{1057};{'as'}
+294;francois;Hügli;1939;{'agriculteur'};[19926, 36073];theodore;blanc;1940;{'couvre'};[19927, 23454];{1851, 1831};{1829};{470};{'agriculteur'}
+295;francois;Hügli;1939;{'agriculteur'};[19926, 36073];rosalie;blanc;1941;set();[19928, 36074];{1853};{1829};{470};{'agriculteur'}
+296;francois;Chavan;1953;{'charretier'};[19985, 36281];charles;pache;1954;{'journalier|rentiere'};[19987, 35499];{1839};{1812, 1831};{2056};{'charretier'}
+297;francois;Chavan;1953;{'charretier'};[19985, 36281];sophie;pache;1955;set();[19989, 36138];{1843};{1812, 1831};{2056};{'charretier'}
+298;jean david;Michoud;1956;{'charpentier'};[19992, 36140];marc;pache;1957;{'journalier'};[19993, 35253];{1829, 1831};{1805};{2002};{'charpentier'}
+299;jean david;Michoud;1956;{'charpentier'};[19992, 36140];henri;pache;1958;{'jardinier'};[19994, 35766];{1834};{1805};{2002};{'charpentier'}
+300;louis;Dutoit;565;{'commissaire'};[19997, 36148];jean louis;regamey;1960;{'canoeuvre'};[19998, 25547];{1825, 1846};{1822};{2829};{'commissaire'}
+301;louis;Dutoit;565;{'commissaire'};[19997, 36148];auguste;regamey;1961;set();[20000, 36149];{1851};{1822};{2829};{'commissaire'}
+302;louis;Lauffer;1666;{'agriculteur'};[9070, 20005, 36103];hortense;regamey;1962;set();[20007, 36105];{1853};{1828};{470};{'agriculteur'}
+303;diume louis;Blanc;1964;{'manœuvre'};[20011, 32584];sabine;blanc;1965;set();[20014, 36154];{1840};{1795};{6936};{'manœuvre'}
+304;sarie;Coeytaux;1968;set();[20020, 36162];jenny;blanc;1969;set();[20021, 36163];{1851};{1820};{};{}
+305;sarie;Coeytaux;1968;set();[20020, 36162];emile;blanc;1970;set();[20022, 36164];{1852};{1820};{};{}
+306;sarie;Coeytaux;1968;set();[20020, 36162];lucie;blanc;1971;set();[20023, 36165];{1854};{1820};{};{}
+307;cerdille;Junod;1986;{'agriculteur'};[20114, 36238];jean francois louis;regamey;1987;{'agriculteur'};[20115, 36100];{1837};{1804};{470};{'agriculteur'}
+308;louise;? Miter;1988;{'fermier'};[20116, 35722];francois elie;taillens;1989;{'agriculteur'};[20117, 37021];{1835, 1829};{1812};{5257};{'fermier'}
+309;louise;? Miter;1988;{'fermier'};[20116, 35722];adrienne;taillens;1991;set();[20121, 35724];{1847};{1812};{5257};{'fermier'}
+310;elizabeth;Morgenthaler;2246;set();[20138];alfred;regamey;1993;set();[20139, 36287];{1851};{1821};{};{}
+311;ouvier;Guillaume;1994;{'rivr'};[20140, 27231];adele;taillens;1995;set();[20141, 27232];{1851, 1852};{1831};{9921};{'riveuse'}
+312;louis;Coeytaux;2002;{'pigueur|hes verch|louise chemins'};[20157, 36277];marie jenny;regamey;2003;set();[20158, 36245];{1840, 1873};{1813};{?};{'?'}
+313;ctheophile;Von Berguer;1407;{'facteur'};[7353, 20434];eugenie;dunand;2013;set();[20436, 35785];{1847};{1807};{5100};{'facteur'}
+314;jaun;Regamey;2015;{'rentier?', 'rentier'};[20479, 35840];rosine;vaudroz;2016;set();[20480, 35841];{1823};{1788};{9716,9716};{'rentier','rentier'}
+315;dn marie;Margot;1610;{'tisserand'};[8570, 20532];jules;chapuis;2022;{'charpentier'};[20533, 35533];{1830, 1854};{1820};{10749};{'tisserand'}
+316;jaques;Lauffer;1664;{'intrejuilier', 'tuilier'};[9028, 20648, 35593];emile;blanc;2024;set();[20649, 34733];{1872, 1837};{1816};{10939,?};{'tuilier','?'}
+317;jaques;Lauffer;1664;{'intrejuilier', 'tuilier'};[9028, 20648, 35593];maurice;blanc;2026;{'juillier'};[20654, 35595];{1852};{1816};{10939,?};{'tuilier','?'}
+318;jnesse;Lombard;696;{'vigneron'};[559, 20705];jeanne;peneveyre;2028;set();[20707, 22119];{1843, 1871};{1834, 1814};{11072};{'vigneron'}
+319;veuve de louis;Robert;2248;{'agriculteur'};[20741];julie;taillens;2029;set();[20743, 35737];{1872, 1847};{1816};{470};{'agriculteur'}
+320;veuve de louis;Robert;2248;{'agriculteur'};[20741];marie;taillens;2030;set();[20745, 35518];{1852};{1816};{470};{'agriculteur'}
+321;louis;Hans Jacob;2314;{'jardinier'};[5649, 20888];henri;curtet;2037;{'jardinier'};[20889, 36468];{1830};{1809};{6526};{'jardinier'}
+322;routte;Chatelenaz;1453;{'voiturier'};[7544, 21064];joseph;perrin;2041;{'fiturier'};[21065, 34294];{1842, 1844};{1817};{11110};{'voiturier'}
+323;jaques;Schmiderlet;592;set();[21070, 34248];david;visinand;2042;set();[21072, 27446];{1845, 1847};{1818};{};{}
+324;veuve dunod;Junod;1384;{'vigneron'};[7128, 21386];louise;curchod;2048;set();[21389, 33873];{1859, 1853};{1817, 1814};{11072};{'vigneron'}
+325;vouse;Bessat;2201;{'vigneron', 'agriculteur'};[7687, 21392];julien;milliquet;2049;set();[21395, 34489];{1846};{1798};{470,11072};{'agriculteur','vigneron'}
+326;eliba;Lecoultre;607;{'rentier'};[21652, 34963];jules;duvillard;2052;{'gociant'};[21654, 33380];{1835, 1846};{1804};{9716};{'rentier'}
+327;jn henry;Uttin;452;{'procureur'};[14102, 36674];samuel;chapuis;2060;{'fermier'};[14108, 35672];{1838, 1854};{1851, 1821};{9159};{'procureur'}
+328;benjamin;Roch;1229;{'cordonnier'};[5909, 17719];marie;corbaz;2062;set();[17720, 31844];{1849, 1868};{1826, 1828};{3227};{'cordonnier'}
+329;marc;Arnold;959;{'négociant', 'negociant'};[3182, 12944];charles;Monnard;2065;set();[12947];{1852};{1808};{8007,8007};{'negociant','negociant'}
+330;louis;Demolin;653;{'vigneron'};[240, 9585];jn louis;Kohler;2067;set();[9588];{1839};{1808};{11072};{'vigneron'}
+331;henry;Marguerat;662;{'charpentier'};[278, 9620];jean;Pache;2069;set();[9623];{1837};{1809, 1807};{2002};{'charpentier'}
+332;jeni;Dubuis;1887;{'som', 'casernier'};[18719, 31902];george;Favrat;2071;set();[18721];{1837};set();{?,?};{'?','?'}
+333;henry;Dutoit;566;set();[20124, 32184];jn pierre;Blanc;2073;{'vigneron'};[20129, 20839];{1786, 1835};{1799};{};{}
+334;jean pierre;Rochat;1872;{'vallendier'};[17930, 33203];louis;Ramuz;2075;set();[33204];set();{1818, 1851};{?};{'?'}
+335;mart lenrie;Vincent;1157;{'magasinier', 'aubergiste'};[5078, 12112];henriette;Favre;2077;set();[12113];{1809};{1786, 1783};{6833,1175};{'magasinier','aubergiste'}
+336;jnesse;Lombard;696;{'vigneron'};[559, 20705];frederic;Peneveyre;2079;set();[20712];{1854};{1834, 1814};{11072};{'vigneron'}
+337;jn fs;Delessert;472;{'tonnelier et pintier'};[15248, 31528];marc louis;Dubrez;2081;set();[15251];{1849};{1815};{?};{'?'}
+338;jaqueline;Echenberg;383;"{""agent d'affaires""}";[11699, 31087];louis;Pasquier;2083;set();[11703];{1845};{1804};{167};{'agent d'affaires'}
+339;frederich;Lavanchy;246;{'peintre', 'notaire'};[6522, 18709, 37247];rodolph;Gaulis;2085;set();[18713];{1838};{1801, 1836};{8020,8777};{'notaire','peintre'}
+340;amy;Delechat;537;{'rentier'};[18681, 25575];charles;Martinet;2087;set();[18682];{1825};set();{9716};{'rentier'}
+341;jne marie;Cavin;888;{'negociant'};[2496, 13011];georg;Dubois;2089;set();[13013];{1845};{1810, 1813};{8007};{'negociant'}
+342;jne gab;Chapuis;762;{'couvreur', 'journalier'};[1274, 10843];jean louis;Corboz;2091;set();[10846];{1840};{1803};{3369,6556};{'couvreur','journalier'}
+343;louis;Forestier;612;{'ferblantier'};[10455, 28583];george;Maget;2093;set();[10458];{1846};{1797};{5245};{'ferblantier'}
+344;jenny;Gilliéron;55;set();[];jean jaques;Mercier;2095;set();[13441];{1826};set();{};{}
+345;mt lambassadeur de;Vignet;763;{'gantier'};[1289, 13464];jean;Lubac;2097;set();[13465];{1829};{1802};{5541};{'gantier'}
+346;marie;Zeeb;215;{'macon', 'garde police'};[5451, 15484];susanne;Bechet;2099;set();[15487];{1839};{1800};{5596,6830};{'garde police','macon'}
+347;ant fs;Destraz;359;{'conducteur'};[10760, 31791];louis;Clerc;2101;set();[10764];{1851};{1813, 1855};{2948};{'conducteur'}
+348;louise;Corbaz;79;set();[];louis;Roux;2103;set();[12366];{1841};set();{};{}
+349;louise;Hurter;633;{'cordonnier'};[96, 9655];samuel;Dapraz;2105;set();[9657];{1852};{1826};{3227};{'cordonnier'}
+350;jn samuel;Larquier;875;{'portefaix', 'manoeuvre'};[2396, 11128];louis;Renaud;2107;{'institutrice', 'lampiste'};[11129, 12706, 36486];{1792, 1836, 1813};{1790};{9061,6905};{'portefaix','manoeuvre'}
+351;veuve de davd;Milliquet;1025;{'marchand', 'epicier etc.'};[3728, 14109];jenni;Delisle;2109;set();[14111];{1835};{1799};{4829,6950};{'epicière','marchand'}
+352;francois;Uttin;450;{'arpenteur'};[14084, 29565];charles;Junod;2111;set();[14086];{1853};{1824};{974};{'arpenteur'}
+353;jn louis;Kohler;573;{'banquier'};[20471, 22881];louis;Bruppacher;2113;set();[20472];{1833};{1858, 1804};{1283};{'banquier'}
+354;acob;Bohy;829;{'gour', 'employe postal', 'tapissier'};[2046, 9364, 31945];jaques;Dezerens;2115;set();[9365];{1834};{1776, 1826, 1805};{?,10614,4485};{'?','tapissier','employé otl'}
+355;frederic;Regamey;920;{'medecin'};[2820, 11722];danuel;Mathey;2117;set();[11723];{1855};{1829, 1830};{7634};{'medecin'}
+356;marguerite;Seybel;693;{'commis', 'domestique du sus dit'};[518, 13782];charles;Richard;2119;set();[13783];{1841};{1808, 1807};{2694,?};{'commis','?'}
+357;adolphe;Jent;110;set();[];henry;Monod;2121;set();[17649];{1844};set();{};{}
+358;fydelline;Seigneux;1087;{'tailleur', '?'};[4346, 17652];louis;Duplan;2123;set();[17653];{1825};{1789};{10560,·};{'tailleur','·'}
+359;jonas;Chavan;338;"{""conseiller d'etat""}";[10071, 26997];henri;Fischer;2125;set();[10073];{1847};{1789};{3033};{'conseiller d'orientation'}
+360;veuve de jacoblie;Rouge;121;set();[];charles;Thuillard;2127;set();[12038];{1846};set();{};{}
+361;susanne;Olivier;1264;{'tailleur de pierre'};[6264, 12391];marie;Beranger;2129;{'notaire'};[12392, 20439];{1800, 1847};{1809};{10574};{'tailleur de pierre'}
+362;jean;Blanc;1223;{'cordonnier'};[5827, 15335];henri;Codrey;2131;set();[15336];{1842};{1809};{3227};{'cordonnier'}
+363;fudith;Baudet;136;set();[];amedee;de la Harpe;2133;set();[11697];{1846};set();{};{}
+364;george;Meyer;1250;{'brossier', 'fabricant  de brosse ?'};[6126, 14398];henri;Burger;2135;set();[14399];{1830};{1803, 1804};{4996,1583};{'fabricant de brosses','brossier'}
+365;pusette;Woignon;1343;{'tailleur de pierre'};[6883, 14842];jn francois;Chavan;2137;set();[14847];{1849};{1813};{10574};{'tailleur de pierre'}
+366;madelaine;Collet;149;set();[];louis;Ballenegger;2139;set();[14300];{1841};set();{};{}
+367;jean marie;Forestier;610;{'juge'};[21795, 24276];henri;Carrard;2141;set();[21798];{1824};{1866, 1798};{6601};{'juge'}
+368;marie;Vincent;1591;{'journalier', 'fermier'};[8426, 13235, 36002];paul;Leblanc;2143;{'boulanger'};[13237, 15789];{1785, 1839};{1808};{5257,6556};{'fermier','journalier'}
+369;isabelle;Kohler;344;{'rentier'};[10294, 37346];marie;Delessert;2145;set();[10295];{1848};{1817, 1868};{9716};{'rentier'}
+370;marguerite;Corsat;381;{'caissier'};[11639, 31415];albert;Simond;2147;set();[11643];{1853};{1805};{1672};{'caissier'}
+371;jenny;Jaton;166;set();[];louis;Hoffmann;2149;set();[15773];{1825};set();{};{}
+372;jean fs;Olivier;524;{'fabricant de parapluies'};[17791, 23236];marie;Chanson;2151;set();[17792];{1844};{1858, 1812};{5044};{'fabricant de parapluies'}
+373;an de ph;Spengler;816;{'tailleuse'};[1894, 18289];jean sebastian;Blanc;2153;set();[18290];{1847};{1770};{10590};{'tailleuse'}
+374;louise;Regamey;1547;{'rentier'};[8120, 20297];ferdinand;Bergier;2155;set();[20299];{1854};{1808};{9716};{'rentier'}
+375;sophie;Larquier;877;{'confiseur'};[2419, 12682];louis;Blanche;2157;set();[12683];{1840};{1807};{3024};{'confiseur'}
+376;marc;Martin;1643;{'laboureur', 'agri'};[8857, 19857, 36017];francois;Lavanchy;2159;set();[19858];{1851};{1785, 1827};{6634,?};{'laboureur','?'}
+377;louis daniel;Peytregnet;1189;{'couvreur', 'manoeuvre'};[5464, 15543];francois;Gaudin;2161;set();[15544];{1833};{1795, 1796};{6905,3369};{'manoeuvre','couvreur'}
+378;louise;Bonnet;201;set();[];louis;Laune;2163;set();[15266];{1844};set();{};{}
+379;moire philipre;Baud;276;set();[];albert;Blanc;2165;set();[21612];{1830};set();{};{}
+380;edouis;Badoux;1529;{'agriculteur'};[7994, 21791, 34537];albert;Blanc;2166;set();[34541];{1836};{1824};{470};{'agriculteur'}
+381;andre;Caraby;410;{'macon'};[12663, 37186];marie;Curchod;2168;set();[12664];{1851};{1829};{6830};{'macon'}
+382;femme de nicolos;Panchaud;1177;{'ouvrier en papier peint', 'vigneron'};[5277, 14615];charlotte;Pache;2170;set();[14617];{1849};{1816, 1797};{8400,11072};{'ouvrier en parapluies','vigneron'}
+383;lutry;Décastel;213;{'agriculteur', '?'};[5399, 15209, 15384];charles;Delacuisine;2172;set();[15211];{1828};{1844, 1797};{·,470};{'·','agriculteur'}
+384;morion;Jaton;1581;{'vigneron'};[8375, 20884];jean;Hennard;2174;set();[20887];{1831};{1786, 1788};{11072};{'vigneron'}
+385;abert;Ami;1831;{'piur freblie', 'crieur public'};[15866, 32633];theophile;Clerc;2176;set();[15869];{1842};{1800};{?,?};{'?','?'}
+386;glouia;Peney;1753;{'hau chat', 'commis'};[12045, 22767];charles;Nicole;2178;set();[12049];{1847};{1809, 1810};{2694,?};{'commis','?'}
+387;marguerite;Seybel;693;{'commis', 'domestique du sus dit'};[518, 13782];marie;Richard;2180;set();[13786];{1848};{1808, 1807};{2694,?};{'commis','?'}
+388;louis;Schmiderlet;593;{'jardinier'};[21148, 29191];francois;Chapalay;2182;set();[21151];{1850};{1818};{6526};{'jardinier'}
+389;vne jaques lrich;Kohler;239;set();[];jules;Bardel;2184;set();[19460];{1840};set();{};{}
+390;dorlsie;Clavel;1202;{'macon'};[5555, 15477];louis;Belet;2186;set();[15478];{1841};{1812};{6830};{'macon'}
+391;louis;Richard;518;"{""conseiller d'etat""}";[17198, 26416];charles;Bourgeois;2188;set();[17200];{1836};{1808};{3033};{'conseiller d'orientation'}
+392;pauline;Corbaz;485;{'marchand de vins'};[15774, 29320];louis;Ponnaz;2190;set();[15778];{1845};{1807};{7148};{'marchand de vins'}
+393;pusette;Woignon;1343;{'tailleur de pierre'};[6883, 14842];david;Chavan;2192;set();[14843];{1838};{1813};{10574};{'tailleur de pierre'}
+394;veuve;Crepin;1429;{'pecheur'};[7443, 21056];maurice;Perrin;2194;set();[21058];{1852};{1819};{9561};{'pêcheur'}
+395;jeau;Jouvet;1427;{'tonnelier'};[7435, 21324];marianne;Perrin;2196;set();[21326];{1854};{1818};{10818};{'tonnelier'}
+396;louis;Ducret;271;set();[];paul;Brandt;2198;set();[21106];{1844};set();{};{}
+397;pauline;Corbaz;485;{'marchand de vins'};[15774, 29320];francois;Tonnaz;2200;set();[15779, 22486];{1852};{1807};{7148};{'marchand de vins'}
+398;isaac;Gisolon;273;set();[];louis;Milliquet;2202;set();[21394, 34486];{1838};set();{};{}
+399;jean louis;Thiébaud;1568;{'journalier', 'laitier?'};[8286, 20910];marc louis francois;Blanc;2204;{'vigneron'};[20914, 21610];{1842, 1779};{1805, 1807};{6656,6556};{'laitier','journalier'}
+400;lelsarie louise;Fallacion;1397;{'carrier'};[7245, 18421];jean;Kohler;2206;set();[18423];{1839};{1776, 1800};{1873};{'carrier'}
+401;louis;Delavigne;1621;{'meunier'};[8654, 20487, 35845];victor;Creux;2208;set();[35847];{1843};{1804};{7699};{'meunier'}
+402;jean chauve;Camprechon ?;1566;{'agriculteur'};[8275, 20980];charles;Perret;2210;set();[20981];{1840};{1810};{470};{'agriculteur'}
+403;jaques frederi;Seewer;1658;{'charpentier'};[8968, 19915];pierre louis;Pache;2212;set();[19917];{1848};{1823};{2002};{'charpentier'}
+404;henri;Becker;1603;{'agriculteur'};[8513, 20719];samuel;Buffa;2214;{'agriculteur'};[20722, 20776, 35646];{1849, 1810, 1809};{1814};{470};{'agriculteur'}
+405;henri;Mormat;1608;{'locataire?'};[8555, 20664];louis;Blanc;2216;set();[20665, 35583];{1862, 1854};{1824, 1830};{6787};{'locataire'}
+406;jaques;Lagier;985;{'ouvrier de ville', 'journalier'};[3400, 17339];francois da;Blanc;2218;set();[17341];{1838};{1799};{8588,6556};{'ouvrier vitrier','journalier'}
+407;abram;Martin;363;{'tailleur de pierre', 'vigneron'};[10921, 34926, 37243];francois da;Blanc;2219;set();[37244];{1838};{1810, 1814};{11072,10574};{'vigneron','tailleur de pierre'}
+408;henry;Roseng;345;{'ensent', 'vigneron'};[10302, 34500];jn francois;Peneveyre;2221;{'agriculteur'};[10305, 19817];{1798, 1839};{1800};{11072,?};{'vigneron','?'}
+409;diume louis;Blanc;1964;{'manœuvre'};[20011, 32584];george;Blanc;2223;set();[20013, 36159];{1832};{1795};{6936};{'manœuvre'}
+410;louise;? Miter;1988;{'fermier'};[20116, 35722];henri;Taillens;2225;set();[20123, 35723];{1851};{1812};{5257};{'fermier'}
+411;gabelle;Baudet;1795;{'porte-piano', 'elieur'};[14171, 21911];louise;pamblanc;2227;set();[21916];{1870};{1830};{9696,9070};{'relieur de livres','porteur de valises'}
+412;jeanne;Meyer;1758;{'gociant'};[12226, 22861];auguste;giroud;2229;set();[22862];{1874};{1849};{8008};{'negot.'}
+413;francois;Sarrtorin;1812;{'vigneron'};[15005, 37367];marie;flury;2231;set();[37369];{1864};{1827};{11072};{'vigneron'}
+414;susette;Weyret;1773;{'journalier', 'agriculteur'};[13310, 36190];julie;regamey;2233;set();[36194];{1835};{1797, 1791};{470,6556};{'agriculteur','journalier'}
+415;veuve;Olivier;1697;{'cordonnier', 'papetier'};[9638, 35599];rosine;rieben;2235;set();[35601];{1859};{1832, 1826};{3227,8701};{'cordonnier','papetier'}
+416;jeunette;Falconnier;1896;{'actre magon'};[18980, 22082];marie;pache;2237;set();[22085];{1870};{1832};{?};{'?'}
+417;louis;Baudet;1799;{'pe la gard'};[14528, 33879];henriette;brelaz;2239;set();[33883];{1870};{1828, 1831};{?};{'?'}
+418;vve de jean ms;Bally;2060;{'fermier'};[14108, 35672];euphrosine;chapuis;2241;set();[35674];{1866};{1838, 1854};{5257};{'fermier'}
+419;jean francoise;Strubing;509;set();[];jacques;regamey;2243;set();[36846];{1863};set();{};{}
+420;jules;Delechat;538;set();[];louis;bize;2245;set();[31900];{1858};set();{};{}
+421;abre fel;Blanc;259;{'journalier', 'jieon'};[7017, 11285, 35006];charles louis;regamey;2247;set();[35010];set();{1842, 1790, 1823};{6556,?};{'journalier','?'}
+422;jean henri;Violon;2006;{'garde forestier'};[20247, 37084];elie;taillens;2249;set();[37085];{1856};{1824};{5575};{'garde forestier'}
+423;jean louis;Bournens;1705;{'imprimeur'};[9805, 22980];charles;bron;2251;set();[22982];{1863};{1833, 1831};{6206};{'imprimeur'}
+424;daniel;Cavin;622;{'ouvrier papetier'};[37, 9574];susanne;Bonjour;2253;set();[9576];{1844};{1819, 1820};{8491};{'ouvrier papetier'}
+425;louis;Bonemberguer;1710;{'journaliere', 'sans vocation'};[10001, 35523];jenny;Blanc;2255;set();[10002];{1829};{1801};{6596,10019};{'journalière','sans profession'}
+426;charles;Jaquillard;680;{'cordonnier'};[401, 10167];jenny;Pahud;2257;set();[10168];{1827};{1798};{3227};{'cordonnier'}
+427;louise;Boraley;1788;{'leuse', 'ecrivain'};[14063, 23205];caroline;Chavan;2259;set();[14064, 23206];{1830};set();{5306,4121};{'fileuse','ecrivain'}
+428;jaqueline;Echenberg;383;"{""agent d'affaires""}";[11699, 31087];lina;Paquier;2261;set();[11700];{1834};{1804};{167};{'agent d'affaires'}
+429;jules;Spengler;818;{'gypseur/gypsier'};[1897, 11153];louise;Falconnier;2263;set();[11154];{1836};{1805, 1806};{5976};{'gypsier'}
+430;sophie;Langin;769;{'tailleuse', 'journalière'};[1348, 9734];frederic;Regamey;2265;set();[9735];{1829};{1764};{10590,6596};{'tailleuse','journalière'}
+431;jean;Barbey;753;{'ferblantier'};[1144, 13071];elouis;Duc;2267;set();[13072];{1833};{1803};{5245};{'ferblantier'}
+432;samuel;Jacquin;1614;{'laboureur', 'agriculteur'};[8604, 20763];henri;Jaton;2269;set();[20766];{1848};{1802, 1803};{6634,470};{'laboureur','agriculteur'}
+433;louise fille naturelle;Hasler;2094;{'negt tanneur', 'négociant'};[1419, 13440];gemilie;Mercier;2270;set();[1424, 21696];{1817, 1841};{1789};{8007,8103};{'negociant','négociante'}
+434;jaonre;Weyret;1775;{'proprietaire'};[13443, 22064];gemilie;Mercier;2271;set();[22067];{1866};{1835};{9281};{'proprietaire'}
+435;davi edouand;Clerc;1959;{'garde forestier', 'garde poret'};[19995, 36147];georgine;Regamey;2273;set();[19996];{1831};{1795};{5545,5575};{'garde','garde forestier'}
+436;m henri;Fraisse;813;{'menuisier'};[1889, 11010];louis;Charton;2275;set();[11011];{1841};{1813, 1815};{7643};{'menuisier'}
+437;jean henry;Chausse;453;{'armurier'};[14129, 23594];henitte;Panchaud;2277;set();[14131];{1840};{1817};{967};{'armurier'}
+438;abram;Vincent;1155;{'assesseur', 'négociant'};[5052, 11470];charlote;Bergier;2279;set();[11471];{1838};{1801};{6603,8007};{'juge au tribunal','negociant'}
+439;veuve de juli;Conduz;613;{'charretier'};[10735, 22264];jenny;Guignard;2281;set();[10736];{1828};{1788, 1855};{2056};{'charretier'}
+440;henry;Roseng;345;{'ensent', 'vigneron'};[10302, 34500];louise;Peneveyres;2283;{'agriculteur'};[10303, 37230];{1834, 1803};{1800};{11072,?};{'vigneron','?'}
+441;louis l;Carrard;1234;{'fabricant'};[5950, 11064];marie;Renou;2285;set();[11065];{1836};{1803};{4963};{'fabricant'}
+442;jean baptiste;Boucher;434;{'inspecteur des boucheries'};[13709, 35326];francoise;Deliste;2287;set();[13711];{1847};{1824};{?};{'?'}
+443;louis;Milliquet;1078;{'marchand epicier', 'faice'};[4239, 15805, 34687];julie;Deliste;2289;set();[15806];{1850};{1817};{7219,?};{'marchand épicier','?'}
+444;charles;Collioud;21;{'menuisier'};[490, 9307, 37426];francois;Burnier;2291;set();[9308];{1840};{1801, 1846};{7643};{'menuisier'}
+445;louis;Hansjacob;1637;{'fermier'};[8768, 20586];francois;Perriraz;2293;set();[20587];{1830};{1801, 1803};{5257};{'fermier'}
+446;mathias;Mayor;1053;{'boulanger'};[3979, 14460, 32808];mathies;Mayor;2295;set();[14463];{1819};{1867, 1812};{1455};{'boulanger'}
+447;jean;Ami;1826;{'proprietaire', 'sans vocation'};[15560, 23479];louis;Blanc;2297;set();[23481];{1859};set();{10019,9281};{'sans profession','proprietaire'}
+448;jeanne lte;Simond;615;{'tuteur'};[2, 9628, 31757];emile;Favrat;2299;set();[31762];set();{1827, 1836};{10936};{'tueur de porcs'}
+449;marianne;Schmidt;1843;set();[16516, 37220];charles;Villard;2301;set();[37221];{1859};{1821};{};{}
+450;jean conrad;Wolter;1148;{'confiseur'};[5009, 14852];henri;Roste;2303;set();[14853];{1831};{1806};{3024};{'confiseur'}
+451;jean conrad;Wolter;1148;{'confiseur'};[5009, 14852];francois;Roste;2305;set();[14854];{1833};{1806};{3024};{'confiseur'}
+452;louis;Franck;1856;{'journalier', 'jardinier'};[17211, 29730];louise;Jaques;2307;{'menuisier'};[17213, 30614];{1835, 1854};{1819};{6526,6556};{'jardinier','journalier'}
+453;aifandrin;Bonnet;1121;{'marchand', 'charpentier'};[4748, 16709];marie;Gilliéron;2309;set();[16711];{1840};{1795};{2002,6950};{'charpentier','marchand'}
+454;dorlsie;Clavel;1202;{'macon'};[5555, 15477];marie;Belet;2311;set();[15479];{1842};{1812};{6830};{'macon'}
+455;george samuel;Eisenhardt;1205;{'tonnelier'};[5579, 15403];louise;Allamand;2313;set();[15405];{1847};{1818};{10818};{'tonnelier'}
+456;cellarie;Thévenaz;2037;{'jardinier'};[20889, 36468];albert;Curtet;2315;set();[36469];{1865};{1830};{6526};{'jardinier'}
+457;jubs louis;Lalliard;1544;{'fermier'};[8104, 20284];louis auguste;Regamey;2317;{'erier'};[20286, 31643];{1829, 1854};{1826};{5257};{'fermier'}
+458;jean sel;Muller;882;{'confiseur'};[2444, 17964];fanny;Gonvers;2319;set();[17965];{1828};{1800, 1834};{3024};{'confiseur'}
+459;marianne;Weyret;1774;{'jardinier'};[13418, 36980];louis;Bonnet;2321;set();[36982];{1860};{1825, 1835};{6526};{'jardinier'}
+460;charles;Le Comte;928;{'architecte'};[2908, 11605];carles;De La Harpe;2323;set();[11608];{1845};{1806, 1807};{938};{'architecte'}
+461;sans;Despond;1364;{'cordonnier'};[7032, 19385];henriette i;Corsat;2325;set();[19386];{1820};{1790};{3227};{'cordonnier'}
+462;frederich;Lavanchy;246;{'peintre', 'notaire'};[6522, 18709, 37247];louise;Gaulis;2327;set();[18715];{1845};{1801, 1836};{8020,8777};{'notaire','peintre'}
+463;rosette;Seybel;689;{'journalier'};[483, 9711];fanny;Corbaz;2329;set();[9712];{1839};{1813};{6556};{'journalier'}
+464;ulrich;? Wett;1358;{'repasseuse', 'vigneronne'};[7013, 19376];elie;Blanc;2330;{'gypseur/gypsier'};[7016, 17431];{1826};{1793};{11083,9729};{'vigneronne','repasseuse'}
+465;louise;Therrin;1596;{'journalier', 'jiaque'};[8476, 11970, 34984];elie;Blanc;2331;set();[34987];{1862};{1825, 1826, 1827};{?,6556};{'?','journalier'}
+466;marie;Junod;1385;{'domestique', 'agriculteur'};[7131, 17857, 37133];julie;Curchod;2333;set();[17860];set();{1808, 1830};{470,3919};{'agriculteur','domestique'}
+467;jean henri;Corbaz;2040;{'pecheur', 'angisle'};[21044, 34069];henri;Perrin;2335;set();[21046];{1842};{1801, 1847};{?,9561};{'?','pêcheur'}
+468;susanne;Bechet;1469;{'journalier'};[7578, 21346];david;Blanc;2337;{'vi de geare'};[21347, 34061];{1835, 1843};{1816};{6556};{'journalier'}
+469;otulligire;Dizerens;2047;{'journaliere', 'fanchisseuse'};[21263, 34224];rodolph;Daccord;2339;set();[21264, 34225];{1830};set();{122,6596};{'affranchisseuse','journalière'}
+470;leisani;Bugnion;1499;{'jardinier'};[7771, 21543];charles;Combernous;2341;set();[21548];{1849};{1819};{6526};{'jardinier'}
+471;leisani;Bugnion;1499;{'jardinier'};[7771, 21543];samuel;Combernous;2343;set();[21546];{1842};{1819};{6526};{'jardinier'}
+472;jour theodore;Mercier;1423;{'perruquier', 'barbier'};[7425, 21278];louis;Visinand;2345;set();[21280];{1840};{1812};{8872,1287};{'perruquier','barbier'}
+473;chand;Bonnet;1122;{'journalier'};[4752, 16725];louis;Berche;2347;set();[16727];{1844};{1797};{6556};{'journalier'}
+474;gudie;Ami;1824;{'st', 'journalier'};[15531, 36968];henri;Lavanchy;2349;set();[36971];{1849};{1811, 1815};{?,6556};{'?','journalier'}
+475;christine;Lehmann;186;{'fermier', 'agriculteur', '?'};[4866, 19661, 19945, 35960];henri frederic;Corbaz;2351;set();[19662];{1826};{1792, 1794, 1829, 1845};{5257,·,470};{'fermier','·','agriculteur'}
+476;jean louis;Lalliard;1543;{'journalier'};[8084, 20456];henriette;Porchet;2353;set();[20460];{1850};{1793};{6556};{'journalier'}
+477;louis;Bonemberguer;1710;{'journaliere', 'sans vocation'};[10001, 35523];louis;Blanc;2355;set();[10003];{1832};{1801};{6596,10019};{'journalière','sans profession'}
+478;jaques;Spach;1102;{'pintier', 'boulanger'};[4526, 17807];george;Borgeaud;2357;set();[17809];{1841};{1810};{1455,9048};{'boulanger','pontière'}
+479;chs;Lardy;786;{'journalier', 'gypseur/gypsier'};[1562, 11327];sophie;Blanc;2359;set();[11330];{1851};{1824, 1761};{5976,6556};{'gypsier','journalier'}
+480;susanne;Gugot;1663;{'tailleur'};[9019, 9770];charlotte;Blanc;2361;set();[9771];set();{1823};{10560};{'tailleur'}
+481;jean louis;Lalliard;1543;{'journalier'};[8084, 20456];marie;Porchet;2363;set();[20461];{1852};{1793};{6556};{'journalier'}
+482;jn george marc;Chevalley;520;{'fileur'};[17390, 32827];·;Blanc;2365;set();[17395];{1855};set();{5298};{'fileur'}
+483;charles henri;Houldy;2073;{'vigneron'};[20129, 20839];george;Blanc;2367;set();[20840];{1834};{1786, 1835};{11072};{'vigneron'}
+484;philippe;Visinand;113;{'marchand de vin', 'proprietaire et negociant'};[2900, 9290];samuel;Rouge;2369;set();[9297];{1844};{1800};{7141,9379};{'marchand de vin','propriétaire et négociant'}
+485;samuel;Jacquin;1614;{'laboureur', 'agriculteur'};[8604, 20763];louige;Jaton;2371;set();[20765];{1839};{1802, 1803};{6634,470};{'laboureur','agriculteur'}
+486;veuve de louis;Robert;2248;{'agriculteur'};[20741];louis;Taillens;2373;set();[20744, 35736];{1848, 1871};{1816};{470};{'agriculteur'}
+487;jean louis;Thiébaud;1568;{'journalier', 'laitier?'};[8286, 20910];henri;Blanc;2375;set();[20915];{1848};{1805, 1807};{6656,6556};{'laitier','journalier'}
+488;samuel;Renaud;2337;{'vi de geare'};[21347, 34061];henri;Blanc;2376;set();[34064];set();{1835, 1843};{?};{'?'}
+489;francois;Chollet;1669;{'agriculteur'};[9121, 20102];henrie;Favrat;2378;set();[20103];{1834};{1789};{470};{'agriculteur'}
+490;veuve d abram;Marguet;1006;{'journalier'};[3624, 19477];louis;Bugnion;2380;set();[19481];{1847};{1794, 1810};{6556};{'journalier'}
+491;louise;Marc;973;{'horloger'};[3287, 11856];charles;Bassin;2382;set();[11857];{1854};{1831};{6134};{'horloger'}
+492;jean;Pièce;1651;{'maréchal', 'marechal-ferrant'};[8919, 19970];franclouis;Corbaz;2384;set();[19974];{1846};{1812, 1814};{7396,7373};{'maréchal ferrant','maréchal'}
+493;francois;Chavan;1953;{'charretier'};[19985, 36281];emilie;pache;2386;set();[36282];{1870};{1812, 1831};{2056};{'charretier'}
+494;louis;Regamey;2007;{'fermier', 'agriculteur'};[20262, 37168];elise;regamey;2388;set();[37170];{1854};{1814};{5257,470};{'fermier','agriculteur'}
+495;fanetrect;Regamey;2031;{'jardinier'};[20756, 37031];louis;desponds;2390;set();[37032];{1867};{1836};{6526};{'jardinier'}
+496;douan;Verrey;1794;{'secretaire au', 'rentiere'};[14153, 37322];helene;henny;2392;set();[37323];{1844};{1789, 1822};{10096,9721};{'secrétaire au','rentiere'}
+497;amram sel;Müller;147;{'concierge', 'rtonier'};[3839, 15316, 31554];jenny;collet;2394;set();[31555];{1806};{1844, 1815, 1799};{1888,2930};{'cartonnier','concierge'}
+498;jeunette;Falconnier;1896;{'actre magon'};[18980, 22082];henriette;pache;2396;set();[22086];{1872};{1832};{?};{'?'}
+499;francois;Hügli;1939;{'agriculteur'};[19926, 36073];silvie;blanc;2398;set();[36078];set();{1829};{470};{'agriculteur'}
+500;samuel;Renaud;2337;{'vi de geare'};[21347, 34061];louis;blanc;2400;set();[34062];{1867};{1835, 1843};{?};{'?'}
+501;francois;Scheidegger;448;{'rentier', 'boulanger'};[14028, 29719, 36125];marie;pache;2402;set();[29720];{1842};{1832, 1812};{1455,9716};{'boulanger','rentier'}
+502;marie anne;Pache;1909;{'apprentier'};[19478, 33446];marie;bugnion;2404;set();[33447];set();{1841};{895};{'apprenti'}
+503;louise;Therrin;1596;{'journalier', 'jiaque'};[8476, 11970, 34984];panline;blanc;2406;set();[34991];{1871};{1825, 1826, 1827};{?,6556};{'?','journalier'}
+504;jean pierre;Rochat;1872;{'vallendier'};[17930, 33203];marie;ramuz;2408;set();[33205];set();{1818, 1851};{?};{'?'}
+505;jaonre;Weyret;1775;{'proprietaire'};[13443, 22064];louis;mercier;2410;set();[22065];{1857};{1835};{9281};{'proprietaire'}
+506;marie;Vincent;1591;{'journalier', 'fermier'};[8426, 13235, 36002];fanny;blanc;2412;set();[36005];set();{1808};{5257,6556};{'fermier','journalier'}
+507;susette;Regamey;1718;{'journaliere', 'fermier'};[10195, 35880];edouard;blanc;2414;set();[35881];{1850};{1806};{5257,6596};{'fermier','journalière'}
+508;susette;Weyret;1773;{'journalier', 'agriculteur'};[13310, 36190];jeanne marie;regamey;2416;set();[36191];{1826};{1797, 1791};{470,6556};{'agriculteur','journalier'}
+509;susette;Weyret;1773;{'journalier', 'agriculteur'};[13310, 36190];georges louis;regamey;2418;set();[36193];{1830};{1797, 1791};{470,6556};{'agriculteur','journalier'}
+510;louise;Margot;1648;{'commission|de pole', 'gypseur/gypsier'};[8905, 16748, 36179];henri moise;regamey;2420;set();[36183];{1853};{1800, 1821, 1806};{5976,2836};{'gypsier','commissaire de police'}
+511;benjamin;Ramel;94;{'serrurier', 'rentier?', 'faitier'};[2469, 20096, 20734, 35487];henri;favrat;2422;set();[35488];set();{1824, 1845, 1813};{5362,9716,10221};{'filtier','rentier','serrurier'}
+512;aritran;Stäckelin;1726;{'macon'};[10964, 25849];charles;pache;2424;set();[25851];{1862};{1831};{6830};{'macon'}
+513;vv de jean louis;Pascal;1809;{'imprimeur'};[14892, 36917];francois;jaquenoud;2426;set();[36919];set();{1845, 1846};{6206};{'imprimeur'}
+514;jaques;Lauffer;1664;{'intrejuilier', 'tuilier'};[9028, 20648, 35593];charles;blanc;2428;set();[35594];{1855};{1816};{10939,?};{'tuilier','?'}
+515;jacques;Baud;2056;{'gimon'};[21762, 35138];henriette;bovard;2430;set();[35141];{1864};{1832};{?};{'?'}

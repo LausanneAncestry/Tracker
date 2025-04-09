@@ -1,0 +1,202 @@
+The following items were not matched successfully:
+Row number: 25
+chef_vocation: {'huissier du conseil d’État', 'huissier'}
+Unmatched terms: huissier du conseil d’État
+----------------------------------------
+Row number: 68
+chef_vocation: {'comission', 'negociant'}
+Unmatched terms: comission
+----------------------------------------
+Row number: 77
+chef_vocation: {'commission de la 4e division'}
+Unmatched terms: commission de la 4e division
+----------------------------------------
+Row number: 88
+chef_vocation: {'? ... aveaux', 'graveur'}
+Unmatched terms: ? ... aveaux
+----------------------------------------
+Row number: 93
+chef_vocation: {'tailleur de pierre', 'treillisseur'}
+Unmatched terms: treillisseur
+----------------------------------------
+Row number: 94
+chef_vocation: {'tailleur de pierre', 'treillisseur'}
+Unmatched terms: treillisseur
+----------------------------------------
+Row number: 105
+chef_vocation: {'?…retain', 'rentier'}
+Unmatched terms: ?…retain
+----------------------------------------
+Row number: 115
+chef_vocation: {'professeur', '?… des finances', 'rentier'}
+Unmatched terms: ?… des finances
+----------------------------------------
+Row number: 120
+chef_vocation: {'ouvrier de ville', 'ermaliea', 'marbrier'}
+Unmatched terms: ermaliea
+----------------------------------------
+Row number: 126
+chef_vocation: {'modiste', 'les filles du dit ?'}
+Unmatched terms: les filles du dit ?
+----------------------------------------
+Row number: 146
+chef_vocation: {"secretaire de l'inspecteur des milices", "secrétaire du conseil  de l'inspection publique"}
+Unmatched terms: secrétaire du conseil  de l'inspection publique
+----------------------------------------
+Row number: 179
+chef_vocation: {'journalier', 'gagne-denier'}
+Unmatched terms: gagne-denier
+----------------------------------------
+Row number: 180
+chef_vocation: {'journalier', 'gagne-denier'}
+Unmatched terms: gagne-denier
+----------------------------------------
+Row number: 217
+chef_vocation: {'regis son domaine', 'tier?'}
+Unmatched terms: regis son domaine
+----------------------------------------
+Row number: 227
+chef_vocation: {'laboureur', 'agri'}
+Unmatched terms: agri
+----------------------------------------
+Row number: 230
+chef_vocation: {'gour', 'employe postal', 'tapissier'}
+Unmatched terms: gour
+----------------------------------------
+Row number: 232
+chef_vocation: {'ouvrier de ville', 'ermaliea', 'marbrier'}
+Unmatched terms: ermaliea
+----------------------------------------
+Row number: 271
+chef_vocation: {'pasteur', 'ministre', 'pasteur allemand ?'}
+Unmatched terms: pasteur allemand ?
+----------------------------------------
+Row number: 281
+chef_vocation: {'firge', 'cordonnier'}
+Unmatched terms: firge
+----------------------------------------
+Row number: 282
+chef_vocation: {'voiturier', 'de peine au chateau?'}
+Unmatched terms: de peine au chateau?
+----------------------------------------
+Row number: 292
+chef_vocation: {'laboureur', 'agri'}
+Unmatched terms: agri
+----------------------------------------
+Row number: 312
+chef_vocation: {'pigueur|hes verch|louise chemins'}
+Unmatched terms: pigueur|hes verch|louise chemins
+----------------------------------------
+Row number: 316
+chef_vocation: {'intrejuilier', 'tuilier'}
+Unmatched terms: intrejuilier
+----------------------------------------
+Row number: 317
+chef_vocation: {'intrejuilier', 'tuilier'}
+Unmatched terms: intrejuilier
+----------------------------------------
+Row number: 332
+chef_vocation: {'som', 'casernier'}
+Unmatched terms: casernier|som
+----------------------------------------
+Row number: 334
+chef_vocation: {'vallendier'}
+Unmatched terms: vallendier
+----------------------------------------
+Row number: 337
+chef_vocation: {'tonnelier et pintier'}
+Unmatched terms: tonnelier et pintier
+----------------------------------------
+Row number: 354
+chef_vocation: {'gour', 'employe postal', 'tapissier'}
+Unmatched terms: gour
+----------------------------------------
+Row number: 356
+chef_vocation: {'commis', 'domestique du sus dit'}
+Unmatched terms: domestique du sus dit
+----------------------------------------
+Row number: 376
+chef_vocation: {'laboureur', 'agri'}
+Unmatched terms: agri
+----------------------------------------
+Row number: 385
+chef_vocation: {'piur freblie', 'crieur public'}
+Unmatched terms: crieur public|piur freblie
+----------------------------------------
+Row number: 386
+chef_vocation: {'hau chat', 'commis'}
+Unmatched terms: hau chat
+----------------------------------------
+Row number: 387
+chef_vocation: {'commis', 'domestique du sus dit'}
+Unmatched terms: domestique du sus dit
+----------------------------------------
+Row number: 408
+chef_vocation: {'ensent', 'vigneron'}
+Unmatched terms: ensent
+----------------------------------------
+Row number: 416
+chef_vocation: {'actre magon'}
+Unmatched terms: actre magon
+----------------------------------------
+Row number: 417
+chef_vocation: {'pe la gard'}
+Unmatched terms: pe la gard
+----------------------------------------
+Row number: 421
+chef_vocation: {'journalier', 'jieon'}
+Unmatched terms: jieon
+----------------------------------------
+Row number: 440
+chef_vocation: {'ensent', 'vigneron'}
+Unmatched terms: ensent
+----------------------------------------
+Row number: 442
+chef_vocation: {'inspecteur des boucheries'}
+Unmatched terms: inspecteur des boucheries
+----------------------------------------
+Row number: 443
+chef_vocation: {'marchand epicier', 'faice'}
+Unmatched terms: faice
+----------------------------------------
+Row number: 465
+chef_vocation: {'journalier', 'jiaque'}
+Unmatched terms: jiaque
+----------------------------------------
+Row number: 467
+chef_vocation: {'pecheur', 'angisle'}
+Unmatched terms: angisle
+----------------------------------------
+Row number: 474
+chef_vocation: {'st', 'journalier'}
+Unmatched terms: st
+----------------------------------------
+Row number: 488
+chef_vocation: {'vi de geare'}
+Unmatched terms: vi de geare
+----------------------------------------
+Row number: 498
+chef_vocation: {'actre magon'}
+Unmatched terms: actre magon
+----------------------------------------
+Row number: 500
+chef_vocation: {'vi de geare'}
+Unmatched terms: vi de geare
+----------------------------------------
+Row number: 503
+chef_vocation: {'journalier', 'jiaque'}
+Unmatched terms: jiaque
+----------------------------------------
+Row number: 504
+chef_vocation: {'vallendier'}
+Unmatched terms: vallendier
+----------------------------------------
+Row number: 514
+chef_vocation: {'intrejuilier', 'tuilier'}
+Unmatched terms: intrejuilier
+----------------------------------------
+Row number: 515
+chef_vocation: {'gimon'}
+Unmatched terms: gimon
+----------------------------------------
+Total number of unmatched terms: 52

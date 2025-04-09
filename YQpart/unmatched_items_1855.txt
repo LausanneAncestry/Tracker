@@ -1,0 +1,38 @@
+The following items were not matched successfully:
+Row number: 990
+chef_vocation: incurable
+Unmatched terms: incurable
+----------------------------------------
+Row number: 1471
+chef_vocation: pintier et logeur
+Unmatched terms: pintier et logeur
+----------------------------------------
+Row number: 1814
+chef_vocation: relieur et pintier
+Unmatched terms: relieur et pintier
+----------------------------------------
+Row number: 2466
+chef_vocation: suppleant conducteur?
+Unmatched terms: suppleant conducteur?
+----------------------------------------
+Row number: 2526
+chef_vocation: rentiere et tient pension
+Unmatched terms: rentiere et tient pension
+----------------------------------------
+Row number: 3490
+chef_vocation: musee cantonal?
+Unmatched terms: musee cantonal?
+----------------------------------------
+Row number: 3616
+chef_vocation: tient une ecole
+Unmatched terms: tient une ecole
+----------------------------------------
+Row number: 3741
+chef_vocation: chez m. renon
+Unmatched terms: chez m. renon
+----------------------------------------
+Row number: 3953
+chef_vocation: incurable
+Unmatched terms: incurable
+----------------------------------------
+Total number of unmatched terms: 9

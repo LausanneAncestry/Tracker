@@ -140,8 +140,8 @@ def track_persons():
         next_year = census_years[year_index + 1]
 
         tracking_summary = track_persons_between_2_census(
-            get_all_census_entries(census_year=current_year, adults=False, children=False),
-            get_all_census_entries(census_year=next_year, adults=False, children=False),
+            get_all_census_entries(census_year=current_year),
+            get_all_census_entries(census_year=next_year),
         )
         print(tracking_summary)
         for first_entry, second_entry in tracking_summary.tracked_entries:

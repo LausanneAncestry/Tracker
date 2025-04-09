@@ -58,15 +58,11 @@ def reset_database():
 def close_database():
 	db.close()
 
-def get_all_census_entries(census_year: Optional[int] = None, adults=True, children=True) -> List[CensusEntryInfo]:
+def get_all_census_entries(census_year: Optional[int] = None) -> List[CensusEntryInfo]:
 	# Query all entries from the CensusEntry table
 	entries = CensusEntry.select()
 	if census_year:
 		entries = entries.where(CensusEntry.census_year == census_year)
-	if adults:
-		entries = entries.where(CensusEntry.parent_census_entry != None)
-	if children:
-		entries = entries.where(CensusEntry.parent_census_entry == None)
 
 	# Convert each entry to a CensusEntryInfo dataclass
 	census_entries_info = [

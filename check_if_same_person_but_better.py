@@ -1,4 +1,4 @@
-from db import CensusEntry, Person, CensusEntryInfo, get_all_census_entries, get_all_person_entries
+from db import CensusEntry, Person, CensusEntryInfo, get_all_person_entries
 
 people_found = get_all_person_entries()
 

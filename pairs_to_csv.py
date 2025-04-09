@@ -14,7 +14,7 @@ data = {
     "son_census_entries": []
 }
 
-all_entries = get_all_census_entries(adults=False, children=False)
+all_entries = get_all_census_entries()
 all_people = get_all_person_entries()
 people_with_fathers = [person for person in all_people if person.parent != None]
 

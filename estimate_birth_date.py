@@ -32,29 +32,30 @@ def estimate_birth_date(birth_date, census_date,
 
         return best_year, min_distance, min_diff_from_expected
 
-# Read the CSV file
-filename = 'recensements/1845.csv'
-census_date = 1845
+def test():
+    # Read the CSV file
+    filename = 'census/1835.csv'
+    census_date = 1835
 
-# Read the CSV file into a pandas DataFrame
-df = pd.read_csv(filename, encoding='utf-8', delimiter=';')
+    # Read the CSV file into a pandas DataFrame
+    df = pd.read_csv(filename, encoding='utf-8', delimiter=';')
 
-# Process each row in the DataFrame
-for index, row in df.iterrows():
-    birth_date_str = row['chef_annee_naissance']
-    
-    try:
-        birth_date = int(birth_date_str)
-    except ValueError:
-        # print(f"Invalid birth date: {birth_date_str}")
-        continue
+    # Process each row in the DataFrame
+    for index, row in df.iterrows():
+        birth_date_str = row['chef_annee_naissance']
+        
+        try:
+            birth_date = int(birth_date_str)
+        except ValueError:
+            # print(f"Invalid birth date: {birth_date_str}")
+            continue
 
-    corrected_date, levenshtein_dist, diff_to_expected = estimate_birth_date(birth_date, census_date)
+        corrected_date, levenshtein_dist, diff_to_expected = estimate_birth_date(birth_date, census_date)
 
-    if levenshtein_dist > 0:
+        if levenshtein_dist > 0:
 
-        print(f"Original birth date: {birth_date}")
-        print(f"Corrected birth date: {corrected_date}")
-        print(f"Levenshtein distance: {levenshtein_dist}")
-        print(f"Difference to expected value: {diff_to_expected}")
-        print("---")
+            print(f"Original birth date: {birth_date}")
+            print(f"Corrected birth date: {corrected_date}")
+            print(f"Levenshtein distance: {levenshtein_dist}")
+            print(f"Difference to expected value: {diff_to_expected}")
+            print("---")

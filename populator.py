@@ -6,6 +6,7 @@ from utils import *
 from pathlib import Path
 
 from super_timer import Timer
+from estimate_birth_date import estimate_birth_date
 
 def process_entry(
 	row: pd.Series, row_id: int, census_year: int
@@ -18,9 +19,11 @@ def process_entry(
 	):
 
 		def value_to_valid_age(value) -> Optional[int]:
-			return in_range_or_None(
-				safe_cast_to_int(value), census_year - 100, census_year
-			)
+			b_date = safe_cast_to_int(value)
+			if b_date is None:
+				return None
+			corrected_year, leven_dis, mdfx = estimate_birth_date(b_date, census_year)
+			return corrected_year if leven_dis <= 3 else None
 
 		parent_birth_year = value_to_valid_age(row[FIELD_BIRTH_YEAR])
 

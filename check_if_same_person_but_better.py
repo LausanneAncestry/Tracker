@@ -10,6 +10,43 @@ def find_when_parents_before_none(lst):
     
     return indexes if indexes else -1
 
+def process_census_data(entry):
+    persons = []
+    current_person_indexes = []
+    parent_id = None
+
+    print("\nProcessing entry:", entry)  # Debugging line
+
+    for i, p in enumerate(entry):
+        print(f"Index {i}: {p}")  # Debugging line
+        
+        if p is None:
+            current_person_indexes.append(i)
+        else:
+            new_parent_id = p.replace("Person: ", "") if isinstance(p, str) else p  # Keep `p` as is if not a string
+            
+            if parent_id is None:  
+                if current_person_indexes:
+                    print(f"Appending: {current_person_indexes} with parent_id=None")  # Debugging line
+                    persons.append({'person_index': list(current_person_indexes), 'parent_id': None})
+                parent_id = new_parent_id
+                current_person_indexes = [i]
+            elif parent_id == new_parent_id:
+                current_person_indexes.append(i)  # Continue same group
+            else:
+                if current_person_indexes:
+                    print(f"Appending: {current_person_indexes} with parent_id={parent_id}")  # Debugging line
+                    persons.append({'person_index': list(current_person_indexes), 'parent_id': parent_id})
+                parent_id = new_parent_id
+                current_person_indexes = [i]
+
+    if current_person_indexes:
+        print(f"Appending (final): {current_person_indexes} with parent_id={parent_id}")  # Debugging line
+        persons.append({'person_index': list(current_person_indexes), 'parent_id': parent_id})
+
+    print("Final persons:", persons)  # Debugging line
+    return persons
+
 
 people_to_treat_counter = 0
 for person_found in people_found:
@@ -63,15 +100,27 @@ for person_found in people_found:
                 #print("There are parents in each census, but they are different")
                 pass
         else:
-            print(person_found.id)
-            print(parent_person_ids)
-            print(switch_indexes)
-            people_to_treat_counter += 1
-            #loop through switch indexes:
-            for index in switch_indexes:
-                #all entries up to index are the same person
-                #if there is None before Person --> no parent then parent so different person
-                pass
+            #print(person_found.id)
+            #print(parent_person_ids)
+            #print(switch_indexes)
+            person_separations = process_census_data(parent_person_ids)
+            for i, person_separated in enumerate(person_separations):
+                new_person = Person.create(first_name=person_found.first_name, last_name=person_found.last_name, parent=person_separated['parent_id'])
+                new_person.save()
+                for census_entry_index_number in person_separated['person_index']:
+                    census_entries[census_entry_index_number].person = new_person.id
+                    census_entries[census_entry_index_number].save()
+            #►Check if it was parent to any child!!
+            print(person_found)
+            old_person = Person.get(Person.id == person_found.id)
+            print(old_person)
+            old_person.delete_instance()
+
+                
+
+            
+
+            
 
 print(people_to_treat_counter)
 

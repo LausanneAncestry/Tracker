@@ -1,7 +1,7 @@
 from Levenshtein import ratio
 from typing import Optional
 
-import time
+from time import time
 
 def safe_cast_to_int(s: str) -> Optional[int]:
 	try:

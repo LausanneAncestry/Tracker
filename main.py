@@ -16,7 +16,6 @@ def main():
 	close_database()
 
 	timer.tac("Finished in {TIME}")
-	# run manually check_if_same_person_but_better
 	# run manually pairs_to_csv -> generates 'csv_paires.csv'
 	# run clean_jobs (Yao's code: should add 'standardised_job' columns)
 	# run extract_relevant_jobs -> generates 'relevant_jobs.csv'

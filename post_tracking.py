@@ -15,8 +15,6 @@ def find_different_persons_in_same_entry(entry):
 	current_person_indexes = []
 	parent_id = None
 
-	print("\nProcessing entry:", entry)  # Debugging line
-
 	for i, p in enumerate(entry):
 
 		if p is None:
@@ -40,13 +38,14 @@ def find_different_persons_in_same_entry(entry):
 	if current_person_indexes:
 		persons.append({'person_index': list(current_person_indexes), 'parent_id': parent_id})
 
-	print("Final persons:", persons)  # Debugging line
 	return persons
 
 def post_tracking():
 	timer = Timer(f"Starting post tracking...")
 	people_found: List[Person] = get_all_person_entries(asPersonInfo=False)
 	people_changed: dict = {}
+
+	print("Adding parents to Person")
 
 	for person in people_found:
 		census_entries: List[CensusEntry] = get_census_entries_of_person(person.id, asCensusEntryInfo=False)
@@ -72,7 +71,6 @@ def post_tracking():
 		# In some census there is a parent, other ones have not
 		else:
 			separated_persons = find_different_persons_in_same_entry(parent_ids)
-			print(separated_persons)
 
 			#The parent comes first, then disappears. We don't need to create new instances of Person
 			if len(separated_persons) == 1:
@@ -97,18 +95,20 @@ def post_tracking():
 					for index in dif_person['person_index']:
 						census_entries[index].person = new_person.id
 						census_entries[index].save()	
-				person.delete_instance()			
+							
 
+	print("Update parent indexes for childs with duplicated parents")
 	#Make the query again for potential changes in the db
 	people_found: List[Person] = get_all_person_entries(asPersonInfo=False)
 	#Check and change the missing indexes of separated persons in their child's parent_id:
 	for person in people_found:
-		if person.parent in people_changed.keys():
-			#TODO: check which new people it is
+		if person.parent == None:
+			continue
+		if person.parent.id in people_changed.keys():
 			census_entries: List[CensusEntry] = get_census_entries_of_person(person.id, asCensusEntryInfo=False)
 			for entry in census_entries:
 				if entry.parent_census_entry != None:
-					parent_entry = CensusEntry.select().where(CensusEntry.id == entry.parent_census_entry)
+					parent_entry = CensusEntry.select().where(CensusEntry.id == entry.parent_census_entry)[0]
 					person.parent = parent_entry.person	
 					person.save()
 					break
@@ -117,7 +117,12 @@ def post_tracking():
 			if person.parent in people_changed.keys():
 				person.parent = None
 
-	print(people_changed)
+
+	print("Deleted deprecated instances of duplicated persons")
+	#Delete old instances of duplicated people:
+	for person_id in people_changed.keys():
+		person_to_delete = Person.select().where(Person.id == person_id)[0]
+		person_to_delete.delete_instance()
 			
 	timer.tac()
 

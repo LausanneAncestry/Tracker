@@ -21,9 +21,12 @@ def fuzzy_match(term: str, jobs: List[Tuple[int, str]], threshold=THRESHOLD):
 		return best_match[0]
 	return None
 
-def match_jobs_to_ids(persons: List[Dict]):
+def get_job_list() -> List[Tuple[int, str]]:
 	job_list = pd.read_csv("job_dictionary.csv", delimiter=";")
-	job_list = list(job_list.itertuples(index=False, name=None))
+	return list(job_list.itertuples(index=False, name=None))
+
+def match_jobs_to_ids(persons: List[Dict]):
+	job_list = get_job_list()
 	for person in persons:
 		person["job"] = []
 		for entry in person["census_entries"]:

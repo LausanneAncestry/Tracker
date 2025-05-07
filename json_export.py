@@ -1,7 +1,7 @@
 from db import Person, personToInfo, PersonInfo, CensusEntryInfo, get_all_person_entries, get_census_entries_of_person
 import json
 import os
-from job_matcher import match_jobs_to_ids
+from job_matcher import match_jobs_to_ids, get_job_list
 
 from dataclasses import dataclass, field, asdict
 from typing import List, Dict
@@ -28,7 +28,8 @@ def json_export(target="./out/export.json", indent=None, job_ids=True):
 	   if the parent does not have a parent themselves.
 	4. Convert each person to a PersonWithCensusEntries object and retrieve their
 	   census entries.
-	5. Ensure the 'out' directory exists and write the data to 'export.json'.
+	5. If job_ids is true, it tries to match jobs to the ids contained in job_dictionary.csv 
+	6. Ensure the 'out' directory exists and write the data to 'export.json'.
 	"""
 
 	timer = Timer(f"Exporting to {target}...")
@@ -49,12 +50,17 @@ def json_export(target="./out/export.json", indent=None, job_ids=True):
 		person.census_entries = get_census_entries_of_person(person.id)
 		people_to_export.append(asdict(person))
 
+	data = {
+		"persons": people_to_export,
+	}
+
 	if job_ids:
 		match_jobs_to_ids(people_to_export)
+		data["jobs"] = dict(get_job_list())
 
 	os.makedirs(os.path.dirname(target), exist_ok=True)
-	with open(target, 'w') as json_file:
-		json.dump(people_to_export, json_file, indent=indent)
+	with open(target, 'w', encoding='utf-8') as json_file:
+		json.dump(data, json_file, indent=indent, ensure_ascii=False)
 		timer.tac()
 
 if __name__ == "__main__":

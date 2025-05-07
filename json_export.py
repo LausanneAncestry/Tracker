@@ -1,6 +1,7 @@
 from db import Person, personToInfo, PersonInfo, CensusEntryInfo, get_all_person_entries, get_census_entries_of_person
 import json
 import os
+from job_matcher import match_jobs_to_ids
 
 from dataclasses import dataclass, field, asdict
 from typing import List, Dict
@@ -10,7 +11,7 @@ from utils import Timer
 class PersonWithCensusEntries(PersonInfo):
 	census_entries: Dict[str, CensusEntryInfo] = field(default_factory=dict)
 
-def json_export(target="./out/export.json"):
+def json_export(target="./out/export.json", indent=None, job_ids=True):
 	"""
 	Exports a list of people with their census entries to a JSON file.
 
@@ -48,9 +49,12 @@ def json_export(target="./out/export.json"):
 		person.census_entries = get_census_entries_of_person(person.id)
 		people_to_export.append(asdict(person))
 
+	if job_ids:
+		match_jobs_to_ids(people_to_export)
+
 	os.makedirs(os.path.dirname(target), exist_ok=True)
 	with open(target, 'w') as json_file:
-		json.dump(people_to_export, json_file)
+		json.dump(people_to_export, json_file, indent=indent)
 		timer.tac()
 
 if __name__ == "__main__":

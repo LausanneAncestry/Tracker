@@ -1,33 +1,19 @@
-from db import PersonInfo
-from Levenshtein import ratio
-import pandas as pd
-from utils import normalize_string
+from typing import List, Tuple
 
-from typing import List, Tuple, Dict
+DICTIONARY_FILE = "all_jobs.csv"
 
-THRESHOLD = 0.8
+def match_jobs_with_dictionary(jobs_to_match: List[Tuple[int, str]]) -> List[Tuple[int, int]]:
+	"""
+	Matches raw job names to job IDs using a predefined dictionary.
 
-def fuzzy_match(term: str, jobs: List[Tuple[int, str]], threshold=THRESHOLD):
-	term = normalize_string(term)
-	best_match = None
-	best_score = 0
-	for choice in jobs:
-		for job in choice[1].split(","): # handle synonyms
-			score = ratio(term, normalize_string(job), score_cutoff=threshold)
-			if score > best_score:
-				best_score = score
-				best_match = choice
-	if best_score >= threshold:
-		return best_match[0]
-	return None
+	This function takes a list of tuples, where each tuple contains a person ID and a raw job name.
+	It returns a list of tuples with the person ID and the corresponding job ID. If no job is found
+	in the dictionary, the job ID is set to 0.
 
-def get_job_list() -> List[Tuple[int, str]]:
-	job_list = pd.read_csv("job_dictionary.csv", delimiter=";")
-	return list(job_list.itertuples(index=False, name=None))
+	Parameters:
+	jobs_to_match (List[Tuple[int, str]]): A list of tuples where each tuple contains a person ID and a raw job name.
 
-def match_jobs_to_ids(persons: List[Dict]):
-	job_list = get_job_list()
-	for person in persons:
-		person["job"] = []
-		for entry in person["census_entries"]:
-			person["job"].append(fuzzy_match(entry["job"], job_list))
+	Returns:
+	List[Tuple[int, int]]: A list of tuples where each tuple contains a person ID and the corresponding job ID.
+	"""
+	return []

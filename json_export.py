@@ -1,15 +1,47 @@
 from db import Person, personToInfo, PersonInfo, CensusEntryInfo, get_all_person_entries, get_census_entries_of_person
 import json
 import os
-from job_matcher import match_jobs_to_ids, get_job_list
+from job_matcher import match_jobs_with_dictionary
+from post_tracking import PersonWithCensusEntries
+
 
 from dataclasses import dataclass, field, asdict
-from typing import List, Dict
+from typing import List, Dict, Tuple, Set
 from utils import Timer
+
 
 @dataclass
 class PersonWithCensusEntries(PersonInfo):
 	census_entries: Dict[str, CensusEntryInfo] = field(default_factory=dict)
+
+def find_persons_to_export() -> List[PersonWithCensusEntries]:
+	people_to_export: List[PersonWithCensusEntries] = []
+	all_people = get_all_person_entries()
+	people_with_fathers = [person for person in all_people if person.parent != None]
+	for person in people_with_fathers:
+		if person.parent != None:
+			parent: Person = Person.get(Person.id == person.parent)
+			if parent.parent == None:
+				parent = personToInfo(parent)
+				parent: PersonWithCensusEntries = PersonWithCensusEntries(**asdict(parent))
+				parent.census_entries = get_census_entries_of_person(parent.id)
+				people_to_export.append(parent)
+
+		person = PersonWithCensusEntries(**asdict(person))
+		person.census_entries = get_census_entries_of_person(person.id)
+		people_to_export.append(person)
+
+def get_unique_job_ids(jobs: List[Tuple[int, int]]) -> Set[int]:
+    """
+    Extracts the set of unique job IDs from a list of tuples containing person IDs and job IDs.
+
+    Parameters:
+    jobs (List[Tuple[int, int]]): A list of tuples where each tuple contains a person ID and a job ID.
+
+    Returns:
+    Set[int]: A set of unique job IDs.
+    """
+    return {job_id for _, job_id in jobs}
 
 def json_export(target="./out/export.json", indent=None, job_ids=True):
 	"""
@@ -33,30 +65,15 @@ def json_export(target="./out/export.json", indent=None, job_ids=True):
 	"""
 
 	timer = Timer(f"Exporting to {target}...")
-	people_to_export: List[PersonWithCensusEntries] = []
-
-	all_people = get_all_person_entries()
-	people_with_fathers = [person for person in all_people if person.parent != None]
-	for person in people_with_fathers:
-		if person.parent != None:
-			parent: Person = Person.get(Person.id == person.parent)
-			if parent.parent == None:
-				parent = personToInfo(parent)
-				parent: PersonWithCensusEntries = PersonWithCensusEntries(**asdict(parent))
-				parent.census_entries = get_census_entries_of_person(parent.id)
-				people_to_export.append(asdict(parent))
-
-		person = PersonWithCensusEntries(**asdict(person))
-		person.census_entries = get_census_entries_of_person(person.id)
-		people_to_export.append(asdict(person))
+	people_to_export = find_persons_to_export()
 
 	data = {
-		"persons": people_to_export,
+		"persons": map(asdict, people_to_export),
 	}
 
 	if job_ids:
-		match_jobs_to_ids(people_to_export)
-		data["jobs"] = dict(get_job_list())
+		# TODO
+		pass
 
 	os.makedirs(os.path.dirname(target), exist_ok=True)
 	with open(target, 'w', encoding='utf-8') as json_file:

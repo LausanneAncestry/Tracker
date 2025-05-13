@@ -1,3 +1,4 @@
+FIELD_PAGE = "Page"
 FIELD_FIRST_NAME = "chef_prenom"
 FIELD_LAST_NAME = "chef_nom"
 FIELD_STREET = "nom_rue"

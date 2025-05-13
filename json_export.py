@@ -1,9 +1,7 @@
 from db import Person, personToInfo, PersonInfo, CensusEntryInfo, get_all_person_entries, get_census_entries_of_person
 import json
 import os
-from job_matcher import match_jobs_with_dictionary
-from post_tracking import PersonWithCensusEntries
-
+from job_matcher import match_job_with_dictionary
 
 from dataclasses import dataclass, field, asdict
 from typing import List, Dict, Tuple, Set
@@ -30,6 +28,7 @@ def find_persons_to_export() -> List[PersonWithCensusEntries]:
 		person = PersonWithCensusEntries(**asdict(person))
 		person.census_entries = get_census_entries_of_person(person.id)
 		people_to_export.append(person)
+	return people_to_export
 
 def get_unique_job_ids(jobs: List[Tuple[int, int]]) -> Set[int]:
     """
@@ -68,12 +67,29 @@ def json_export(target="./out/export.json", indent=None, job_ids=True):
 	people_to_export = find_persons_to_export()
 
 	data = {
-		"persons": map(asdict, people_to_export),
+		"persons": list(map(asdict, people_to_export)),
 	}
 
 	if job_ids:
-		# TODO
-		pass
+		people_with_job_ids = []
+		job_set = set()
+		for person in people_to_export:
+			person_with_job_ids = asdict(person)
+			person_with_job_ids["jobs"] = []
+			for entry in person.census_entries:
+				job_id = match_job_with_dictionary(entry.job)
+				person_with_job_ids["jobs"].append(job_id)
+				job_set.add(job_id)
+			people_with_job_ids.append(person_with_job_ids)
+	
+		data = {
+			"persons": people_with_job_ids,
+			"jobs": list(job_set)
+		}
+	else:
+		data = {
+			"persons": list(map(asdict, people_to_export)),
+		}
 
 	os.makedirs(os.path.dirname(target), exist_ok=True)
 	with open(target, 'w', encoding='utf-8') as json_file:

@@ -1,5 +1,4 @@
 from db import CensusEntry, Person, get_all_person_entries, get_census_entries_of_person
-
 from typing import List, Optional
 from utils import Timer
 
@@ -55,17 +54,18 @@ def post_tracking():
 			if parent_census_entry == None:
 				parent_ids.append(None)
 			else:
-				parent_ids.append(parent_census_entry.person_id)
+				#TODO: Removes all parents that do not have a person.id --> Create them if they do not have them
+				parent_ids.append(parent_census_entry.person_id)		
 		
-		# Everything is good, nothing to do
+		""" # Everything is good, nothing to do
 		if len(set(parent_ids)) == 1 and parent_ids[0] != None: 
 			person.parent = parent_ids[0]
 			# TODO: add birthyear here
 			# person.birth_year = ???
-			person.save()
+			person.save() """
 
 		# This person doesn't have a parent, we don't track them
-		elif len(set(parent_ids)) == 1 and parent_ids[0] == None:
+		if len(set(parent_ids)) == 1 and parent_ids[0] == None:
 			pass
 			
 		# In some census there is a parent, other ones have not
@@ -96,34 +96,59 @@ def post_tracking():
 						census_entries[index].person = new_person.id
 						census_entries[index].save()	
 							
+	print("Add parents who are not considered as persons yet to the database")
+	# Make the query again for potential changes in the db
+	people_found: List[Person] = get_all_person_entries(asPersonInfo=False)
+	for person in people_found:
+		census_entries: List[CensusEntry] = get_census_entries_of_person(person.id, asCensusEntryInfo=False)
+		for entry in census_entries:
+			if entry.parent_census_entry != None:
+				parent_entry = CensusEntry.select().where(CensusEntry.id == entry.parent_census_entry)
+
+				# Si le parent n'est pas une personne:
+				# L'ajouter en tant que personne a la db
+				# Ajouter la nouvelle personne id a l'enfant
+				if parent_entry[0].person == None:
+					# Create new instances for the parent
+					new_person_parent = Person.create(first_name=parent_entry[0].first_name, last_name=parent_entry[0].last_name, parent=parent_entry[0].parent_census_entry)
+					new_person_parent.save()
+					for parent_census_entry in parent_entry:
+						parent_census_entry.person = new_person_parent.id
+						parent_census_entry.save()
+					person.parent = new_person_parent.id
+					person.save()
+				break
+
+
+	print("Delete deprecated instances of duplicated persons")
+	# Delete old instances of duplicated people:
+	for person_id in people_changed.keys():
+		person_to_delete = Person.select().where(Person.id == person_id)[0]
+		person_to_delete.delete_instance()
 
 	print("Update parent indexes for childs with duplicated parents")
 	# Make the query again for potential changes in the db
 	people_found: List[Person] = get_all_person_entries(asPersonInfo=False)
 	# Check and change the missing indexes of separated persons in their child's parent_id:
 	for person in people_found:
-		if person.parent == None:
-			continue
-		if person.parent.id in people_changed.keys():
+		try:
+			if person.parent == None:
+				continue
+		except:
 			census_entries: List[CensusEntry] = get_census_entries_of_person(person.id, asCensusEntryInfo=False)
+			parent_was_found = False
 			for entry in census_entries:
 				if entry.parent_census_entry != None:
 					parent_entry = CensusEntry.select().where(CensusEntry.id == entry.parent_census_entry)[0]
 					person.parent = parent_entry.person	
 					person.save()
+					parent_was_found = True
 					break
 			
 			# If it didn't change we default to None
-			if person.parent in people_changed.keys():
+			if not parent_was_found:
 				person.parent = None
 
-
-	print("Deleted deprecated instances of duplicated persons")
-	# Delete old instances of duplicated people:
-	for person_id in people_changed.keys():
-		person_to_delete = Person.select().where(Person.id == person_id)[0]
-		person_to_delete.delete_instance()
-			
 	timer.tac()
 
 if __name__ == "__main__":

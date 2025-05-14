@@ -5,7 +5,7 @@ from typing import Optional, Tuple, List
 from utils import *
 from pathlib import Path
 
-from estimate_birth_date import estimate_birth_date
+from fix_birth_year import estimate_birth_date
 
 def process_entry(
 	row: pd.Series, row_id: int, census_year: int
@@ -28,6 +28,7 @@ def process_entry(
 
 		parent = CensusEntryInfo(
 			id=None,
+			census_page=row[FIELD_PAGE],
 			census_row=row_id,
 			census_year=census_year,
 			first_name=row[FIELD_FIRST_NAME],
@@ -55,6 +56,7 @@ def process_entry(
 				children.append(
 					CensusEntryInfo(
 						id=None,
+						census_page=row[FIELD_PAGE],
 						census_row=row_id,
 						census_year=census_year,
 						first_name=children_first_names[i],

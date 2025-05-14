@@ -36,6 +36,7 @@ def personToInfo(person: Person):
 class CensusEntry(BaseModel):
 	id = AutoField()
 	census_year = IntegerField()
+	census_page = IntegerField()
 	census_row = IntegerField()
 	first_name = CharField(max_length=30)
 	last_name = CharField(max_length=30)
@@ -51,6 +52,7 @@ class CensusEntry(BaseModel):
 class CensusEntryInfo:
 	id: int
 	census_year: int
+	census_page: int
 	census_row: int
 	first_name: str
 	last_name: str
@@ -66,6 +68,7 @@ def censusEntryToInfo(entry: CensusEntry):
 	return CensusEntryInfo(
 			id=entry.id,
 			census_year=entry.census_year,
+			census_page=entry.census_page,
 			census_row=entry.census_row,
 			first_name=entry.first_name,
 			last_name=entry.last_name,

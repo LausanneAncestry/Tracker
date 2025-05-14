@@ -33,12 +33,18 @@ def find_persons_to_export() -> List[PersonWithCensusEntries]:
 def export_job_set(job_set: Set[Tuple[int, str]]):
 	job_list = sorted(list(job_set), key=lambda x: x[1])
 	jobs_metadata = {}
+	missing = 0
 	for job_id, job_name in job_list:
 		metadata = get_job_metadata(job_name)
 		if metadata:
 			jobs_metadata[job_id] = metadata
 		else:
+			missing += 1
 			print(f"Missing metadata for {job_id}:{job_name}")
+
+	print(f"Number of unique jobs: {len(job_set)}")
+	print(f"Found metadata for: {len(jobs_metadata.keys())} jobs")
+	print(f"Missing metadata for: {missing} jobs")
 	return jobs_metadata
 	
 

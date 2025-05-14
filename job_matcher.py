@@ -3,7 +3,7 @@ import unicodedata
 from rapidfuzz import fuzz
 from typing import List, Tuple
 
-DICTIONARY_FILE = "all_jobs.csv"
+DICTIONARY_FILE = "all_jobs_1.csv"
 METADATA_FILE = "jobs_metadata.csv"
 THRESHOLD = 90
 
@@ -52,17 +52,16 @@ def match_job_with_dictionary(raw_job: str) -> Tuple[int, str]:
 		return -1, "emplois inconnu"
 	
 	normalized_term = normalize_string(raw_job.strip())
-	match = all_expanded[all_expanded['normalized_titre'] == normalized_term]
-	job_id = match.iloc[0]['index'] if not match.empty else -1
-	job_name = match.iloc[0]['titre'] if not match.empty else "emplois inconnu"
+	match = all_expanded.loc[all_expanded['normalized_titre'] == normalized_term]
 	if match.empty:
 		# Try fuzzy match
 		best_match, _ = fuzzy_match(normalized_term, all_expanded['normalized_titre'])
 		if best_match:
-			match = all_expanded[all_expanded['normalized_titre'] == best_match]
-			job_id = match.index[0]# Use the index as the ID
-			job_name = match.iloc[0]['titre']
-	
+			match = all_expanded.loc[all_expanded['normalized_titre'] == best_match]
+
+	job_id = match["index"].values[0] if not match.empty else -1
+	job_name = match["titre"].values[0] if not match.empty else "emplois inconnu"
+
 	return int(job_id), job_name
 
 

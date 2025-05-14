@@ -1,7 +1,7 @@
 from db import Person, personToInfo, PersonInfo, CensusEntryInfo, get_all_person_entries, get_census_entries_of_person
 import json
 import os
-from job_matcher import match_job_with_dictionary
+from job_matcher import match_job_with_dictionary, get_job_metadata
 
 from dataclasses import dataclass, field, asdict
 from typing import List, Dict, Tuple, Set
@@ -30,17 +30,17 @@ def find_persons_to_export() -> List[PersonWithCensusEntries]:
 		people_to_export.append(person)
 	return people_to_export
 
-def get_unique_job_ids(jobs: List[Tuple[int, int]]) -> Set[int]:
-    """
-    Extracts the set of unique job IDs from a list of tuples containing person IDs and job IDs.
-
-    Parameters:
-    jobs (List[Tuple[int, int]]): A list of tuples where each tuple contains a person ID and a job ID.
-
-    Returns:
-    Set[int]: A set of unique job IDs.
-    """
-    return {job_id for _, job_id in jobs}
+def export_job_set(job_set: Set[Tuple[int, str]]):
+	job_list = sorted(list(job_set), key=lambda x: x[1])
+	jobs_metadata = {}
+	for job_id, job_name in job_list:
+		metadata = get_job_metadata(job_name)
+		if metadata:
+			jobs_metadata[job_id] = metadata
+		else:
+			print(f"Missing metadata for {job_id}:{job_name}")
+	return jobs_metadata
+	
 
 def json_export(target="./out/export.json", indent=None, job_ids=True):
 	"""
@@ -77,14 +77,14 @@ def json_export(target="./out/export.json", indent=None, job_ids=True):
 			person_with_job_ids = asdict(person)
 			person_with_job_ids["jobs"] = []
 			for entry in person.census_entries:
-				job_id = match_job_with_dictionary(entry.job)
+				job_id, job_name = match_job_with_dictionary(entry.job)
 				person_with_job_ids["jobs"].append(job_id)
-				job_set.add(job_id)
+				job_set.add((job_id, job_name))
 			people_with_job_ids.append(person_with_job_ids)
 	
 		data = {
 			"persons": people_with_job_ids,
-			"jobs": list(job_set)
+			"jobs": export_job_set(job_set)
 		}
 	else:
 		data = {

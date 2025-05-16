@@ -1,0 +1,51 @@
+db_id;first_name;last_name;num_census;is_same_person;comment
+59;francois;Baudet;2;True;True if info does not contradict itself (even looking at the census pdfs)
+181;jean francois;Aviolat;2;True;
+631;jean samuel;Bergier;2;True;
+917;marc;Mogeon;2;True;
+972;claude;Vullierat;2;True;
+1064;emanuel;Dupuis;2;True;
+1077;daniel;Peneveyre;4;True;every birth date is right except 1890, which reads 1848 but is indeed 1818
+1520;charles;vuagniaux;3;True;
+5107;henri;Regamey;1;True;
+356;louise;Moulin;2;False;two different parents
+3554;francois daniel;Blanc;1;True;
+2123;jeanne louise;regamey;2;True;
+909;louis;Juat;2;True;
+4069;francois louis;valet;1;True;
+1610;henri;guex;2;True;
+4891;jean;Clavel;1;True;
+5314;emma;lochmann;2;True;
+2140;marc louis;regamey;2;True;
+5550;arnold;pasche;1;True;
+3483;rose;Dupraz;1;True;
+3450;elise;lavanchy;2;True;
+3140;victor;rossat;2;False;"Not sure. The second ""father"" might be the mother and father is dead. Census are not clear"
+4472;jean pierre;paquier;1;True;
+5539;oscar;rapin;1;True;
+1325;louise;parmelin;2;True;
+3924;henri;blanc;1;True;
+5563;paul;winandy;1;True;
+2901;antoine;darbonnier;2;True;
+982;jaques;Cornamusaz;2;True;
+2461;henri louis;rossier;2;True;
+76;jenny;EberlÃ©;2;True;
+2887;marguerite;cuenoud;2;False;not the same parents
+5364;fanny;porchet;1;True;
+4237;jean pierre;perreard;1;True;
+113;joseph;Chatelan;2;True;
+3407;alexandre;tailleuse;2;True;
+4734;elisa;Blanc;1;True;
+3125;eugenie;messeiller;2;False;not the same name (Eugène vs Eugènie). Not the same parents
+3599;francs louis;Gay;1;True;
+1823;marie;dupraz;2;True;
+235;susanne antoinette;Pache;2;True;
+1281;louise;delaraye;2;False;not the same name (Louis vs Louise)
+2955;francois;hertel;2;True;
+1611;samuel;rochat;2;True;
+438;charles;Ney;2;True;
+3729;jacob;Renou;1;True;
+4990;maurice;Perrin;1;True;
+2426;robert;zuber;2;True;
+5320;henriette;brelaz;1;True;
+2060;emma;corsat;2;True;

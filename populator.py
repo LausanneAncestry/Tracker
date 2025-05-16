@@ -80,7 +80,7 @@ def populate_database():
 			continue
 		if file.suffix == ".csv" and safe_cast_to_int(file.stem):
 			census_year = safe_cast_to_int(file.stem)
-			census = pd.read_csv(file, delimiter=";")
+			census = pd.read_csv(file, delimiter=";", encoding='utf8')
 			print(f"Processing {census_year}")
 
 			for census_row_id, row in census.iterrows():

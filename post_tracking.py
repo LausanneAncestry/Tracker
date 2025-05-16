@@ -44,8 +44,30 @@ def post_tracking():
 	people_found: List[Person] = get_all_person_entries(asPersonInfo=False)
 	people_changed: dict = {}
 
-	print("Adding parents to Person")
+	print("Add parents who are not considered as persons yet to the database")
+	# Make the query again for potential changes in the db
+	people_found: List[Person] = get_all_person_entries(asPersonInfo=False)
+	for person in people_found:
+		census_entries: List[CensusEntry] = get_census_entries_of_person(person.id, asCensusEntryInfo=False)
+		for entry in census_entries:
+			if entry.parent_census_entry != None:
+				parent_entry = CensusEntry.select().where(CensusEntry.id == entry.parent_census_entry)
 
+				# Si le parent n'est pas une personne:
+				# L'ajouter en tant que personne a la db
+				# Ajouter la nouvelle personne id a l'enfant
+				if parent_entry[0].person == None:
+					# Create new instances for the parent
+					new_person_parent = Person.create(first_name=parent_entry[0].first_name, last_name=parent_entry[0].last_name, parent=parent_entry[0].parent_census_entry)
+					new_person_parent.save()
+					for parent_census_entry in parent_entry:
+						parent_census_entry.person = new_person_parent.id
+						parent_census_entry.save()
+					person.parent = new_person_parent.id
+					person.save()
+				break
+
+	print("Adding parents to Person")
 	for person in people_found:
 		census_entries: List[CensusEntry] = get_census_entries_of_person(person.id, asCensusEntryInfo=False)
 		parent_census_entries: List[Optional[CensusEntry]] = [parent_id.parent_census_entry for parent_id in census_entries]
@@ -95,30 +117,6 @@ def post_tracking():
 					for index in dif_person['person_index']:
 						census_entries[index].person = new_person.id
 						census_entries[index].save()	
-							
-	print("Add parents who are not considered as persons yet to the database")
-	# Make the query again for potential changes in the db
-	people_found: List[Person] = get_all_person_entries(asPersonInfo=False)
-	for person in people_found:
-		census_entries: List[CensusEntry] = get_census_entries_of_person(person.id, asCensusEntryInfo=False)
-		for entry in census_entries:
-			if entry.parent_census_entry != None:
-				parent_entry = CensusEntry.select().where(CensusEntry.id == entry.parent_census_entry)
-
-				# Si le parent n'est pas une personne:
-				# L'ajouter en tant que personne a la db
-				# Ajouter la nouvelle personne id a l'enfant
-				if parent_entry[0].person == None:
-					# Create new instances for the parent
-					new_person_parent = Person.create(first_name=parent_entry[0].first_name, last_name=parent_entry[0].last_name, parent=parent_entry[0].parent_census_entry)
-					new_person_parent.save()
-					for parent_census_entry in parent_entry:
-						parent_census_entry.person = new_person_parent.id
-						parent_census_entry.save()
-					person.parent = new_person_parent.id
-					person.save()
-				break
-
 
 	print("Delete deprecated instances of duplicated persons")
 	# Delete old instances of duplicated people:

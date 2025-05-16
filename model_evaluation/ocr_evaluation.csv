@@ -1,0 +1,51 @@
+;db_id;census_year;page;row;first_name_true;last_name_true;birth_year_true;origin_true;job_true;house_nb_true;street_name_true;parent_child_true;comment
+0;169.0;1835.0;3.0;64.0;true;true;1832;true;true;true;true;true;
+1;1123.0;1835.0;20.0;479.0;true;true;true;true;true;true;true;true;
+2;1922.0;1835.0;29.0;834.0;true;true;1833;true;true;true;true;true;
+3;3496.0;1835.0;54.0;1533.0;true;Mouton;1826;Ballens;true;true;true;false;Miss classified her father
+4;6217.0;1835.0;92.0;2788.0;true;true;true;Prilly;Concierge;true;true;true;Wrong column on right page
+5;9382.0;1855.0;2.0;41.0;true;true;true;true;true;true;true;true;
+6;9581.0;1855.0;5.0;103.0;-;-;-;-;-;-;-;-;"Is ""sans enfant"""
+7;10347.0;1855.0;15.0;385.0;-;-;-;-;-;-;-;-;"Is ""sans enfant"""
+8;10756.0;1855.0;20.0;549.0;true;true;true;true;true;true;true;true;"job ""maçon"" mispelled as ""macon"""
+9;10934.0;1855.0;22.0;614.0;true;true;true;true;true;18;true;true;"""en batiment?"" true, hard to read what comes before. House number missing in the data"
+10;10938.0;1855.0;22.0;616.0;true;true;true;true;true;18b;true;true;
+11;11999.0;1855.0;38.0;994.0;true;true;true;true;true;3;true;true;House number missing in the data
+12;12956.0;1855.0;51.0;1350.0;-;-;-;-;-;-;-;-;"""sans enfant"""
+13;13391.0;1855.0;58.0;1505.0;true;true;true;true;true;true;true;true;
+14;14551.0;1855.0;72.0;1934.0;-;-;-;-;-;-;-;-;"""sans enfant"""
+15;15166.0;1855.0;80.0;2152.0;true;true;1851;true;true;true;l'Halle;true;street name is mispelled
+16;15266.0;1855.0;82.0;2186.0;true;true;1853;true;true;44;l'Halle;true;"street name is mispelled as ""l'ale"". House number is missing. Origin is hard to guess, best guess is what the data says"
+17;16588.0;1855.0;102.0;2676.0;true;true;true;true;true;true;true;true;
+18;16962.0;1855.0;107.0;2824.0;true;true;true;true;true;true;true;true;
+19;16966.0;1855.0;107.0;2826.0;true;true;true;true;true;91;true;true;House number missing in the data
+20;17480.0;1855.0;116.0;3018.0;true;true;true;true;true;true;true;true;
+21;20169.0;1855.0;157.0;3924.0;true;true;true;true;true;true;true;true;
+22;20436.0;1855.0;167.0;4047.0;true;true;1824;true;true;true;true;true;
+23;21841.0;1855.0;190.0;4530.0;true;true;true;true;true;true;true;true;
+24;22186.0;1874.0;6.0;161.0;true;true;true;true;true;true;true;true;
+25;23717.0;1874.0;34.0;861.0;true;true;true;true;true;true;true;true;
+26;25238.0;1874.0;68.0;1529.0;true;Höekli;true;true;true;true;Pré;true;street name is mispelled (but can still be found with levenshtein)
+27;26148.0;1874.0;90.0;1930.0;true;true;true;Oulens;true;7;Martherey;true;street name is mispelled (but can still be found with levenshtein). House number missing ing the data
+28;26630.0;1874.0;98.0;2141.0;true;true;true;true;true;40;Martherey;true;street name is mispelled (but can still be found with levenshtein). House number missing ing the data
+29;27943.0;1874.0;122.0;2733.0;true;Oeschlinn;true;true;true;18;Chemin du bourg;true;street name is misspelled, house number is missing in the data, job is close enought for levenshtein
+30;28997.0;1874.0;141.0;3197.0;true;true;1848;true;pöelier;40;true;true;not sure about the job
+31;30546.0;1874.0;174.0;3900.0;true;true;true;true;charpentier;6b;true;true;Wrong column on right page
+32;31430.0;1874.0;192.0;4310.0;true;true;1872;true;true;4;Chemin dessous;true;street name is mispelled (but can still be found with levenshtein). House number missing ing the data
+33;31968.0;1874.0;203.0;4525.0;true;true;true;true;true;true;Cité derrière;true;street name is mispelled (but can still be found with levenshtein)
+34;31996.0;1874.0;203.0;4535.0;true;true;1872;true;true;true;Cité derrière;true;street name is mispelled (but can still be found with levenshtein)
+35;32951.0;1874.0;220.0;4903.0;true;Guicoux;1881;true;true;5;Chemin des Eaux;true;street name is mispelled. House number missing ing the data. Origin mispelled (can still be found by levenshtein)
+36;35164.0;1874.0;265.0;5744.0;true;true;1851;??;true;true;??;true;street name and origin are unreadable
+37;36109.0;1874.0;284.0;6080.0;true;true;1870;true;true;true;Bochardon;true;
+38;36733.0;1874.0;297.0;6326.0;true;true;1804;true;true;true;true;true;
+39;36803.0;1874.0;300.0;6348.0;true;true;true;true;true;true;true;true;
+40;36886.0;1890.0;1.0;18.0;true;true;1828;true;true;4;Grand St-Jean;true;"In data only ""St Jean"""
+41;38130.0;1890.0;27.0;690.0;true;true;1854;true;true;13;true;true;House number missing in the data
+42;38429.0;1890.0;34.0;835.0;Borbane?;true;true;true;true;11;true;true;
+43;42339.0;1890.0;119.0;2706.0;Ferdinand;true;1828;true;true;true;Rue du Flon;true;first name mispelled (matches with levenshtein)
+44;43339.0;1890.0;141.0;3175.0;true;true;1857;true;true;true;Caroline;true;too much text in street name field
+45;45121.0;1890.0;182.0;3996.0;true;true;1839;true;négociant;true;true;true;job mispelled, matches levenshtein
+46;45472.0;1890.0;188.0;4163.0;true;true;1885;Vallorbes;true;39;true;true;House number missing in the data, origin mispelled, matches levensthein
+47;45707.0;1890.0;193.0;4273.0;true;true;1883;true;true;35;true;true;House number missing in the data
+48;46371.0;1890.0;208.0;4595.0;true;guiger;1883;true;true;1;du Jura;true;street mispelled, matches levensthein,House number missing in the data, last_name gets too much data, name inside
+49;48948.0;1890.0;265.0;5693.0;true;Buttiaz;1878;Châtelard;true;7;Cité derrière;false;Wrong column on right page. Street name mispelled but can be found throught levenshtein

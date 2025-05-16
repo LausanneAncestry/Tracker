@@ -1,0 +1,51 @@
+db_id;census_year;true_job;db_job;job_matched;comment
+480;1835;tailleur;tailleur;True;
+573;1835;charcutier;charretier;False;
+3481;1835;??;? ... etier;False;
+3501;1835;célibataire?;? à batoire;False;
+4848;1835;architecte;architecte ;True;
+5812;1835;propriétaire;propriétaire;True;
+6582;1835;cordonnier;cordonnier;True;
+6590;1835;pintier;pintier;True;
+8564;1835;laboureur;laboureur;True;
+9543;1855;inspecteur;inspecteur;True;
+10648;1855;vitrier;vitrier;True;
+11834;1855;lingere;lingere;True;
+12187;1855;secretaire;secretaire;True;
+13627;1855;maçon;macon;True;
+14664;1855;journalier;journalier;True;
+15060;1855;marchande;marchande;True;
+15559;1855;sans vocation;sans vocation;True;
+16878;1855;couturiere;couturiere;True;
+17527;1855;maçon;macon;True;
+17902;1855;commis a la poste;commis a la poste;True;
+20783;1855;locataire??;locataire?;True;Hard to read, but most likely locataire
+20820;1855;agriculteur;agriculteur;True;
+21017;1855;pintier;pintier;True;
+23080;1874;coiffeur;coiffeur;True;
+23444;1874;tailleur;tailleur;True;
+26630;1874;journaliere;journaliere;True;
+28039;1874;blanchisseuse;blanchisseuse;True;
+28196;1874;negociant? de fromages;mdessomage;False;
+28847;1874;journalier;journalier;True;
+28987;1874;couturiere;couturiere;True;
+31612;1874;employe au château;employe au chateau;True;
+31630;1874;cafetier;cafetier;True;
+31933;1874;instructeur;instructeur;True;
+33579;1874;charretier;charretier;True;
+33586;1874;jardinier;jardinier;True;
+38773;1890;rentiere;rentiere;True;
+40438;1890;menuisier;menuisier;True;
+41854;1890;??;taforpier;False;
+42429;1890;institutrice;institutrice;True;
+43257;1890;galocher;galocher;True;
+44452;1890;docteur medecin;docteur medical;True;Docteur médical is close enough to docteur médecin
+44879;1890;charron;charron;True;
+45020;1890;agriculteur;agriculteur;True;
+46851;1890;institutrice |employé;institutrice|employe;True;Problem is that two different people were flagged as one. But their jobs are good
+47299;1890;organiste?;sm borganisde;False;
+47399;1890;comptable;emplaye;False;
+48387;1890;rentiere;rentiere .;True;"(catchable, only has ""."")"
+49113;1890;charpentier;charpentier;True;
+52685;1890;jardinier;jurdinier;True;(catchable)
+54507;1890;gypsier;gypseur/gypsier;True;

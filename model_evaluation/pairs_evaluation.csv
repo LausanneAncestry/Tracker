@@ -36,7 +36,7 @@ db_id;first_name;last_name;num_census;is_same_person;comment
 113;joseph;Chatelan;2;True;
 3407;alexandre;tailleuse;2;True;
 4734;elisa;Blanc;1;True;
-3125;eugenie;messeiller;2;False;not the same name (Eugène vs Eugènie). Not the same parents
+3125;eugenie;messeiller;2;False;not the same name (EugÃ¨ne vs EugÃ¨nie). Not the same parents
 3599;francs louis;Gay;1;True;
 1823;marie;dupraz;2;True;
 235;susanne antoinette;Pache;2;True;

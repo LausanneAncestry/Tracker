@@ -49,7 +49,7 @@ all_expanded = pd.DataFrame(expanded_rows)
 
 def match_job_with_dictionary(raw_job: str) -> Tuple[int, str]:
 	if not raw_job or not isinstance(raw_job, str):
-		return -1, "emplois inconnu"
+		return 10019, "sans emploi"
 	
 	normalized_term = normalize_string(raw_job.strip())
 	match = all_expanded.loc[all_expanded['normalized_titre'] == normalized_term]
@@ -60,7 +60,7 @@ def match_job_with_dictionary(raw_job: str) -> Tuple[int, str]:
 			match = all_expanded.loc[all_expanded['normalized_titre'] == best_match]
 
 	job_id = match["index"].values[0] if not match.empty else -1
-	job_name = match["titre"].values[0] if not match.empty else "emplois inconnu"
+	job_name = match["titre"].values[0] if not match.empty else "emploi inconnu"
 
 	return int(job_id), job_name
 

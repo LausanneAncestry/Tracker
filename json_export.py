@@ -40,6 +40,9 @@ def export_job_set(job_set: Set[Tuple[int, str]]):
 			jobs_metadata[job_id] = metadata
 		else:
 			missing += 1
+			jobs_metadata[job_id] = {
+				"job": f"{job_name} (no metadata)"
+			}
 			print(f"Missing metadata for {job_id}:{job_name}")
 
 	print(f"Number of unique jobs: {len(job_set)}")
@@ -81,10 +84,10 @@ def json_export(target="./out/export.json", indent=None, job_ids=True):
 		job_set = set()
 		for person in people_to_export:
 			person_with_job_ids = asdict(person)
-			person_with_job_ids["jobs"] = []
+			person_with_job_ids["job_ids"] = []
 			for entry in person.census_entries:
 				job_id, job_name = match_job_with_dictionary(entry.job)
-				person_with_job_ids["jobs"].append(job_id)
+				person_with_job_ids["job_ids"].append(job_id)
 				job_set.add((job_id, job_name))
 			people_with_job_ids.append(person_with_job_ids)
 	

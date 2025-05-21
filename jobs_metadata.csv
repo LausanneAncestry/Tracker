@@ -31,7 +31,7 @@ codeur,TODO check,,,,,,,
 coiffeur,,,medium,medium,worker,high,secondary,low
 commis,TODO should be split as commis + negociant,,low,low,worker,high,tertiary,low
 commis négociant,,,low,low,worker,high,tertiary,low
-commissaire,,,,,,,,
+commissaire,,,low,medium,boss,low,tertiary,medium
 commissaire de police,,,low,medium,boss,low,tertiary,medium
 conducteur de diligences,,,high,low,worker,low,tertiary,low
 confiseur,,,medium,low,worker,high,secondary,low
@@ -45,10 +45,10 @@ directeur de poste,,,low,medium,boss,low,tertiary,medium
 docteur en droit,,,low,high,worker,low,tertiary,low
 domestique,,,medium,low,worker,high,tertiary,low
 ecrivain,,,low,medium,worker,low,tertiary,low
-emailleur,,,,,,,,
-employé,TODO: pas clair ? employé en quoi,,,,,,,
-employé otl,TODO: check if employé aux tl,,,,,,,
-entrepreneur,,,,,,,,
+emailleur,artisant travaillant l'email,https://fr.wikipedia.org/wiki/%C3%89mail_(verre),medium,medium,worker,high,secondary,low
+employé,TODO: pas clair ? employé en quoi,,,,worker,,,low
+employé otl,TODO: check if employé aux tl,,,,worker,,,low
+entrepreneur,,,low,low,boss,low,tertiary,medium
 épicier,,,medium,low,worker,low,tertiary,medium
 épicière,,,medium,low,worker,low,tertiary,medium
 fabricant,,,medium,medium,worker,high,secondary,low
@@ -59,115 +59,115 @@ ferblantier,Celui qui fabrique ou qui vend des outils ou ustensiles en fer-blanc
 fermier,,,high,low,worker,high,primary,low
 fileur,Fabricant et marchand de fils de fer.,https://www.lestracesdevosancetres.fr/les-metiers-de-vos-ancetres,medium,low,worker,high,secondary,low
 fileuse,,,medium,low,worker,high,secondary,low
-filtier,"TODO discuss if it's in LIlle, what about Lausanne ?À lille, celui, celle qui retord le fil pour le vendre au commerce.",https://www.lalanguefrancaise.com/dictionnaire/definition/filtier,,,,,,
-fondeur,Artisan moulant les objets métalliques ou de fonte (fondeur de cloches).,https://www.lestracesdevosancetres.fr/les-metiers-de-vos-ancetres,,,,,,
+filtier,"TODO discuss if it's in LIlle, what about Lausanne ?À lille, celui, celle qui retord le fil pour le vendre au commerce.",https://www.lalanguefrancaise.com/dictionnaire/definition/filtier,low,low,worker,high,secondary,low
+fondeur,Artisan moulant les objets métalliques ou de fonte (fondeur de cloches).,https://www.lestracesdevosancetres.fr/les-metiers-de-vos-ancetres,medium,medium,worker,high,secondary,low
 forestier,,,high,low,worker,high,primary,low
 friseur,TODO : idk,,,,,,,
 fûtier,TOD idk,,,,,,,
-gantier,"Fabricant de gants, culottes, gilets... et de parfums.",https://www.lestracesdevosancetres.fr/les-metiers-de-vos-ancetres,medium,low,worker,high,secondary,low
-garde,,,,,,,,
-garde forestier,,,,,,,,
-geôlier,,,,,,,,
-graveur,,,,,,,,
-greffier,,,,,,,,
-gypsier,Plâtrier.,https://www.lestracesdevosancetres.fr/les-metiers-de-vos-ancetres,,,,,,
-gérant de division,TODO idk ? militaire ?,,,,,,,
-horloger,,,,,,,,
-huissier,,,,,,,,
-imprimeur,,,,,,,,
-inspecteur,,,,,,,,
-instituteur,,,,,,,,
-institutrice,,,,,,,,
-jardinier,,,,,,,,
-journalier,Ouvrier se louant à la journée.,https://www.lestracesdevosancetres.fr/les-metiers-de-vos-ancetres,,,,,,
-journalier agricole,,,,,,,,
-journalier et propriétaire,TODO : wait waht ?,,,,,,,
-journalière,,,,,,,,
+gantier,"Fabricant de gants, culottes, gilets... et de parfums.",https://www.lestracesdevosancetres.fr/les-metiers-de-vos-ancetres,medium,medium,worker,high,secondary,low
+garde,assuming: security guard,,medium,low,worker,high,tertiary,low
+garde forestier,,,high,low,worker,high,tertiary,low
+geôlier,,,medium,low,worker,high,tertiary,low
+graveur,,,medium,medium,worker,high,secondary,low
+greffier,,,low,medium,worker,low,tertiary,medium
+gypsier,Plâtrier.,https://www.lestracesdevosancetres.fr/les-metiers-de-vos-ancetres,medium,low,worker,high,secondary,low
+gérant de division,assuming : militaire,,low,low,boss,low,tertiary,medium
+horloger,,,medium,medium,worker,low,secondary,medium
+huissier,,,low,medium,worker,high,tertiary,medium
+imprimeur,,,high,low,worker,high,secondary,low
+inspecteur,,,low,medium,worker,low,tertiary,medium
+instituteur,,,medium,high,worker,low,tertiary,medium
+institutrice,,,medium,high,worker,low,tertiary,medium
+jardinier,,,medium,low,worker,high,tertiary,low
+journalier,Ouvrier se louant à la journée.,https://www.lestracesdevosancetres.fr/les-metiers-de-vos-ancetres,low,low,worker,high,tertiary,low
+journalier agricole,,,low,low,worker,high,primary,low
+journalier et propriétaire,TODO : wait waht ?,,low,low,worker,high,tertiary,medium
+journalière,,,low,low,worker,high,tertiary,low
 juge au tribunal,,,medium,high,worker,low,tertiary,high
 juge d'appel,,,medium,high,worker,low,tertiary,high
 laboureur,"Au minimum propriétaire d'animaux de labour, il se loue avec ses bêtes pour les travaux agricoles. au maximum propriétaire de terres qu'il cultive.",https://www.lestracesdevosancetres.fr/les-metiers-de-vos-ancetres,high,low,worker,high,primary,low
-laitier,,,,,,,,
-lampiste,"Responsable de la distribution des lampes aux mineurs (chaque mineur avait sa propre lampe) ; Chargé de l’entretien, de la réparation voire de la fabrication des lampes de la gare (des bureaux, des quais, des trottoirs), le lampiste veille notamment au bon fonctionnement de la “lampe de queue”. cette lampe rouge,accrochée au wagon de queue, signale non seulement que le train est complet mais aussi, sert à l’aiguilleur du poste suivant à vérifier que des wagons ne se sont pas décrochés en cours de route.",https://www.lestracesdevosancetres.fr/les-metiers-de-vos-ancetres,,,,,,
-libraire,,,,,,,,
-locataire,,,,,,,,
-machiniste,"TODO : jai pas compris. Ouvrier qui est responsable de la cage, avec le receveur.",https://www.lestracesdevosancetres.fr/les-metiers-de-vos-ancetres,,,,,,
+laitier,,,low,low,worker,high,tertiary,low
+lampiste,"Responsable de la distribution des lampes aux mineurs (chaque mineur avait sa propre lampe) ; Chargé de l’entretien, de la réparation voire de la fabrication des lampes de la gare (des bureaux, des quais, des trottoirs), le lampiste veille notamment au bon fonctionnement de la “lampe de queue”. cette lampe rouge,accrochée au wagon de queue, signale non seulement que le train est complet mais aussi, sert à l’aiguilleur du poste suivant à vérifier que des wagons ne se sont pas décrochés en cours de route.",https://www.lestracesdevosancetres.fr/les-metiers-de-vos-ancetres,medium,low,worker,high,primary,low
+libraire,,,medium,medium,worker,low,tertiary,low
+locataire,IS NOT A JOB,,,,,,,
+machiniste,"Ouvrier qui est responsable de la cage, avec le receveur. Métier dans les mines.",https://www.lestracesdevosancetres.fr/les-metiers-de-vos-ancetres,low,low,worker,high,primary,low
 maçon,,,low,low,worker,high,secondary,low
-malletier,Un malletier est un fabricant de bagages et de valises.,https://www.lestracesdevosancetres.fr/les-metiers-de-vos-ancetres,,,,,,
-manoeuvre,,,,,,,,
-manoeuvre ardoisier,TODO. should be split as manoeuvre + ardoisier ?,,,,,,,
-manœuvre,,,,,,,,
-marbrier,"Ouvrier, artisan qui travaille à scier et à polir le marbre (dictionnaire de l'académie françoise, 1694). il peut aussi s'agir du propriétaire d'une marbrerie, ou d'un marchand de marbre.",https://www.lestracesdevosancetres.fr/les-metiers-de-vos-ancetres,,,,,,
-marchand,,,,,,,,
-marchand ambulant,,,,,,,,
-marchand de soufflets,,,,,,,,
-marchand de vin,,,,,,,,
-marchand épicier,,,,,,,,
-marchande,,,,,,,,
-marchande de couronnes,,,,,,,,
-maréchal,"Maréchal-ferrant, forgeron.",https://www.lestracesdevosancetres.fr/les-metiers-de-vos-ancetres,,,,,,
-maréchal ferrant,,,,,,,,
-maîtresse d'école,,,,,,,,
-medecin,,,,,,,,
-menuisier,,,,,,,,
-meunier,,,,,,,,
-ministre,,,,,,,,
-modiste,,,,,,,,
-mécanicien,,,,,,,,
-negociant,TODO: what is a negociant,,,,,,,
-negot.,"TODO: check origin:'gociant', corrected in the new csv",,,,,,,
-notaire,,,,,,,,
+malletier,Un malletier est un fabricant de bagages et de valises.,https://www.lestracesdevosancetres.fr/les-metiers-de-vos-ancetres,medium,medium,worker,high,secondary,low
+manoeuvre,,,low,low,worker,high,secondary,low
+manoeuvre ardoisier,TODO. should be split as manoeuvre + ardoisier ?,,low,low,worker,high,secondary,low
+manœuvre,,,low,low,worker,high,secondary,low
+marbrier,"Ouvrier, artisan qui travaille à scier et à polir le marbre (dictionnaire de l'académie françoise, 1694). il peut aussi s'agir du propriétaire d'une marbrerie, ou d'un marchand de marbre.",https://www.lestracesdevosancetres.fr/les-metiers-de-vos-ancetres,medium,medium,worker,high,secondary,medium
+marchand,,,medium,low,worker,low,tertiary,medium
+marchand ambulant,,,low,low,worker,high,tertiary,low
+marchand de soufflets,,,medium,low,worker,low,tertiary,low
+marchand de vin,,,medium,low,worker,low,tertiary,medium
+marchand épicier,,,medium,low,worker,low,tertiary,medium
+marchande,,,medium,low,worker,low,tertiary,low
+marchande de couronnes,,,medium,low,worker,low,tertiary,low
+maréchal,"Maréchal-ferrant, forgeron.",https://www.lestracesdevosancetres.fr/les-metiers-de-vos-ancetres,medium,medium,worker,high,tertiary,low
+maréchal ferrant,,,medium,medium,worker,high,tertiary,low
+maîtresse d'école,,,medium,high,worker,low,tertiary,medium
+medecin,,,medium,high,boss,high,tertiary,high
+menuisier,,,medium,medium,worker,high,secondary,medium
+meunier,,,medium,low,worker,high,primary,low
+ministre,,,low,low,boss,low,tertiary,high
+modiste,,,medium,medium,worker,low,tertiary,medium
+mécanicien,,,medium,medium,worker,high,tertiary,low
+negociant,TODO: what is a negociant,,low,low,worker,low,tertiary,medium
+negot.,"TODO: check origin:'gociant', corrected in the new csv",,low,low,worker,low,tertiary,medium
+notaire,,,medium,high,worker,low,tertiary,high
 négociante,,,,,,,,
-orfèvre,Celui qui fabrique ou vend des objets en métaux précieux.,https://www.lestracesdevosancetres.fr/les-metiers-de-vos-ancetres,,,,,,
-ouvrier en parapluies,,,,,,,,
-ouvrier papetier,,,,,,,,
-ouvrier potier,,,,,,,,
-ouvrier vitrier,,,,,,,,
-ouvrière,,,,,,,,
-pasteur,,,,,,,,
-peintre,,,,,,,,
-perruquier,Homme qui faisait et entretenait les perruques. Aussi qui coiffe et rase.,https://www.lestracesdevosancetres.fr/les-metiers-de-vos-ancetres,,,,,,
-pharmacien,,,,,,,,
+orfèvre,Celui qui fabrique ou vend des objets en métaux précieux.,https://www.lestracesdevosancetres.fr/les-metiers-de-vos-ancetres,medium,medium,worker,low,secondary,medium
+ouvrier en parapluies,,,medium,low,worker,high,secondary,low
+ouvrier papetier,,,medium,low,worker,high,secondary,low
+ouvrier potier,,,medium,low,worker,high,secondary,low
+ouvrier vitrier,,,medium,low,worker,high,secondary,low
+ouvrière,,,medium,low,worker,high,secondary,low
+pasteur,,,medium,low,boss,low,tertiary,low
+peintre,,,medium,low,worker,high,secondary,low
+perruquier,Homme qui faisait et entretenait les perruques. Aussi qui coiffe et rase.,https://www.lestracesdevosancetres.fr/les-metiers-de-vos-ancetres,medium,medium,worker,high,tertiary,low
+pharmacien,,,medium,medium,worker,low,tertiary,high
 pontière,TODO what is that,,,,,,,
-porteur de valises,,,,,,,,
-potier de terre,,,,,,,,
-poêlier,Fabricant de poêles (meuble de chauffage),https://www.lestracesdevosancetres.fr/les-metiers-de-vos-ancetres,,,,,,
-préfêt,,,,,,,,
-procureur,,,,,,,,
-professeur,,,,,,,,
-proprietaire,,,,,,,,
-propriétaire et négociant,TODO split,,,,,,,
-propriétaire et rentier,TODO split,,,,,,,
-pêcheur,"personne capturant des poissons ou coquillages, à bord d'un bateau",https://www.lestracesdevosancetres.fr/les-metiers-de-vos-ancetres,,,,,,
-regent,,,,,,,,
-relieur de livres,,,,,,,,
-rentier,,,,,,,,
-rentier ancien géomètre,TODO: retired ?,,,,,,,
-rentiere,TODO: map to rentier + femme ?,,,,,,,
-repasseuse,,,,,,,,
+porteur de valises,,,low,low,worker,high,tertiary,low
+potier de terre,,,medium,low,worker,high,secondary,low
+poêlier,Fabricant de poêles (meuble de chauffage),https://www.lestracesdevosancetres.fr/les-metiers-de-vos-ancetres,medium,medium,worker,high,secondary,low
+préfêt,,,low,medium,boss,low,tertiary,high
+procureur,,,low,high,boss,low,tertiary,high
+professeur,,,medium,high,worker,low,tertiary,medium
+proprietaire,,,high,low,worker,low,tertiary,high
+propriétaire et négociant,TODO split,,high,low,worker,low,tertiary,high
+propriétaire et rentier,TODO split,,high,low,worker,low,tertiary,high
+pêcheur,"personne capturant des poissons ou coquillages, à bord d'un bateau",https://www.lestracesdevosancetres.fr/les-metiers-de-vos-ancetres,high,low,worker,high,primary,low
+regent,,,medium,low,boss,low,tertiary,low
+relieur de livres,,,low,low,worker,high,secondary,low
+rentier,,,high,low,worker,low,tertiary,high
+rentier ancien géomètre,IS NOT A JOB,,,,,,,
+rentiere,TODO: map to rentier + femme ?,,high,low,worker,low,tertiary,high
+repasseuse,,,medium,low,worker,high,tertiary,low
 riveuse,,,,,,,,
 rotativiste,,,,,,,,
 roto,,,,,,,,
-sage femme,,,,,,,,
-sans profession,,,,,,,,
-secrétaire,,,,,,,,
-secrétaire au,,,,,,,,
-serrurier,,,,,,,,
-sonneur,,,,,,,,
-tailleur,,,,,,,,
-tailleur de pierre,,,,,,,,
-tailleuse,,,,,,,,
-tapissier,,,,,,,,
-tapissière,,,,,,,,
-teinturier,,,,,,,,
-tisserand,,,,,,,,
-tonnelier,,,,,,,,
-tourneur,,,,,,,,
-traiteur,,,,,,,,
-tueur de porcs,TODO : tuteur (see the new csv),,,,,,,
-tuilier,,,,,,,,
-vendeur de vin,,,,,,,,
-vigneron,,,,,,,,
-vigneronne,,,,,,,,
-violoniste,,,,,,,,
-voiturier,,,,,,,,
-émouleur,,,,,,,,
+sage femme,,,medium,low,worker,high,tertiary,low
+sans profession,IS NOT A JOB,,,,,,,
+secrétaire,,,low,medium,worker,low,tertiary,low
+secrétaire au,,,low,medium,worker,low,tertiary,low
+serrurier,,,medium,medium,worker,high,secondary,low
+sonneur,"Assuming : Sonneur de cloches   Homme qui faisait sonner les cloches, pour le matin, le midi, le soir pour l’angélus, le glas pour les décès, pour les baptêmes, les mariages, les inhumations, il creusait aussi les fosses, portait la croix et bénitier.",https://www.lestracesdevosancetres.fr/les-metiers-de-vos-ancetres,medium,low,worker,high,tertiary,low
+tailleur,,,medium,medium,worker,low,secondary,low
+tailleur de pierre,,,medium,medium,worker,high,secondary,low
+tailleuse,,,medium,medium,worker,low,secondary,low
+tapissier,,,medium,low,worker,low,secondary,low
+tapissière,,,medium,low,worker,low,secondary,low
+teinturier,,,medium,low,worker,low,tertiary,low
+tisserand,,,medium,medium,worker,high,secondary,low
+tonnelier,,,medium,medium,worker,high,secondary,low
+tourneur,Tourneur est un métier du bois spécialisé dans le tournage sur bois.,https://fr.wikipedia.org/wiki/Tournage_sur_bois,medium,medium,worker,high,secondary,low
+traiteur,,,medium,low,worker,high,secondary,low
+tueur de porcs,IS NOT A JOB,,,,,,,
+tuilier,,,medium,low,worker,high,tertiary,low
+vendeur de vin,,,medium,low,worker,low,tertiary,medium
+vigneron,,,high,medium,worker,high,primary,low
+vigneronne,,,high,medium,worker,high,primary,low
+violoniste,,,low,high,worker,high,tertiary,medium
+voiturier,,,medium,low,worker,high,tertiary,low
+émouleur,Ouvrier aiguisant les instruments tranchants,https://www.lestracesdevosancetres.fr/les-metiers-de-vos-ancetres,medium,low,worker,high,tertiary,low

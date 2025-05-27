@@ -2,7 +2,7 @@ import json
 import csv
 import pandas as pd
 
-with open("out\export.json", "r", encoding="utf-8") as f:
+with open("out"+"/"+"tracked.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 persons = data["persons"]

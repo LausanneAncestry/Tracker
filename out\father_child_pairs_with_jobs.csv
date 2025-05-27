@@ -1,0 +1,681 @@
+child_id;child_name;child_jobs;parent_id;parent_name;parent_jobs
+3;louise Favrat;9721;4627;george Favrat;9159
+7;fanny Blanche;3354;3493;lutry Blanche;6760
+8;victorine Blanche;3354;3493;lutry Blanche;6760
+9;george Bonjour;8491;3494;louis Bonjour;6556
+13;jenne louise Emery;4121;3495;pierre ps b Emery;11072
+19;frederic Balissat;6556;18;alphonse Balissat;2002,2002
+21;francois Dupraz;3227;3497;rose Dupraz;6596
+29;daniel Jaton;470;3500;jn pierre Jaton;6556
+32;aram louis Stauffer;6556;3501;fs antoine Stauffer;2002
+33;jules Stauffer;6556;3501;fs antoine Stauffer;2002
+35;elise Bonnet;2002;3502;jean del Bonnet;6556
+36;paul Bonnet;3919;3502;jean del Bonnet;6556
+46;charles Kohler;6556;4641;jn louis Kohler;11072
+57;francois Favrat;167,2002;4652;george Favrat;11072
+60;jean Chave;2002;3507;charles Chave;6556
+61;samuel Chave;3227;3507;charles Chave;6556
+63;francois Baudet;2002;62;daniel Baudet;2002,2002
+64;louis Baudet;6556;62;daniel Baudet;2002,2002
+66;louis Boucherles;8020;3508;veuve de paul Boucherles;9716
+74;louis Regamey;6556;4660;francois Regamey;2002
+84;francois Cerez;9281;4667;francois Cerez;2590
+88;louis Corbaz;6556;87;jean henry Corbaz;11072,11072
+89;louis Corbaz;1662;87;jean henry Corbaz;11072,11072
+90;charles Corbaz;11072;87;jean henry Corbaz;11072,11072
+96;jules Delechat;7643;3521;henry Delechat;6556
+97;jean Peneveyre;11072,11072;3522;frederic Peneveyre;11072
+104;louis Cavin;9281,9721;3525;daniel Cavin;11392
+107;louise Hurter;7778;106;andre Hurter;5976,5976
+109;jaques Dubrez;7643;3527;marc louis Dubrez;11392
+110;csarles Dubrez;11072;3527;marc louis Dubrez;11392
+113;louise Foretay;7778;3529;samuel Foretay;2002
+121;louise Delaraye;1371;3531;f ab victor Delaraye;6556
+128;sophie Langin;9281;3534;se d abram ls Langin;9716
+129;marie Langin;9281;3534;se d abram ls Langin;9716
+133;susanne Secretan;9721;3537;v de philippe Secretan;9716
+139;charles Pouly;11399;3540;louis Pouly;2976
+140;francois Baud;9109;3541;louis Baud;9071
+142;juste Regamey;4171;3542;veuve de david Regamey;5227
+143;louis Regamey;6134;3542;veuve de david Regamey;5227
+147;charles Luginbuhl;8007,9716;3545;huristian Luginbuhl;6950
+152;albertine Hoch;6760;3547;michel Hoch;7643
+163;nfrancois Duc;5245,5245;3552;louis francois Duc;5245
+174;louis Parisot;2002;173;henri auguste Parisot;6556,6830
+186;francois Panchaud;6696;3559;denis Panchaud;10749
+188;ernet Mercier;8007,9716;4704;jean jaques Mercier;8007
+202;francois Jaton;470;3564;daniel Jaton;6556
+207;francois Vidoudez;8007;206;jean henri Vidoudez;11392,11392
+215;marie Breymeyer;7640;3571;jean michel Breymeyer;3349
+223;luie Miéville;9721;3576;gorges sibasteour Miéville;6155
+224;francois Devaud;2068;3577;samuel Devaud;2068
+227;henriette Milliquet;3354;3579;rodolphe Milliquet;10614
+231;louise Meystre;9729,9729;3582;fanny Meystre;3354
+233;fermain Charton;7643;3584;jean Charton;10606
+237;francois Falconnier;5976;236;jeunette Falconnier;1371
+239;henri Demartines;10221;238;chanls francois Demartines;10221,10221
+240;charleser Demartines;1961,7859;238;chanls francois Demartines;10221,10221
+243;louis Vincent;6206,6206;3587;henri Vincent;6206
+251;jean Blanc;5401;3592;louis Blanc;6556
+257;louis Vincent;2002;256;jean david Vincent;2002,2002
+266;albert Clèment;7643;3597;marie Clèment;3440
+268;charles Roux;6338;267;louis Roux;2616,2616
+280;louis Deytard;4171;3600;veuve de louis Deytard;7630
+283;segismond Marcel;1283;282;felix Marcel;8007,1283,7643
+284;charles Marcel;7634;282;felix Marcel;8007,1283,7643
+299;george Wenger;5042;3605;david Wenger;9281
+306;victor Manuel;8007;304;francois louis Manuel;3024,3024
+307;henri Manuel;3024,8007;304;francois louis Manuel;3024,3024
+309;george Faraudo;10560,9443;308;victor Faraudo;10560,9383
+317;charles Gonvers;7219;3610;philippe Gonvers;1175
+318;georges Gonvers;3024;3610;philippe Gonvers;1175
+324;jeanne Chapuis;9721;3613;jean antoine Chapuis;9281
+327;frederich Dubois;4153;326;charles frederich Dubois;6456,6456
+329;christian Welsch;3227,9716;3614;jean Welsch;3227
+343;albert Rouiller;6206,6206;3617;george Rouiller;6696
+344;louis Vellenberg;7643;3618;samuel Vellenberg;7643
+346;constantini Grenier;9716;3619;veuve Grenier;9721
+348;gustave Gay;9716;3620;francs louis Gay;9281
+358;henry Hoffmann;2782;357;francois Hoffmann;11393
+362;frederich Gorgerat;5916;3624;jn daniel Gorgerat;1662
+363;charles Gorgerat;9281;3624;jn daniel Gorgerat;1662
+366;eugene Mathey;7634,9716;365;danuel Mathey;2514,7634
+371;louis Favre;5378;369;jean Favre;7373,7396
+375;achille de Laharpes;938;3626;pegisimond de Laharpes;6495
+389;george Lugenbuhl;8007;3632;abr antoine Lugenbuhl;6950
+396;auguste Thuillard;9695;3633;samuel Thuillard;9695
+402;fany Chapuisat;6478,6478;3634;marie Chapuisat;6760
+409;emilie Bonnard;8007,11408;4792;francois Bonnard;8007,8007
+412;frederich Petit;10560;3637;moyse Petit;10560
+413;jenny Robert;9721;3638;veuve Robert;9721
+422;francois Blanchard;6206;420;samuel Blanchard;6206,6206
+428;isaac Deliste;6206,6206;3644;jacob Deliste;9716
+447;charles Ney;10221;446;louis Ney;5401
+452;samuel Maget;5976;4817;samuel Maget;5976,5976
+454;louis Tissot;10221;453;francois Tissot;10221
+456;emmanuel Luquiens;6206;3651;louis antoine Luquiens;6556
+466;louis Falconnier;1961,8777;3652;jeanne francoise Falconnier;9721
+469;elisee Debons;1455;3653;etienne louis Debons;1455
+471;henriette Vannod;6760;3655;emmanuel Vannod;167
+472;henri Van Muiden;9716,9716;3656;henrifrancois Van Muiden;9716
+477;louis Guignard;9716;476;jacob Guignard;6950,8007
+479;alfred Delisle;8007;478;jean abram Delisle;6950
+486;adolphe Kohler;8007,8007;4825;amedee Kohler;8007
+506;dorothee Fels;9721;3666;veuve de gaspard Fels;9721
+515;louise Mayor;1455;3668;veuve d abram Mayor;1455
+522;frederich Chapuis;4171;521;jeannette Chapuis;10003,9721
+545;samuel Delisle;7219;3678;abram Delisle;1175
+547;pauline Gely;9721;3680;benoit Gely;7757
+555;isaline Delpueche;1455,9721;3681;francois Delpueche;1455
+577;auguste Rogivue;1227;3688;daniel Rogivue;9159
+586;louise Moinat;9686;3689;veuve louise Moinat;6478
+587;annette Bocion;9721,9721;3690;louis Bocion;7643
+589;samuel Crausaz;10221,6490;3692;auguste Crausaz;10876
+592;charlotte Penneveyre;6556;3694;abram Penneveyre;11072
+597;daniel Bovay;6946;3697;pierre francois Bovay;2056
+598;charles Bovay;6946;3697;pierre francois Bovay;2056
+601;louis Rochat;9168;3699;augustine Rochat;1466
+603;francois Lemaire;9716,9716;3701;louis Lemaire;9281
+620;louise Henny;9721;3706;jean Henny;6456
+633;louise Vuadens;6760;3712;louis Vuadens;6776
+652;jn pierre Porchet;5420;3717;veuve de d frederic Porchet;5306
+661;jeannette Barraud;9721;3719;francois Barraud;6526
+674;louisie Champoud;6690;3725;francois Champoud;10221
+685;maurice Porchet;2694;684;jean louis Porchet;4121,4121
+689;jeny Orguelt;9729;3732;veuve de jn fred Orguelt;6596
+690;frederic Dizerens;10221,10221;3733;louis salomon Dizerens;1873
+696;frederic Belet;6830;3736;pierre francois Belet;6556
+700;frederic Allamand;10818;3738;david rodolph Allamand;11072
+706;georges Curtet;6526;705;albert Curtet;6526,6526
+716;david Burri;7136;3743;jeanne veuve Burri;7224
+722;marc Piolet;1888;3746;abn francois Piolet;1888
+724;louis Cretenoud;3227;3748;francois Cretenoud;3227
+731;louis Renou;4963;3753;jacob Renou;5016
+732;alexandre Renou;4963;3753;jacob Renou;5016
+735;jenny Badan;3354;3755;samuel Badan;7643
+736;francois Badan;7643,6526;3755;samuel Badan;7643
+737;rosotte Badan;3354;3755;samuel Badan;7643
+743;george Légert;7643;3758;jn francois Légert;7643
+744;frederic Légert;3227,6905;3758;jn francois Légert;7643
+754;francois Bipperl;7757;753;paul charles Bipperl;11392,9716
+755;henry Bipperl;1227;753;paul charles Bipperl;11392,9716
+758;marc Campart;7643;3762;mariannevve de abram Campart;9721
+759;louis Jaquerod;3349;3763;l berp d avid Jaquerod;6206
+762;daniel Berenger;10574;3765;samuel Berenger;10574
+767;louise Gruffel;3306;3767;vve de jn paul Gruffel;6596
+769;nanette Belet;6596;3768;jean louis Belet;6556
+774;louis Strudel;5004;3773;jeannette pue Strudel;6596
+792;eugene Gaulis;1227;791;louis Gaulis;8020,9716
+794;andre Gindroz;9168;3783;vve de jn d bonjr Gindroz;9721
+797;francois Henny;10818;796;george Henny;6556,6556
+804;samuel Rochat;8007;3786;daniel Rochat;6155
+808;louis Wasser;3024;3788;charles fs louis Wasser;1175
+813;henriette Kiltzer;10590;3790;jean henri Kiltzer;10574
+819;louis Lamblanc;11399,11399;818;charles Lamblanc;1455,2930
+821;jean Gruffel;10716;820;jean marc louis Gruffel;10221,6936
+825;henriette Combet;3354;3793;louis Combet;10574
+827;louis Mignot;6830;826;jean daniel Mignot;6556,6556
+828;francois Mignot;6830,6830;826;jean daniel Mignot;6556,6556
+835;auguste Bonnet;2002;3795;henri louis Bonnet;2002
+838;louis Desmeules;6456;3797;baptiste Desmeules;6556
+842;jean duis Blanc;2694,2694;3798;jean rodolph Blanc;10329
+848;jne marie Amy;9721;3799;veuve de frs se Amy;9721
+852;louis Regamey;6950;3801;samuel christian Regamey;2002
+858;charles Bugnion;1283,1283;3803;vve de|charles Bugnion;9721
+859;charles Krieg;6936;3804;george Krieg;6830
+860;jenny Dieday;5542;3805;philibert Dieday;7643
+865;philippe Pfluguer;8007;864;louis Pfluguer;8007
+872;elie Blanc;5976;869;veuve de jn francs Blanc;11083,9729
+877;francois Corsat;7643;876;abram Corsat;3227,3227
+887;jaques Philippon;4121,4171;886;pierre samuel Philippon;9159,10837
+896;frederic Curchod;11072;3813;jean pierre Curchod;1873
+897;benjamin Curchod;3919;3813;jean pierre Curchod;1873
+904;albert Chevalley;6526,6526;3818;emanuel Chevalley;6526
+917;louis Juat;8007;916;veuve Juat;9281,5298
+921;jean daniel Corsat;11392;3822;jean samuel Corsat;11072
+924;abram louis Dunand;5100;3825;jacob Dunand;10329
+931;louis Bovard;6556,2002;3827;femme de daniel Bovard;6556
+933;susanne Verboux;6596;3828;gamaliel Verboux;6556
+936;henriette Verboux;8621;934;henri Verboux;6556,1305
+937;samuel Perrin;9561;3829;francois andre Perrin;9281
+938;louis Perrin;9561;3829;francois andre Perrin;9281
+945;marc louis Perrin;10818;3830;charles francois Perrin;9281
+947;jean Perrin;9561,8928,6936;3831;davd Perrin;9281
+948;jean louis Perrin;9561;3832;charles louis Perrin;9281
+952;charles Dizerens;3919,6556,4827;951;christian Dizerens;6556,6556
+956;alphonce Perrin;9561;3833;francois Perrin;9281
+957;jean Perrin;6596;3834;isaac Perrin;9561
+959;jaques Perey;6556;3836;veuve de jnfrancois Perey;6596
+970;jule Perrin;11110;3838;veuve de jn daniel Perrin;7224
+975;charles Mogeon;6556;973;pierre louis Mogeon;9281,1305
+979;daniel Daccord;6556;977;louis Daccord;6556,11398
+980;henriette Daccord;8621;977;louis Daccord;6556,11398
+982;louis Vullierat;1305;981;claude Vullierat;6556,11072
+985;jule Vullierat;3369;981;claude Vullierat;6556,11072
+986;henri Blanc;6556;3840;etienne louis Blanc;6556
+988;louis Blanc;1305;3840;etienne louis Blanc;6556
+989;louis Perrin;11392,9561;3841;francois andre Perrin;9281
+994;george Panchaud;9716;3845;david francois Panchaud;8007
+995;sophie Panchaud;9721;3845;david francois Panchaud;8007
+1000;francois Rusillon;470;3846;louis Rusillon;5257
+1007;pierre Milliquet;470,470;1006;louis Milliquet;11072,470
+1014;jeannette Delisle;6690;3848;veuve de jean marc Delisle;9281
+1015;louis Dubois;8007,8007;3849;philippe Dubois;8007
+1018;samuel Forney;6556;1016;frederich Forney;9281,9281
+1023;louis Combernous;6526;3850;henri Combernous;6526
+1024;georges Combernous;6556;3850;henri Combernous;6526
+1026;louis Combernous;6556;3851;francois Combernous;6526
+1028;louis Dumuid;470;3852;pierre louis Dumuid;11072
+1029;charles Dumuid;5257;3852;pierre louis Dumuid;11072
+1032;louis Olivet;6526;3853;jean francois Olivet;6526
+1033;jeanne francoise Visinand;6760;3854;jean moise Visinand;5257
+1043;samuel Nicolas;6556,6526;3855;louis Nicolas;6556
+1052;francois Blanc;470;1051;pierre abram Blanc;9281,9281
+1053;david Blanc;470,470;1051;pierre abram Blanc;9281,9281
+1077;david Henny;470,9281,9716;3870;francois Henny;5257
+1080;francois Rappaz;6526;1079;rodolphe Rappaz;11072,5257
+1088;daniel Peneveyre;11072,11072,470;5092;charles Peneveyre;11072
+1094;marc Perret;470;3877;abram aoel Perret;6656
+1096;samuel Perret;470;5100;charles Perret;7373
+1120;marie Michaud;10590;3882;marc Michaud;6526
+1128;samuel Porchet;6950,1391;3883;jean antoine Porchet;5257
+1129;louis Blanc;8520;3884;david Blanc;5257
+1131;gabriel Blanc;6556;3885;jean pierre Blanc;5257
+1132;auguste Taillens;470;3886;luc Taillens;470
+1136;georges Buffat;470,470,470;1135;jean francois Buffat;3445,470
+1144;charles Blanc;6787;3889;daniel|phillige Blanc;6556
+1145;marc Blanc;7643;3890;francois Blanc;3445
+1146;charles Chapuis;10749;3891;francois Chapuis;1873
+1147;marianne Jaton;6596;3892;jean antoine Jaton;6634
+1154;frederich Guignard;3227,3227,3227;3896;jean francois Guignard;7373
+1155;louis Guignard;6456;3896;jean francois Guignard;7373
+1167;jeanne louige Blanc;9729;3898;francois Blanc;2085
+1176;david Lederman;10560,10560;3902;francois Lederman;10940
+1178;pierre samuel Blanc;6656;3903;jn fs ab Blanc;11072
+1180;david Rey;470;3904;abram charles Rey;6634
+1183;justin Lavanchy;11072;1181;jn daniel Lavanchy;6634
+1186;jaques ls Regamey;11072;3905;jn daniel Regamey;6634
+1187;david Regamey;5976;3905;jn daniel Regamey;6634
+1188;pierre abram Regamey;470;3905;jn daniel Regamey;6634
+1189;lse marguerite Regamey;7224;3906;jn nb Regamey;2829
+1191;jn abram Blanc;470;3907;jn louis Blanc;6634
+1193;louis arien Regamey;5552;3908;jn jaques ls Regamey;6634
+1197;daniel Pache;2002,2002;3911;jn pierre Pache;2002
+1201;constant Blanc;10939;3915;veuve de Blanc;6634
+1202;louis del Regamey;11110;3916;georges l sel Regamey;6634
+1206;jne francoise Favrat;470;3918;jn francois Favrat;6634
+1208;louis daniel Regamey;2836;3919;abram ls Regamey;6634
+1213;benjamin Martin;7699;1212;jaques Martin;7699,1424
+1225;rosine rouge;6478;372;samuel Rouge;7141,9379
+1231;henri barbaz;5976,1371;3924;samuel barbaz;6556
+1236;louis chevallier;8020;3928;francois louis chevallier;3971
+1240;jules nicolas;3369,3369;3929;femme de jean louis nicolas;6556
+1241;charles berney;8007;3930;jean rodolphe berney;6556
+1246;john chapuis;2694;522;frederich Chapuis;4171
+1248;daniel peytrequin;2002;772;fancois Peytrequin;3227
+1252;jean pache;2002,10625;55;jean etienne Pache;2002,2002
+1254;francois bally;5257;3933;femme divorcee de samuel bally;9281
+1262;jules perrin;7643;3935;francois louis rodolphe perrin;7643
+1269;marc bron;2887;3936;veuve de frederic bron;3919
+1271;jenny pingoud;7224;3937;louis samuel pingoud;10574
+1277;elisa clement;3354;1276;rodolphe clement;2948
+1282;jules marguerat;6593;1281;samuel marguerat;10574,2803
+1284;daniel eich;6155,6155;3939;jean eich;3227
+1285;henri deverin;5401;3940;louis deverin;11110
+1289;edouard curchod;9716;1288;antoine curchod;7757,8728
+1299;francois jaquillard;2887;3946;jean samuel jaquillard;11072
+1302;auguste mermier;6936;3948;georges alexandre mermier;10999
+1304;louise tachet;6760;3950;veuve de theophile tachet;9721
+1315;auguste clavel;9716;263;francois Clavel;9716,1283,1283
+1320;jenny marguerat;9721;1319;samuel henri marguerat;11392,9716
+1321;alfred renevier;1227;354;charles Renevier;3899,1227
+1322;jules piot;6134;3952;louis piot;7053
+1355;louis jaquillard;10606;1354;francois daniel jaquillard;6556
+1364;henri estoppey;2694;3966;louis samuel estoppey;6155
+1372;louis renaud;1662;311;jean samuel Renaud;6905,9061
+1376;louis chavan;3227,5976;3968;auguste chavan;6556
+1377;henri blanc;6556;3969;jean francois blanc;11072
+1378;jean charles louis pache;11072;3970;marc louis pache;10606
+1387;emile masson;1283;3973;veuve de frederic masson;9716
+1391;rosine masson;9721;3975;veuve de justin? masson;7224
+1401;theodore bergier;8020,8020;636;jean samuel Bergier;8007,11406
+1402;charles bergier;10221,2590;636;jean samuel Bergier;8007,11406
+1405;henriette virchaux;9721;3981;louis virchaux;7643
+1437;antoine parisod;8725;398;jean ls rodolphe Parisod;8227,8227
+1438;charles clot;4171;3992;abraham daniel clot;4121
+1440;louis martinoni;8007;5248;martin martinoni;8007,9716
+1446;frederic pilet;7643;4837;francois Pilet;3227
+1447;charles pilet;7643,7643;4837;francois Pilet;3227
+1450;henriette thuillard;6478;397;charles Thuillard;9695,9695
+1453;charles hugony;11408;3996;daniel hugony;8007
+1455;henriette favre;5378;638;emanuel Favre;1175,6833
+1462;francois leyvraz;2694;4001;veuve de jean samuel leyvraz;7224
+1465;henri giroud;8007;4003;auguste giroud;8007
+1467;adolphe meystre;2803;231;louise Meystre;9729,9729
+1469;gustave francillon;8007;4005;ch. jacques samuel marc francillon;8007
+1470;maurice francillon;7634,7634;4005;ch. jacques samuel marc francillon;8007
+1472;emile francillon;9557;4005;ch. jacques samuel marc francillon;8007
+1481;gustave gonthier;6134;214;jean Gonthier;5976,3227
+1482;marc louis brot;2002;4009;jean brot;3227
+1485;rodolphe ballif;9168;1484;edouard ballif;2948,2948
+1492;jacques delavigne;10837;4011;felix delavigne;10560
+1493;jean jouvet;8007;4012;isaac jouvet;8007
+1509;jules vannod;10956,10956;271;jean Vannod;967,967
+1510;adolphe ammann;7015;4016;samuel c. ammann;10606
+1523;juliette mandrot;9721;4019;veuve de jean mandrot;9721
+1524;louisa meyer;2694;474;francois Meyer;8886
+1526;charles pascal;8007;1525;charles pascal;8007,8007
+1534;susanne leblanc;9721;1533;louis leblanc;167,9721
+1541;adolphe bonnard;8007;4792;francois Bonnard;8007,8007
+1544;jacques vallotton;8020;634;louis Vallotton;11396,8020
+1547;henri dubois;1283;1015;louis Dubois;8007,8007
+1548;charles decombaz;1455;4023;francois decombaz;6155
+1554;isaac blanc;9281,470;4025;charles blanc;6155
+1557;anna krieg;10590;5300;jules krieg;7643
+1558;caroline krieg;10590;5300;jules krieg;7643
+1559;jules duport;11072;4027;louis duport;4968
+1563;louis ferber;1424;1560;christian ferber;1424,1424
+1566;louis chapuis;1961;4028;veuve de jean louis chapuis;7224
+1567;alfred braun;1961;4029;jean braun;1961
+1569;samuel baud;10221;457;jean francois Baud;6596,3227
+1574;henri henrioud;4113;4033;veuve de samuel henrioud;1970
+1575;henriette vincent;9721;4034;auguste vincent;6950
+1583;charles bonnet;6526,2002;1582;veuve de jean daniel bonnet;6556
+1586;jean jacques mercier;8007;4704;jean jaques Mercier;8007
+1587;adrien mercier;9281;4704;jean jaques Mercier;8007
+1591;charles sommer;10560;4037;charles frederic sommer;10606
+1599;jules henrioud;10221;201;daniel Henrioud;6556
+1601;paul charton;938;4041;jean francois charton;6753
+1603;didier magnenat;10221,10221;4042;henri magnenat;10606
+1606;charles guex;9695;4043;jean francois guex;1455
+1607;henri guex;2887;4043;jean francois guex;1455
+1620;alfred richard;8007;94;louis Richard;2694
+1631;marc perroud;6830;4048;jean francois marc perroud;6556
+1633;jenny clavel;3919;5336;louis clavel;2002
+1638;louis michot;7879;4050;jeanne julie michot;6478
+1642;sophie spengler;9721;4052;andre spengler;6776
+1652;samuel chapuis;5257;4054;louis chapuis;9159
+1654;henri delisle;8007;478;jean abram Delisle;6950
+1659;alfred kohler;3893;486;adolphe Kohler;8007,8007
+1663;henri eberle;10221;3639;louis daniel eberle;10221
+1665;henri preisig;10614;4056;frederic preisig;3349
+1669;jean henri lacombe;5401;4059;jean philippe lacombe;9110
+1675;frederic guex;5928;4063;pierre guex;2694
+1677;jules cuenoud;6556;4065;jean cuenoud;6556
+1678;lucien cuenoud;6556;4065;jean cuenoud;6556
+1679;henri cuenoud;6556;4065;jean cuenoud;6556
+1680;emile cuenoud;6556;4065;jean cuenoud;6556
+1681;auguste cuenoud;4171;4065;jean cuenoud;6556
+1686;louis cottier;6936;1685;francois louis cottier;11392,11392
+1689;antoine franck;10560;3578;hoirs de joseph franck;10749
+1700;marc roulet;3227;4069;francois roulet;7643
+1702;cathrine grepin;7778;4071;frederic rodolphe grepin;1424
+1708;marie mennet;9721;4073;veuve mennet;9721
+1711;edouard henny;8007;4076;louis henny;4171
+1714;louis beroud;974;4079;francois gabriel beroud;7643
+1716;frederic baud;10221;4080;jean baud;10221
+1717;charles maget;5976;452;samuel Maget;5976
+1718;fanny nobs;9721;4081;veuve d'andre nobs;9721
+1723;jenny chapuis;3354;1722;charles louis chapuis;5042,9716
+1726;francois decombaz;1455;640;jean daniel Décombaz;1455,1455,470
+1728;louis fleury;2002,470;643;francois Fleury;11072,11072
+1729;jules poeterlin;7643;4082;louis poeterlin;7643
+1731;henri jaccard;9716;4083;charles jaccard;1424
+1746;henri chapuis;7862;433;jaques Chapuisat;11072,11072
+1749;marc collet;5976;4092;jean emmanuel collet;5420
+1750;jean collet;6556;4092;jean emmanuel collet;5420
+1759;louise valet;1371;4095;francois louis valet;9686
+1778;victor maget;938;4714;louis Maget;6830,4731
+1780;marie paget;3354;653;jean christian Paget;10614,6556
+1785;louise gaudard;6760;1784;victor gaudard;10519,5257
+1794;charles robert;11408;1793;emmanuel auguste robert;7196
+1798;alexis secretan;6134;4106;abraham francois louis secretan;6134
+1804;julie obrecht;9281;4108;jean georges obrecht;7643
+1810;albertine paget;3354;4111;auguste paget;6556
+1811;auguste conus;2887;4112;charles conus;7643
+1818;ernest pavillard;5976;4116;henry pavillard;5976
+1830;ferdinand challand;938;4120;jean pierre ferdinand challand;9383
+1838;felix villard;470;4861;charles Villard;3227,3227
+1842;felix peneveyres;6526;4122;louis peneveyres;11072
+1843;auguste krieg;4731;4123;georges krieg;938
+1845;cesar krieg;938;4123;georges krieg;938
+1846;alois hollard;9716;4124;veuve de charles hollard;9721
+1850;frederic pache;5245;4125;jean pache;3369
+1851;gustave pache;6556;4125;jean pache;3369
+1852;jules blanc;8725;4126;veuve de francois daniel blanc;9281
+1862;samuel cuenoud;3648;707;andre Cuenoud;9112,9126
+1879;henriette belet;9281;3611;veuve de francois belet;9281
+1882;frederic pache;2002;1881;daniel pache;2002
+1908;jean francois deglon;10606;4136;pierre louis deglon;6556
+1915;louise duplan;3354;4851;louis Duplan;10560
+1927;edouard borgeaud;167;572;jean louis Borgeaud;1455,11392
+1930;louis delaraye;470;697;francois Delaraye;11072,11392
+1940;charles louis mennet;1227,9716;4144;jean samuel andre mennet;9716
+1941;marie centurier;9721;4145;veuve de jean balthazar centurier;9721
+1945;francois ramuz;10557;4146;frederic ramuz;2694
+1947;jenny fiaux;9721;1946;veuve de francois fiaux;7224,7224
+1948;louis fiaux;8020;1946;veuve de francois fiaux;7224,7224
+1949;jules fiaux;11408;1946;veuve de francois fiaux;7224,7224
+1957;abraham decombaz;2887,10946;4148;veuve de jean pierre decombaz;10590
+1963;francois maillard;7879,7879;4151;gabriel maillard;7879
+1967;louis martin;7643;1170;gabriel Martin;5257,6556,6905
+1968;daniel martin;2002;1170;gabriel Martin;5257,6556,6905
+1976;jean henry blanc;11072;4155;veuve d'alexandre blanc;6596
+1981;louis blanchard;470;4156;marc francois blanchard;5976
+1999;emile brun;2894;221;charles Brun;11110
+2001;charles cuenoud;10574;4161;jean louis cuenoud;6556
+2007;charles crausaz;1662;589;samuel Crausaz;10221,6490
+2009;lucie secretan;9721;839;charles Secretan;9716
+2016;jean legert;6830,6830;5475;samuel legert;6830
+2021;frederic dentan;10837;5477;francois dentan;1662
+2022;marc dentan;1662;5477;francois dentan;1662
+2029;elise hennard;9721;2028;jean abraham hennard;9159
+2036;louis wirtz;10716;4169;veuve de francois wirtz;6556
+2039;emile chevalley;10606;904;albert Chevalley;6526,6526
+2041;frederic bugnion;6905;460;jean Bugnion;6556
+2047;louis corsat;2122,5976;4171;jean pierre louis corsat;6830
+2050;alexis panchaud;10557;4172;auguste panchaud;7396
+2059;antoine legert;3369;2057;francois legert;6830
+2060;julie margot;10590;4173;jean louis margot;6830
+2069;henri bussy;10089;4176;frederic bussy;5257
+2071;jacques meylan;470;1211;daniel Meylan;6556,470
+2072;auguste martin;10051;4177;jean francois martin;7699
+2074;rosine martin;7224;2073;jean david martin;470,470
+2077;henri rothen;6556;4179;louis rothen;470
+2080;jules vivian;8719;4180;rodolphe louis philippe vivian;6556
+2102;jean francois corbaz;470;4185;pierre jacob corbaz;7396
+2107;jean georges regamey;470;4187;jean louis regamey;476
+2114;henri pache;6526;4189;samuel daniel pache;2002
+2132;david favrat;6656;4195;pierre samuel favrat;5575
+2136;francois elie taillens;5257;2135;veuve de jean henri taillens;5257
+2156;francois francfort;5268;2154;louis francfort;6526,5257
+2158;charles violon;5420;4205;pierre violon;5257
+2159;charles perreaz;470;4206;georges perreaz;470
+2166;anna dupraz;6760;3499;georges dupraz;5257
+2168;charles chapuis;272;4207;samuel chapuis;6556
+2170;louis blanc;470;4208;henri blanc;1175
+2173;jules chapuis;2002,6556;1146;charles Chapuis;10749
+2177;daniel dutoit;4171;4211;abraham dutoit;6787
+2183;louis peneveyre;11072,5976;97;jean Peneveyre;11072,11072
+2190;samuel buffat;470;1136;georges Buffat;470,470,470
+2191;marc rouge;6656;4214;henri rouge;5552
+2197;jules desponds;6526,6526;2196;veuve de louis henri desponds;470,9721,4829
+2198;alexandre desponds;470;2196;veuve de louis henri desponds;470,9721,4829
+2201;jules poeterlin;3349;4216;jules justin poeterlin;3349
+2206;charles dapples;9716;4217;charles auguste dapples;9716
+2207;louis hennard;470,470;1115;jean pierre Hennard;11072,11072
+2208;henri curtet;6526;705;albert Curtet;6526,6526
+2222;joseph perrin;11110;970;jule Perrin;11110
+2227;isaac pache;8256;4222;veuve pache;10590
+2228;jean vullierat;8256;981;claude Vullierat;6556,11072
+2237;jules jaquillard;6526;4225;jean charles abraham jaquillard;6596
+2242;louis milliquet;470;1006;louis Milliquet;11072,470
+2243;julien milliquet;470;1006;louis Milliquet;11072,470
+2247;rosalie gay;9721;2245;jean gay;9168,9168
+2261;gedeon francois regamey;470;4226;veuve regamey;470
+2269;henri de la harpe;1227;4231;marc jacques josias de la harpe;6601
+2274;jean leyvraz;11072;4233;jean pierre louis leyvraz;11072
+2276;joseph gerster;6936;4235;louis samuel gerster;4836
+2289;marianne crausaz;6760;4237;veuve de frederic crausaz;6760
+2306;marc pache;6556;4057;charles pache;7566
+2317;charles cottier;9716;1685;francois louis cottier;11392,11392
+2351;eugene staub;3024;4254;frederic staub;3024
+2357;paul hoch;10221;4257;veuve de jean hoch;7224
+2368;marie gaman;7640;4260;jean leon gaman;6950
+2387;charles lavanchy;7018;4267;charles lavanchy;6905
+2390;henri martin;5257;1432;samuel martin;5100,8007,11408
+2391;francois moverraz;470;4269;fs louis albert moverraz;2594
+2396;charles moulin;3369;3482;jean louis moulin;2930,6936
+2406;charles barraud;1873;4272;marc francois barraud;1662
+2409;henri bugnion;10089;4273;vve d a bugnion;7224
+2416;alfred will;5245;4275;veuve de frederic will;5245
+2420;jules pinget;10614;4277;jaques fs pinget;3354
+2424;marie seewer;1739;4280;charles seewer;1662
+2427;georges corbaz;938;4281;benjamin corbaz;9695
+2431;charles barbezat;6813;4283;louis samuel barbezat;1455
+2441;armand gonthier;4171;1481;gustave gonthier;6134
+2444;antoine ramelet;5245;4287;henri louis ramelet;7643
+2468;louisa bornand;9716;4295;charles bornand;8007
+2484;henri kamm;9716;1433;louis kamm;1175,6193
+2486;leon raoux;6267;1692;edouard raoux;9168,9168
+2491;fanny stauffer;3354;4306;jules stauffer;6905
+2492;elise blanc;2002;4307;louis jaques david blanc;9716
+2551;auguste martin;6556;4723;jean Martin;3227
+2560;henri gimpert;9695;4326;conrad gimpert;10560
+2568;henri ducraux;5976;4329;louis rodolphe ducraux;3227
+2582;louis charton;4829;4334;christian charton;6134
+2596;louisa vuagniaux;2068;1515;francois vuagniaux;11110
+2597;auguste widmer;7634;4338;charles widmer;9716
+2603;emmanuel de goumoens;9716;1388;charles de goumoens;9716,9716
+2624;helene delessert;9729;1242;louis frederic delessert;6556
+2678;rodolphe mollet;1283;4365;vietaire mollet;9721
+2689;charles bolens;3591;4370;louis charlet bolens;9716
+2694;cecile muret;9721;4373;jules muret;9716
+2704;louise bailly;7778;4375;veuve marie bailly;7778
+2705;julie bailly;7778;4375;veuve marie bailly;7778
+2724;marie jaquilliard;10946;1354;francois daniel jaquillard;6556
+2734;alfred feyler;8886;2733;adolphe feyler;8886,9716
+2751;eugene vez;1598;4390;jean charles vez;10732
+2752;henri carrard;7643;4391;jean carrard;1175
+2766;louise rochat;2893;4397;rosalie vve de consax rochat;10590
+2768;susette golay;3354;4398;louise vve de fs golay;3354
+2778;emile olivier;7679;4402;jean olivier;7643
+2782;francois cordey;11072;4403;henri cordey;7643
+2797;georges bovey;1287;4407;elisa vve de daniel bovey;3354
+2803;louis chatelan;3064;4411;caroline vve de marc chatelan;7006
+2810;louis wirz;2616;4415;martin wirz;1424
+2826;emile rouiller;7643;4418;auguste rouiller;7643
+2829;felix schaffroth;10946;4419;rodolphe schaffroth;10560
+2852;charles ward;9168;4428;edouard ward;9716
+2875;emile cuenod;6267;4440;elise vve d alphen cuenod;9721
+2904;louis chessex;938;4447;georges chessex;938
+2907;antoine darbonnier;9721;4449;louise vve de jaque darbonnier;9721
+2933;edouard rochat;2694;1897;jean daniel rochat;7699,9281
+2937;frederic ryffel;3961;4456;charles ryffel;1961
+2941;louise mennet;3354;4457;francois mennet;10560
+2943;jules rouvenaz;1455;4458;reine vve de louis rouvenaz;7640
+2945;paul longchampe;1598;2944;favier longchampe;1391
+2952;albert egli;10614;4463;henri egli;4113
+2976;prosper cardinaux;2694;2975;jaques cardinaux;4121,4121
+2978;gustave blanc;1455;1912;veuve de georges blanc;3354,9721
+2980;charles herter;5976;4473;veuve de charles herter;6596
+2988;eugene clerc;3591;4475;pierre abraham clerc;10560
+2996;francois giron;10606;4478;charles marc giron;6905
+3004;louise noverraz;9721;4481;louis noverraz;1662
+3011;henri calame;10614;4482;louis calame;6134
+3023;emile girardet;1598;4486;veuve de david girardet;6596
+3026;emma rod;2893;4487;louis rod;9977
+3044;charles bovard;1598;4491;jean isaac bovard;6556
+3046;louis bovard;3292;4491;jean isaac bovard;6556
+3047;charles paquier;9695;4492;jean pierre paquier;6905
+3068;charles gret;10606;4497;isaac gret;1662
+3082;marie deglon;10956;4500;samuel deglon;9695
+3105;marie bertholet;3354;4511;jules david bertholet;7643
+3106;louis bertholet;4171;4511;jules david bertholet;7643
+3112;arnold bobillier;1866;3111;alphonse bobillier;272
+3124;antoine mignot;5976;4517;sd paul mignot;10716
+3130;emile messeiller;6556;4522;elie daniel messeiller;5418
+3141;edouard chevalley;6526;904;albert Chevalley;6526,6526
+3153;rodolphe mann;10606;4531;jacob mann;3227
+3156;julie moulin;3354;3155;louis moulin;7643
+3168;auguste martin;3919;4538;david louis martin;6905
+3187;louis barraud v;5541;4543;samuel barraud v;1424
+3194;edmond marcal;10946;4545;marius marcal;9229
+3203;louis virchaux;2694;4549;francois virchaux;7643
+3228;alois de meuront;1227;4561;georges de meuront;9716
+3266;ls aleris foretay;10606;3265;jean louis foretay;470
+3292;jean louis dumont .;470;3291;jaque benjamin dumont .;5257
+3294;auguste gysler;470;4578;louis gysler;470
+3318;ami milliquet;6556;1007;pierre Milliquet;470,470
+3355;louis bovard;6526;4594;francois louis bovard;6526
+3356;henri ducret;1455;4595;pierre francois ducret;5257
+3367;louis chave;470;5804;louis chave;470
+3374;charles peneveyre;11072;1088;daniel Peneveyre;11072,11072,470
+3376;auguste perret;470;4599;marc perret;8007
+3386;louis barraud;4910;3385;veuve de francois barraud;470
+3391;henri tailleuse;470;3389;veuve de elie tailleuse;470,470
+3394;adele hennard;3354;2207;louis hennard;470,470
+3399;aime barbey;470;4602;jules francois barbey;11072
+3403;gotfried tritten;5257;4603;fritz tritten;5257
+3427;louis charpentier;6526;5860;louis charpentier;11392
+3436;emile girardet;5257;5838;frederic girardet;11392
+3437;emmanue bigler;3227;4613;francois bigler;5420
+3453;auguste reymond;1175;4616;jean jacques reymond;470
+3473;auguste barbey;7396;4622;ganfi barbey;7373
+4627;george Favrat;9159;3491;samuel favrat;11072
+4628;george Favrat;2002;3491;samuel favrat;11072
+4631;louis Collioud;7373,7396;3492;veuve de tianne collibud;7373
+4635;duniel Dupraz;7373;3499;georges dupraz;5257
+4636;duniel Dupraz;6556,4171;3499;georges dupraz;5257
+4654;george Viret;6556;3506;veuve de jean louis viret;1371
+4667;francois Cerez;2590;3515;femme divorcee de frederic cerez;7224
+4669;louis Noverraz;6556;3516;paul louis samuel noverraz;470
+4671;francois Burnier;7643,7643;3518;sophie burnier;9721
+4673;louis Ramuz;10160;3519;francois ramuz;10557
+4678;marie Regamey;6556;3523;veuve d'elie regamey;9281
+4684;henriette Dunand;7224;3528;samuel dunand;1972
+4688;edouard Chavannes;9716;3535;marc louis chavannes;7757
+4695;frederic Regamey;2694;3544;sn pierre fise Regamey;6556
+4696;charles Rochat;3227;3548;jean charles samuel rochat;7699
+4711;louise Bugnion;3354;3560;louis Bugnion;6556
+4716;jean louis Lalliard;1961;3562;veuve de jean jacques? laillard;6760
+4718;louis Viret;3369;3565;samuel viret;7643
+4723;jean Martin;3227;3568;pierre|jean Martin;1424
+4730;catherine Franck;9729;3578;hoirs de joseph franck;10749
+4742;jean Coeytaux;2002;3590;charles coeytaux;6830
+4746;louis Miéville;9281;3594;veuve d'etienne mieville;9721
+4768;francois Belet;10089;3611;veuve de francois belet;9281
+4794;georges Eberlé;1455;3639;louis daniel eberle;10221
+4800;josephine Lecoultre;10590;3643;henry lecoultre;6556
+4806;julie Deliste;7778;3644;jacob Deliste;9716
+4825;amedee Kohler;8007;3659;charles amedee kohler;8007
+4845;louis Leblanc;167;3676;charles le blanc;1455
+4857;susanne Noverraz;7224;3683;philippe noverraz;9561
+4869;louis Jan;10221;3704;veuve de georges jan;1662
+4871;samuel Corbaz;7643;3705;jean daniel corbaz;6526
+4879;francois Jaunin;3227;3711;hoirs jaunin;11072
+4887;marc Crausaz;11072;3714;isaac crausaz;7643
+4899;francois Gaudin;9716;3720;veuve de georges francois gaudin;9721
+4908;francois Collet;6905;3726;louis adam Collet;5420
+4911;jean Clavel;6556;3729;veuve de jean m b? clavel;6690
+4913;louis Kuffer;8872;3734;jean louis kuffer;11110
+4935;jenny Freymond;7778;3749;veuve de jean jacques freymond;10590
+4943;henriette Depierraz;3306;3759;jean baptiste depierraz;10560
+4947;fanny Tissot;9721;3760;marc tissot;6155
+4957;jean Blanc;10574;3776;jean pierre david blanc;10185
+4971;louise de Constant;9721;3791;adrien de constant;9281
+4973;samuel Vallotton;2002,2002;3794;jean daniel vallotton;10221
+4985;david Rod;2002;3806;francois david rod;2002
+4991;charles Lavanchy;3919;3807;samuel Lavanchy;10574
+5007;francois Barraud;6830;3811;jean louis barraud;1873
+5018;charles Corsat;5245;3823;louis Corsat;6830
+5041;louis Perrin;1979;3842;charles perrin;9561
+5074;rodolphe Bergier;9716,9716;3865;guillaune Bergier;9281
+5076;louis Barraud;6526;3867;jean marc barraud;7643
+5085;francois Pittet;5257;3872;jacques pittet;6526
+5092;charles Peneveyre;11072;3875;francois louis peneveyre;3227
+5098;louis Porchet;470;3876;jacques louis porchet;5257
+5102;louis Bugnion;6950;3879;thoirie Bugnion;470
+5104;samuel Pache;470;3880;louis pache;6556
+5105;samuel Pache;470;3880;louis pache;6556
+5115;louis Borgeaud;6936;3881;henry Borgeaud;11072
+5141;david Dizerens;5257;3901;alexis dizerens;6936
+5147;henri Regamey;6634;3910;hoirie de jean daniel regamey;470
+5149;ane marie Blanc;7323;3914;jn lu Blanc;6634
+5153;louis Vincent;6206;3921;marc louis vincent;6206
+5163;louis corbaz;2056,10560;3922;marius corbaz;10946
+5190;henri fischer;938;3941;veuve de henri fischer;9721
+5191;charles cerez;10221;3943;georges cerez;9281
+5193;francois borgeaud;11110,11110;3944;marc borgeaud;2594
+5201;victor paganetti;9281;3949;marie vve de fs paganetti;1371
+5203;georges blanc;5257;3951;henri blanc;6556
+5216;david bonjour;10837;3964;francois bonjour;10606
+5238;louise secretan;9721;3985;ch gabriel secretan;9168
+5260;louis henrioud;1970;4007;vve ensoine henrioud;6905
+5268;henri bischoff;8886;4013;theophile bischoff;8777
+5296;adolphe burnand;6338;4022;veuve de louis burnand;9721
+5298;francois marguerat;6830;4024;marc henri marguerat;7643
+5300;jules krieg;7643;4026;jules daniel krieg;7643
+5304;louis lavanchy;1662;4030;frederic lavanchy;11072
+5320;louise margot;10590;4040;jean rodolphe margot;7643
+5348;louis pache;6134;4057;charles pache;7566
+5383;louis ramelet;4171;4089;louis rodolphe ramelet;6134
+5394;jules rochat;6134;4100;vve d alexandre rochat;9721
+5396;marc chapuis;2930;4101;henri chapuis;10268
+5400;alexandre graedig;10560,10560;4109;mexaudre gredig;10560
+5411;emile thuillard;2694;4119;jean marc thuillard;6456
+5429;charles blondel;6526;4130;veuve de francois louis blondel;9281
+5448;louis sechaud;5245,6905;4147;paul emile sechaud;5976
+5456;louis briod;1455;4157;victor briod;1455
+5475;samuel legert;6830;4166;samuel abram legert;6830
+5476;samuel legert;6830;4166;samuel abram legert;6830
+5510;louis messeiller;6556;4202;jaques elie messeiller;5418
+5517;daniel olivier;2002,470;4212;charles olivier;2002
+5538;francois muller;11072,11072;4228;veuve de marc muller;7640
+5543;william barbey;470;4230;francois barbey;11072
+5560;louis epitaux;6830;4238;francois louis|isaac epitaux;799
+5564;charles russillon;10221;4244;vve de ch rusillon;8621
+5574;auguste mauerhofer;938;4250;louis mauerhofer;10606
+5576;georges bridel;6696;4251;veuve de georges bridel;6696
+5578;eugene ville;8007;4252;veuve de francois oville;11408
+5584;oscar rapin;3893;4255;veuve de jules rapin;7640
+5590;auguste pache;2002;4265;jn ls del pache;7643
+5592;auguste gardel;10614;4284;v de francois gardel;2930
+5604;frederic leyvraz;1455;4298;veuve de frederic leyvraz;7640
+5616;albert bevilly;2415;4315;edouard revilly;2056
+5624;jean louis regamey;6905;4321;henri regamey;6556
+5630;charles breitler;3227;4327;chs jean breitler;3227
+5688;louis gaudin;10160;4405;jeanne gaudin;470
+5690;francois oelave clavel;6556;4412;emi le georges clavel;6936
+5700;christian henny;2002;4433;vv de chrest henny;7640
+5734;louis pachoud;10089;4489;david paschoud;3648
+5736;jean antenen;3227;4496;jacob antenen;3227
+5740;henri leyvraz;9716;4507;henri|annee de naissance leyvraz;6950
+5752;jules lavanchy;6946;4542;ps olivier lavanchy;2002
+5758;charles kohler;6905;4554;araham bohler;5536
+5766;fanny chapuis;3354;4559;louis chapuis;2930
+5768;marie weber;9721;4562;daniel weber;10560
+5794;charles carrard;1283;4590;vve de edouard carrard;9721
+5804;louis chave;470;4596;louis georges chave;470
+5834;rodolphe furrer;7373;4612;adolphe jurrer;7396
+5842;henri decrousaz;9716;4614;fedor de crousaz;6267

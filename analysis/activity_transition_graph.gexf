@@ -1,0 +1,831 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-05-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="3" title="jobs" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="activity" type="string" />
+      <attribute id="2" title="weight" type="long" />
+    </attributes>
+    <nodes>
+      <node id="parent: tertiaire chef" label="parent: tertiaire chef">
+        <attvalues>
+          <attvalue for="0" value="parent" />
+          <attvalue for="1" value="tertiaire chef" />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="child: propriétaire" label="child: propriétaire">
+        <attvalues>
+          <attvalue for="0" value="child" />
+          <attvalue for="1" value="propriétaire" />
+          <attvalue for="2" value="49" />
+        </attvalues>
+      </node>
+      <node id="parent: tertiaire " label="parent: tertiaire ">
+        <attvalues>
+          <attvalue for="0" value="parent" />
+          <attvalue for="1" value="tertiaire " />
+          <attvalue for="2" value="56" />
+        </attvalues>
+      </node>
+      <node id="child: secondaire cuir et textile" label="child: secondaire cuir et textile">
+        <attvalues>
+          <attvalue for="0" value="child" />
+          <attvalue for="1" value="secondaire cuir et textile" />
+          <attvalue for="2" value="60" />
+        </attvalues>
+      </node>
+      <node id="parent: primaire journalier" label="parent: primaire journalier">
+        <attvalues>
+          <attvalue for="0" value="parent" />
+          <attvalue for="1" value="primaire journalier" />
+          <attvalue for="2" value="67" />
+        </attvalues>
+      </node>
+      <node id="child: secondaire artisanat" label="child: secondaire artisanat">
+        <attvalues>
+          <attvalue for="0" value="child" />
+          <attvalue for="1" value="secondaire artisanat" />
+          <attvalue for="2" value="57" />
+        </attvalues>
+      </node>
+      <node id="parent: secondaire bâtiment" label="parent: secondaire bâtiment">
+        <attvalues>
+          <attvalue for="0" value="parent" />
+          <attvalue for="1" value="secondaire bâtiment" />
+          <attvalue for="2" value="87" />
+        </attvalues>
+      </node>
+      <node id="child: primaire journalier" label="child: primaire journalier">
+        <attvalues>
+          <attvalue for="0" value="child" />
+          <attvalue for="1" value="primaire journalier" />
+          <attvalue for="2" value="36" />
+        </attvalues>
+      </node>
+      <node id="child: primaire agriculture" label="child: primaire agriculture">
+        <attvalues>
+          <attvalue for="0" value="child" />
+          <attvalue for="1" value="primaire agriculture" />
+          <attvalue for="2" value="68" />
+        </attvalues>
+      </node>
+      <node id="child: secondaire bâtiment" label="child: secondaire bâtiment">
+        <attvalues>
+          <attvalue for="0" value="child" />
+          <attvalue for="1" value="secondaire bâtiment" />
+          <attvalue for="2" value="85" />
+        </attvalues>
+      </node>
+      <node id="child: tertiaire " label="child: tertiaire ">
+        <attvalues>
+          <attvalue for="0" value="child" />
+          <attvalue for="1" value="tertiaire " />
+          <attvalue for="2" value="89" />
+        </attvalues>
+      </node>
+      <node id="parent: primaire agriculture" label="parent: primaire agriculture">
+        <attvalues>
+          <attvalue for="0" value="parent" />
+          <attvalue for="1" value="primaire agriculture" />
+          <attvalue for="2" value="91" />
+        </attvalues>
+      </node>
+      <node id="child: tertiaire commerce" label="child: tertiaire commerce">
+        <attvalues>
+          <attvalue for="0" value="child" />
+          <attvalue for="1" value="tertiaire commerce" />
+          <attvalue for="2" value="36" />
+        </attvalues>
+      </node>
+      <node id="parent: propriétaire" label="parent: propriétaire">
+        <attvalues>
+          <attvalue for="0" value="parent" />
+          <attvalue for="1" value="propriétaire" />
+          <attvalue for="2" value="40" />
+        </attvalues>
+      </node>
+      <node id="parent: secondaire artisanat" label="parent: secondaire artisanat">
+        <attvalues>
+          <attvalue for="0" value="parent" />
+          <attvalue for="1" value="secondaire artisanat" />
+          <attvalue for="2" value="49" />
+        </attvalues>
+      </node>
+      <node id="parent: tertiaire transport" label="parent: tertiaire transport">
+        <attvalues>
+          <attvalue for="0" value="parent" />
+          <attvalue for="1" value="tertiaire transport" />
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </node>
+      <node id="parent: tertiaire commerce" label="parent: tertiaire commerce">
+        <attvalues>
+          <attvalue for="0" value="parent" />
+          <attvalue for="1" value="tertiaire commerce" />
+          <attvalue for="2" value="41" />
+        </attvalues>
+      </node>
+      <node id="parent: secondaire cuir et textile" label="parent: secondaire cuir et textile">
+        <attvalues>
+          <attvalue for="0" value="parent" />
+          <attvalue for="1" value="secondaire cuir et textile" />
+          <attvalue for="2" value="47" />
+        </attvalues>
+      </node>
+      <node id="parent: secondaire alimentation" label="parent: secondaire alimentation">
+        <attvalues>
+          <attvalue for="0" value="parent" />
+          <attvalue for="1" value="secondaire alimentation" />
+          <attvalue for="2" value="21" />
+        </attvalues>
+      </node>
+      <node id="child: tertiaire education" label="child: tertiaire education">
+        <attvalues>
+          <attvalue for="0" value="child" />
+          <attvalue for="1" value="tertiaire education" />
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </node>
+      <node id="child: tertiaire chef" label="child: tertiaire chef">
+        <attvalues>
+          <attvalue for="0" value="child" />
+          <attvalue for="1" value="tertiaire chef" />
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </node>
+      <node id="child: secondaire alimentation" label="child: secondaire alimentation">
+        <attvalues>
+          <attvalue for="0" value="child" />
+          <attvalue for="1" value="secondaire alimentation" />
+          <attvalue for="2" value="17" />
+        </attvalues>
+      </node>
+      <node id="parent: tertiaire education" label="parent: tertiaire education">
+        <attvalues>
+          <attvalue for="0" value="parent" />
+          <attvalue for="1" value="tertiaire education" />
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </node>
+      <node id="parent: primaire " label="parent: primaire ">
+        <attvalues>
+          <attvalue for="0" value="parent" />
+          <attvalue for="1" value="primaire " />
+          <attvalue for="2" value="24" />
+        </attvalues>
+      </node>
+      <node id="child: primaire " label="child: primaire ">
+        <attvalues>
+          <attvalue for="0" value="child" />
+          <attvalue for="1" value="primaire " />
+          <attvalue for="2" value="19" />
+        </attvalues>
+      </node>
+      <node id="child: secondaire industrie" label="child: secondaire industrie">
+        <attvalues>
+          <attvalue for="0" value="child" />
+          <attvalue for="1" value="secondaire industrie" />
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </node>
+      <node id="child: tertiaire transport" label="child: tertiaire transport">
+        <attvalues>
+          <attvalue for="0" value="child" />
+          <attvalue for="1" value="tertiaire transport" />
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </node>
+      <node id="parent: secondaire industrie" label="parent: secondaire industrie">
+        <attvalues>
+          <attvalue for="0" value="parent" />
+          <attvalue for="1" value="secondaire industrie" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="parent: tertiaire chef" target="child: propriétaire" id="0" weight="5">
+        <attvalues>
+          <attvalue for="3" value="{'procureur-&gt;rentiere', 'ministre-&gt;rentiere', 'ministre-&gt;rentier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire chef" target="child: tertiaire chef" id="1" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'chirurgien-&gt;medecin'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire chef" target="child: tertiaire " id="2" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'procureur-&gt;avocat'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire chef" target="child: tertiaire commerce" id="3" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'commissaire-&gt;marchande'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire chef" target="child: primaire agriculture" id="4" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'procureur-&gt;fermier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire chef" target="child: secondaire cuir et textile" id="5" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'regent-&gt;blanchisseuse'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire " target="child: secondaire cuir et textile" id="6" weight="3">
+        <attvalues>
+          <attvalue for="3" value="{'lingere-&gt;chapelier', 'lingere-&gt;couturiere'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire " target="child: tertiaire " id="7" weight="27">
+        <attvalues>
+          <attvalue for="3" value="{'huissier-&gt;commis', 'sonneur-&gt;facteur', 'négociant-&gt;banquier', 'huissier-&gt;négociant', 'négociant-&gt;négociant', 'négociant-&gt;notaire', 'lingere-&gt;lingere', 'docteur en droit-&gt;avocat', 'commis-&gt;greffier', 'pharmacien-&gt;commis', 'notaire-&gt;notaire', 'notaire-&gt;avocat', 'pharmacien-&gt;pharmacien', 'commis-&gt;négociant', 'libraire-&gt;libraire', 'sonneur-&gt;commis'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire " target="child: propriétaire" id="8" weight="7">
+        <attvalues>
+          <attvalue for="3" value="{'banquier-&gt;rentier', 'ingénieur-&gt;rentier', 'huissier-&gt;rentiere', 'négociant-&gt;rentiere', 'négociant-&gt;rentier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire " target="child: tertiaire education" id="9" weight="2">
+        <attvalues>
+          <attvalue for="3" value="{'coiffeur-&gt;inspecteur', 'lingere-&gt;institutrice'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire " target="child: secondaire artisanat" id="10" weight="3">
+        <attvalues>
+          <attvalue for="3" value="{'libraire-&gt;imprimeur', 'typographe-&gt;charretier', 'négociant-&gt;serrurier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire " target="child: tertiaire commerce" id="11" weight="2">
+        <attvalues>
+          <attvalue for="3" value="{'négociant-&gt;gociant'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire " target="child: tertiaire chef" id="12" weight="3">
+        <attvalues>
+          <attvalue for="3" value="{'menagère-&gt;docteur', 'négociant-&gt;docteur', 'négociant-&gt;medecin'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire " target="child: secondaire alimentation" id="13" weight="3">
+        <attvalues>
+          <attvalue for="3" value="{'menagère-&gt;boulanger', 'huissier-&gt;boulanger'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire " target="child: primaire agriculture" id="14" weight="3">
+        <attvalues>
+          <attvalue for="3" value="{'menagère-&gt;vigneron', 'négociant-&gt;agriculteur', 'huissier-&gt;agriculteur'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire " target="child: tertiaire transport" id="15" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'agent de police-&gt;cariste'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire " target="child: primaire journalier" id="16" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'lessiveuse-&gt;journalier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire " target="child: secondaire bâtiment" id="17" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'menagère-&gt;charpentier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: primaire journalier" target="child: secondaire artisanat" id="18" weight="7">
+        <attvalues>
+          <attvalue for="3" value="{'journalier-&gt;tonnelier', 'journalier-&gt;ouvrier papetier', 'journalier-&gt;imprimeur', 'journalière-&gt;serrurier', 'journalier-&gt;fondeur', 'journalier-&gt;teinturier', 'journalier-&gt;serrurier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: primaire journalier" target="child: secondaire cuir et textile" id="19" weight="9">
+        <attvalues>
+          <attvalue for="3" value="{'journalier-&gt;tanneur', 'journalière-&gt;cordonnier', 'journalier-&gt;cordonnier', 'journalier-&gt;couturiere', 'journalier-&gt;tailleuse', 'journalier-&gt;blanchisseuse'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: primaire journalier" target="child: primaire agriculture" id="20" weight="7">
+        <attvalues>
+          <attvalue for="3" value="{'journalier-&gt;agriculteur', 'journalier-&gt;fermier', 'journalière-&gt;vigneron'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: primaire journalier" target="child: secondaire bâtiment" id="21" weight="16">
+        <attvalues>
+          <attvalue for="3" value="{'journalier-&gt;maçon', 'journalier-&gt;menuisier', 'journalier-&gt;charpentier', 'journalier-&gt;couvreur', 'journalier-&gt;manoeuvre', 'journalier-&gt;tailleur de pierre', 'journalière-&gt;gypsier', 'journalier-&gt;gypsier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: primaire journalier" target="child: tertiaire " id="22" weight="7">
+        <attvalues>
+          <attvalue for="3" value="{'journalier-&gt;commis', 'journalière-&gt;repasseuse', 'journalier-&gt;agent de police', 'journalier-&gt;typographe', 'journalier-&gt;domestique', 'journalier-&gt;repasseuse', 'journalier-&gt;négociant'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: primaire journalier" target="child: primaire journalier" id="23" weight="12">
+        <attvalues>
+          <attvalue for="3" value="{'journalier-&gt;journalier', 'journalière-&gt;journalier', 'journalier-&gt;journalière'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: primaire journalier" target="child: tertiaire education" id="24" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'journalier-&gt;instituteur'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: primaire journalier" target="child: secondaire industrie" id="25" weight="3">
+        <attvalues>
+          <attvalue for="3" value="{'journalier-&gt;ouvrière', 'journalier-&gt;ouvrier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: primaire journalier" target="child: tertiaire transport" id="26" weight="2">
+        <attvalues>
+          <attvalue for="3" value="{'journalier-&gt;batelier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: primaire journalier" target="child: primaire " id="27" weight="3">
+        <attvalues>
+          <attvalue for="3" value="{'journalier-&gt;bucheron', 'journalière-&gt;bucheron', 'journalière-&gt;jardinier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire bâtiment" target="child: primaire journalier" id="28" weight="7">
+        <attvalues>
+          <attvalue for="3" value="{'manœuvre-&gt;journalier', 'couvreur-&gt;journalier', 'charpentier-&gt;journalier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire bâtiment" target="child: secondaire bâtiment" id="29" weight="32">
+        <attvalues>
+          <attvalue for="3" value="{'charpentier-&gt;charpentier', 'gypsier-&gt;gypsier', 'maçon-&gt;couvreur', 'tailleur de pierre-&gt;tailleur de pierre', 'maçon-&gt;manœuvre', 'menuisier-&gt;charpentier', 'architecte-&gt;architecte', 'maçon-&gt;maçon', 'menuisier-&gt;maçon', 'menuisier-&gt;menuisier', 'menuisier-&gt;couvreur', 'maçon-&gt;charpentier', 'manœuvre-&gt;couvreur', 'maçon-&gt;architecte'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire bâtiment" target="child: tertiaire commerce" id="30" weight="8">
+        <attvalues>
+          <attvalue for="3" value="{'manoeuvre-&gt;marchand de bois', 'manoeuvre-&gt;cafetier', 'tailleur de pierre-&gt;marchande', 'architecte-&gt;entrepreneur', 'charpentier-&gt;marchand', 'gypsier-&gt;modiste', 'charpentier-&gt;modiste', 'manoeuvre-&gt;charbonnier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire bâtiment" target="child: tertiaire " id="31" weight="8">
+        <attvalues>
+          <attvalue for="3" value="{'peintre-&gt;pharmacien', 'menuisier-&gt;arpenteur', 'manoeuvre-&gt;domestique', 'menuisier-&gt;banquier', 'menuisier-&gt;lingere', 'charpentier-&gt;domestique', 'menuisier-&gt;commis', 'tailleur de pierre-&gt;domestique'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire bâtiment" target="child: secondaire cuir et textile" id="32" weight="16">
+        <attvalues>
+          <attvalue for="3" value="{'tapissier-&gt;couturiere', 'menuisier-&gt;couturiere', 'menuisier-&gt;cordonnier', 'maçon-&gt;tailleuse', 'menuisier-&gt;tailleuse', 'tailleur de pierre-&gt;tailleuse', 'manoeuvre-&gt;couturiere', 'manoeuvre-&gt;tanneur', 'tailleur de pierre-&gt;couturiere'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire bâtiment" target="child: tertiaire chef" id="33" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'menuisier-&gt;medecin'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire bâtiment" target="child: propriétaire" id="34" weight="2">
+        <attvalues>
+          <attvalue for="3" value="{'menuisier-&gt;rentiere'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire bâtiment" target="child: secondaire artisanat" id="35" weight="6">
+        <attvalues>
+          <attvalue for="3" value="{'charpentier-&gt;marbrier', 'gypsier-&gt;ferblantier', 'menuisier-&gt;ferblantier', 'gypsier-&gt;horloger', 'couvreur-&gt;ferblantier', 'maçon-&gt;ferblantier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire bâtiment" target="child: primaire agriculture" id="36" weight="4">
+        <attvalues>
+          <attvalue for="3" value="{'menuisier-&gt;vigneron', 'gypsier-&gt;agriculteur', 'manœuvre-&gt;fermier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire bâtiment" target="child: tertiaire transport" id="37" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'maçon-&gt;chauffeur'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire bâtiment" target="child: primaire " id="38" weight="2">
+        <attvalues>
+          <attvalue for="3" value="{'menuisier-&gt;jardinier', 'charpentier-&gt;jardinier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: primaire agriculture" target="child: primaire journalier" id="39" weight="10">
+        <attvalues>
+          <attvalue for="3" value="{'laboureur-&gt;journalière', 'fermier-&gt;journalier', 'agriculteur-&gt;journalier', 'vigneron-&gt;journalier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: primaire agriculture" target="child: tertiaire commerce" id="40" weight="8">
+        <attvalues>
+          <attvalue for="3" value="{'fermier-&gt;marchand', 'agriculteur-&gt;marchande', 'vigneron-&gt;cafetier', 'agriculteur-&gt;aubergiste', 'agriculteur-&gt;marchand', 'vigneron-&gt;laitier', &quot;vigneron-&gt;agent d'affaires&quot;}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: primaire agriculture" target="child: primaire agriculture" id="41" weight="40">
+        <attvalues>
+          <attvalue for="3" value="{'vigneron-&gt;fermier', 'agricultrice-&gt;agriculteur', 'meunier-&gt;meunier', 'agriculteur-&gt;laboureur', 'agriculteur-&gt;agriculteur', 'vigneron-&gt;agriculteur', 'laboureur-&gt;vigneron', 'laboureur-&gt;agriculteur', 'fermier-&gt;agriculteur', 'fermier-&gt;fermier', 'cultivateur-&gt;agriculteur', 'vigneron-&gt;vigneron'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: primaire agriculture" target="child: secondaire artisanat" id="42" weight="4">
+        <attvalues>
+          <attvalue for="3" value="{'fermier-&gt;ouvrier potier', 'fermier-&gt;maréchal', 'vigneron-&gt;tonnelier', 'vigneron-&gt;pintier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: primaire agriculture" target="child: secondaire bâtiment" id="43" weight="10">
+        <attvalues>
+          <attvalue for="3" value="{'fermier-&gt;menuisier', 'vigneron-&gt;charpentier', 'fermier-&gt;charpentier', 'laboureur-&gt;gypsier', 'vigneron-&gt;manœuvre', 'meunier-&gt;scieur', 'laboureur-&gt;tuilier', 'vigneronne-&gt;gypsier', 'cultivateur-&gt;menuisier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: primaire agriculture" target="child: tertiaire " id="44" weight="6">
+        <attvalues>
+          <attvalue for="3" value="{'meunier-&gt;commis', 'fermier-&gt;secrétaire', 'vigneron-&gt;musicien', 'fermier-&gt;lingere'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: primaire agriculture" target="child: primaire " id="45" weight="4">
+        <attvalues>
+          <attvalue for="3" value="{'agriculteur-&gt;jardinier', 'vigneron-&gt;jardinier', 'laboureur-&gt;garde champêtre'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: primaire agriculture" target="child: tertiaire transport" id="46" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'laboureur-&gt;voiturier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: primaire agriculture" target="child: tertiaire chef" id="47" weight="2">
+        <attvalues>
+          <attvalue for="3" value="{'vigneron-&gt;procureur', 'laboureur-&gt;commissaire de police'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: primaire agriculture" target="child: secondaire cuir et textile" id="48" weight="5">
+        <attvalues>
+          <attvalue for="3" value="{'vigneron-&gt;cordonnier', 'agriculteur-&gt;couturiere', 'meunier-&gt;cordonnier', 'agriculteur-&gt;tanneur', 'agriculteur-&gt;sellier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: primaire agriculture" target="child: secondaire alimentation" id="49" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'fermier-&gt;boulanger'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: propriétaire" target="child: tertiaire " id="50" weight="9">
+        <attvalues>
+          <attvalue for="3" value="{'rentiere-&gt;lingere', 'rentiere-&gt;banquier', 'rentier-&gt;banquier', 'rentier-&gt;avocat', 'rentiere-&gt;ingénieur', 'rentier-&gt;notaire'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: propriétaire" target="child: propriétaire" id="51" weight="17">
+        <attvalues>
+          <attvalue for="3" value="{'rentier-&gt;rentier', 'rentiere-&gt;rentier', 'rentiere-&gt;rentiere', 'rentier-&gt;rentiere'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: propriétaire" target="child: secondaire artisanat" id="52" weight="2">
+        <attvalues>
+          <attvalue for="3" value="{'rentiere-&gt;horloger', 'rentier-&gt;imprimeur'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: propriétaire" target="child: secondaire cuir et textile" id="53" weight="2">
+        <attvalues>
+          <attvalue for="3" value="{'rentiere-&gt;chapelier', 'rentier-&gt;couturiere'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: propriétaire" target="child: secondaire bâtiment" id="54" weight="4">
+        <attvalues>
+          <attvalue for="3" value="{'rentier-&gt;charpentier', 'rentiere-&gt;menuisier', 'rentiere-&gt;architecte'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: propriétaire" target="child: tertiaire education" id="55" weight="3">
+        <attvalues>
+          <attvalue for="3" value="{'rentiere-&gt;professeur', 'rentier-&gt;professeur', 'rentiere-&gt;inspecteur'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: propriétaire" target="child: tertiaire chef" id="56" weight="2">
+        <attvalues>
+          <attvalue for="3" value="{'rentier-&gt;dentiste', 'rentier-&gt;medecin'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: propriétaire" target="child: tertiaire commerce" id="57" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'rentier-&gt;modiste'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire artisanat" target="child: propriétaire" id="58" weight="4">
+        <attvalues>
+          <attvalue for="3" value="{'lithographe-&gt;rentiere', 'pintier-&gt;rentiere', 'pintier-&gt;rentier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire artisanat" target="child: secondaire bâtiment" id="59" weight="6">
+        <attvalues>
+          <attvalue for="3" value="{'serrurier-&gt;charpentier', 'vannier-&gt;manœuvre', 'teinturier-&gt;gypsier', 'horloger-&gt;tapissier', 'pintier-&gt;menuisier', 'pintier-&gt;manœuvre'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire artisanat" target="child: primaire agriculture" id="60" weight="4">
+        <attvalues>
+          <attvalue for="3" value="{'maréchal-&gt;agriculteur', 'pintier-&gt;vigneron', 'maréchal ferrant-&gt;agriculteur', 'pintier-&gt;fermier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire artisanat" target="child: secondaire artisanat" id="61" weight="18">
+        <attvalues>
+          <attvalue for="3" value="{'serrurier-&gt;serrurier', 'maréchal-&gt;maréchal ferrant', 'fondeur-&gt;serrurier', 'serrurier-&gt;teinturier', 'maréchal ferrant-&gt;maréchal', 'ferblantier-&gt;ferblantier', 'charretier-&gt;marbrier', 'imprimeur-&gt;imprimeur', 'charron-&gt;charron', 'horloger-&gt;horloger', 'maréchal-&gt;maréchal'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire artisanat" target="child: tertiaire " id="62" weight="6">
+        <attvalues>
+          <attvalue for="3" value="{'armurier-&gt;télégraphiste', 'pintier-&gt;négociant', 'pintier-&gt;avocat', 'lithographe-&gt;lingere', 'fileur-&gt;négociant', 'serrurier-&gt;lessiveuse'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire artisanat" target="child: secondaire cuir et textile" id="63" weight="3">
+        <attvalues>
+          <attvalue for="3" value="{'orfèvre-&gt;passementier', 'maréchal-&gt;cordonnier', 'serrurier-&gt;chapelier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire artisanat" target="child: tertiaire chef" id="64" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'pintier-&gt;ministre'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire artisanat" target="child: tertiaire education" id="65" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'maréchal-&gt;instituteur'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire artisanat" target="child: tertiaire commerce" id="66" weight="2">
+        <attvalues>
+          <attvalue for="3" value="{'serrurier-&gt;cafetier', 'horloger-&gt;epicière'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire artisanat" target="child: primaire " id="67" weight="2">
+        <attvalues>
+          <attvalue for="3" value="{'boisselier-&gt;bucheron', 'pintier-&gt;jardinier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire artisanat" target="child: secondaire alimentation" id="68" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'serrurier-&gt;boulanger'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire artisanat" target="child: tertiaire transport" id="69" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'charretier-&gt;chef de train'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire transport" target="child: tertiaire " id="70" weight="2">
+        <attvalues>
+          <attvalue for="3" value="{'chartrier-&gt;repasseuse', 'conducteur de diligences-&gt;employé postal'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire transport" target="child: primaire journalier" id="71" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'batelier-&gt;journalier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire transport" target="child: secondaire artisanat" id="72" weight="3">
+        <attvalues>
+          <attvalue for="3" value="{'voiturier-&gt;perruquier', 'voiturier-&gt;charron', 'voiturier-&gt;fondeur'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire transport" target="child: tertiaire transport" id="73" weight="2">
+        <attvalues>
+          <attvalue for="3" value="{'voiturier-&gt;voiturier', 'cocher-&gt;voiturier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire transport" target="child: primaire agriculture" id="74" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'cocher-&gt;agriculteur'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire commerce" target="child: tertiaire " id="75" weight="10">
+        <attvalues>
+          <attvalue for="3" value="{'marchand-&gt;négociant', 'marchand-&gt;menagère', 'gociant-&gt;négociant', &quot;agent d'affaires-&gt;lingere&quot;, 'marchande-&gt;commis', 'marchande-&gt;secrétaire', 'marchande-&gt;notaire'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire commerce" target="child: tertiaire commerce" id="76" weight="6">
+        <attvalues>
+          <attvalue for="3" value="{'marchande-&gt;gociant', 'cafetier-&gt;cafetier', 'aubergiste-&gt;marchand épicier', 'modiste-&gt;modiste'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire commerce" target="child: secondaire alimentation" id="77" weight="3">
+        <attvalues>
+          <attvalue for="3" value="{'aubergiste-&gt;confiseur', 'cafetier-&gt;cantinière'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire commerce" target="child: secondaire artisanat" id="78" weight="5">
+        <attvalues>
+          <attvalue for="3" value="{'marchande-&gt;cloutier', 'marchande-&gt;serrurier', 'cafetier-&gt;serrurier', 'cafetier-&gt;graveur', 'cafetier-&gt;tourneur'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire commerce" target="child: propriétaire" id="79" weight="8">
+        <attvalues>
+          <attvalue for="3" value="{'marchand-&gt;rentier', 'marchande-&gt;rentiere', 'marchand-&gt;rentiere', &quot;agent d'affaires-&gt;rentiere&quot;, 'cafetier-&gt;rentiere', 'aubergiste-&gt;rentier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire commerce" target="child: tertiaire transport" id="80" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'marchande-&gt;voiturier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire commerce" target="child: primaire agriculture" id="81" weight="3">
+        <attvalues>
+          <attvalue for="3" value="{'gociant-&gt;fermier', 'laitier-&gt;agriculteur', 'aubergiste-&gt;agriculteur'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire commerce" target="child: tertiaire education" id="82" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'marchand de vin-&gt;institutrice'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire commerce" target="child: secondaire cuir et textile" id="83" weight="2">
+        <attvalues>
+          <attvalue for="3" value="{'marchande-&gt;chapelier', 'cafetier-&gt;tanneur'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire commerce" target="child: primaire " id="84" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'cafetier-&gt;carrier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire commerce" target="child: secondaire bâtiment" id="85" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'aubergiste-&gt;menuisier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire cuir et textile" target="child: tertiaire " id="86" weight="7">
+        <attvalues>
+          <attvalue for="3" value="{'tailleur-&gt;typographe', 'cordonnier-&gt;huissier', 'couturiere-&gt;barbier', 'tisserand-&gt;repasseuse', 'tailleuse-&gt;typographe', 'couturiere-&gt;repasseuse', 'tisserand-&gt;libraire'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire cuir et textile" target="child: secondaire bâtiment" id="87" weight="11">
+        <attvalues>
+          <attvalue for="3" value="{'cordonnier-&gt;charpentier', 'couturiere-&gt;tapissier', 'tanneur-&gt;architecte', 'blanchisseuse-&gt;gypsier', 'cordonnier-&gt;gypsier', 'cordonnier-&gt;menuisier', 'tanneur-&gt;menuisier', 'tisserand-&gt;charpentier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire cuir et textile" target="child: secondaire cuir et textile" id="88" weight="14">
+        <attvalues>
+          <attvalue for="3" value="{'cordonnier-&gt;cordonnier', 'tisserand-&gt;tailleur', 'tailleur-&gt;tailleur', 'tailleur-&gt;couturiere', 'cordonnier-&gt;tanneur', 'chapelier-&gt;chapelier', 'tanneur-&gt;tailleur', 'couturiere-&gt;couturiere'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire cuir et textile" target="child: secondaire artisanat" id="89" weight="5">
+        <attvalues>
+          <attvalue for="3" value="{'tailleur-&gt;tourneur', 'tanneur-&gt;serrurier', 'fabricant de coton-&gt;fabricant', 'tanneur-&gt;tourneur'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire cuir et textile" target="child: primaire agriculture" id="90" weight="3">
+        <attvalues>
+          <attvalue for="3" value="{'tanneur-&gt;vigneron', 'cordonnier-&gt;agriculteur', 'cordonnier-&gt;vigneron'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire cuir et textile" target="child: secondaire industrie" id="91" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'tailleuse-&gt;ouvrier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire cuir et textile" target="child: primaire journalier" id="92" weight="2">
+        <attvalues>
+          <attvalue for="3" value="{'blanchisseuse-&gt;journalier', 'cordonnier-&gt;journalier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire cuir et textile" target="child: secondaire alimentation" id="93" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'couturiere-&gt;boulanger'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire cuir et textile" target="child: tertiaire chef" id="94" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'tailleur-&gt;dentiste'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire cuir et textile" target="child: tertiaire commerce" id="95" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'tailleuse-&gt;modiste'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire cuir et textile" target="child: propriétaire" id="96" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'tailleur-&gt;rentiere'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire alimentation" target="child: secondaire bâtiment" id="97" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'cuisinière-&gt;menuisier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire alimentation" target="child: tertiaire " id="98" weight="3">
+        <attvalues>
+          <attvalue for="3" value="{'boucher-&gt;coiffeur', 'confiseur-&gt;négociant', 'boulanger-&gt;employé postal'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire alimentation" target="child: secondaire alimentation" id="99" weight="8">
+        <attvalues>
+          <attvalue for="3" value="{'boucher-&gt;boucher', 'boulanger-&gt;boulanger', 'confiseur-&gt;confiseur'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire alimentation" target="child: secondaire artisanat" id="100" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'traiteur-&gt;serrurier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire alimentation" target="child: tertiaire education" id="101" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'boulangère-&gt;professeur'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire alimentation" target="child: tertiaire commerce" id="102" weight="4">
+        <attvalues>
+          <attvalue for="3" value="{'charcutier-&gt;marchande', 'boucher-&gt;modiste', &quot;boulanger-&gt;agent d'affaires&quot;}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire alimentation" target="child: propriétaire" id="103" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'boucher-&gt;rentier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire alimentation" target="child: secondaire cuir et textile" id="104" weight="2">
+        <attvalues>
+          <attvalue for="3" value="{'boucher-&gt;gantier', 'boucher-&gt;cordonnier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire education" target="child: secondaire artisanat" id="105" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'instituteur-&gt;emailleur'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire education" target="child: tertiaire chef" id="106" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'institutrice-&gt;regent'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire education" target="child: propriétaire" id="107" weight="3">
+        <attvalues>
+          <attvalue for="3" value="{'instituteur-&gt;rentiere', 'professeur-&gt;rentiere'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire education" target="child: secondaire industrie" id="108" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'institutrice-&gt;mécanicien'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: tertiaire education" target="child: tertiaire " id="109" weight="2">
+        <attvalues>
+          <attvalue for="3" value="{'instituteur-&gt;commis', 'professeur-&gt;ingénieur'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: primaire " target="child: propriétaire" id="110" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'jardinier-&gt;rentiere'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: primaire " target="child: secondaire artisanat" id="111" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'carrier-&gt;serrurier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: primaire " target="child: primaire " id="112" weight="7">
+        <attvalues>
+          <attvalue for="3" value="{'jardinier-&gt;jardinier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: primaire " target="child: primaire agriculture" id="113" weight="2">
+        <attvalues>
+          <attvalue for="3" value="{'jardinier-&gt;fermier', 'carrier-&gt;vigneron'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: primaire " target="child: tertiaire " id="114" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'carrier-&gt;domestique'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: primaire " target="child: primaire journalier" id="115" weight="3">
+        <attvalues>
+          <attvalue for="3" value="{'pêcheur-&gt;journalière', 'jardinier-&gt;journalier'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: primaire " target="child: secondaire cuir et textile" id="116" weight="3">
+        <attvalues>
+          <attvalue for="3" value="{'jardinier-&gt;tailleuse', 'carrier-&gt;tisserand', 'jardinier-&gt;tanneur'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: primaire " target="child: tertiaire commerce" id="117" weight="3">
+        <attvalues>
+          <attvalue for="3" value="{'garde champêtre-&gt;laitier', 'garde forestier-&gt;laitier', 'pêcheur-&gt;marchande'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: primaire " target="child: secondaire bâtiment" id="118" weight="2">
+        <attvalues>
+          <attvalue for="3" value="{'jardinier-&gt;menuisier', 'carrier-&gt;maçon'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: primaire " target="child: secondaire industrie" id="119" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'pêcheur-&gt;chargeur'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire industrie" target="child: secondaire industrie" id="120" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'mécanicien-&gt;mécanicien'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire industrie" target="child: secondaire bâtiment" id="121" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'ancien mécanicien-&gt;maçon'}" />
+        </attvalues>
+      </edge>
+      <edge source="parent: secondaire industrie" target="child: secondaire artisanat" id="122" weight="1">
+        <attvalues>
+          <attvalue for="3" value="{'ouvrière-&gt;serrurier'}" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

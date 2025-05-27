@@ -38,8 +38,9 @@ def find_person(
         if are_close_enough(person.last_name, candidate.last_name) and are_close_enough(
             person.first_name, candidate.first_name
         ):
-            if person.origin == None or are_close_enough(person.origin, candidate.origin):
-                candidates.append(candidate)
+            if person.first_name != candidate.first_name + 'e' and candidate.first_name != person.first_name + 'e':
+                if person.origin == None or are_close_enough(person.origin, candidate.origin):
+                    candidates.append(candidate)
     if len(candidates) == 1:
         return [candidates[0]]
 

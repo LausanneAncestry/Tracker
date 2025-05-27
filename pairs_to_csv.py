@@ -27,8 +27,8 @@ for person in persons:
     if not parent:
         continue
 
-    child_jobs = get_valid_jobs(person["job_ids"])
-    parent_jobs = get_valid_jobs(parent["job_ids"])
+    child_jobs = set(get_valid_jobs(person["job_ids"]))
+    parent_jobs = set(get_valid_jobs(parent["job_ids"]))
 
     if child_jobs and parent_jobs:
         pairs.append({

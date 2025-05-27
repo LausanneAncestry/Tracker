@@ -7,7 +7,7 @@ from collections import defaultdict
 CATEGORY_TO_PLOT = "sector"
 
 df = pd.read_csv("out/father_child_pairs_with_jobs.csv", sep=";")
-with open("out/export.json", encoding='utf-8') as f:
+with open("out/tracked.json", encoding='utf-8') as f:
     job_data = json.load(f)
     job_data = job_data["jobs"]
 

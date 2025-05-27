@@ -1,46 +1,44 @@
-from db import CensusEntry, Person, CensusEntryInfo, get_all_census_entries, get_all_person_entries
+import json
+import csv
 import pandas as pd
 
-data = {
-    "father_first_name": [],
-    "father_last_name": [],
-    "father_id": [],
-    "father_job": [],
-    "father_census_entries": [],
-    "son_first_name": [],
-    "son_last_name": [],
-    "son_id": [],
-    "son_job": [],
-    "son_census_entries": [],
-    "son_birth_year": [],
-    "father_birth_year": []
-}
+with open("out\export.json", "r", encoding="utf-8") as f:
+    data = json.load(f)
 
-all_entries = get_all_census_entries()
-all_people = get_all_person_entries()
-people_with_fathers = [person for person in all_people if person.parent != None]
+persons = data["persons"]
 
-for person in people_with_fathers:
-    persons_parent = None
-    for parent in all_entries:
-        if parent.id == person.parent:
-            persons_parent = parent
-    data["son_first_name"].append(person.first_name)
-    data["son_last_name"].append(person.last_name)
-    data["son_id"].append(person.id)
-    data["father_first_name"].append(persons_parent.first_name)
-    data["father_last_name"].append(persons_parent.last_name)
-    data["father_id"].append(persons_parent.id)
-    son_census_entries = [entry for entry in all_entries if entry.person == person.id]
-    father_census_entries = [entry for entry in all_entries if entry.person == person.parent]
-    data["father_job"].append(set([entry.job for entry in father_census_entries if entry.job is not None]))
-    data["father_census_entries"].append([entry.id for entry in father_census_entries])
-    data["son_census_entries"].append([entry.id for entry in son_census_entries])
-    data["son_job"].append(set([entry.job for entry in son_census_entries if entry.job is not None]))
-    data['son_birth_year'].append(set([entry.birth_year for entry in son_census_entries if entry.birth_year is not None]))
-    data['father_birth_year'].append(set([entry.birth_year for entry in father_census_entries if entry.birth_year is not None]))
+person_by_id = {person["id"]: person for person in persons}
 
-print(data)
+#Get valid jobs (10019 is no vocation and -1 is emploi inconnu so don't take them)
+def get_valid_jobs(job_ids):
+    return [job_id for job_id in job_ids if job_id not in [10019, -1]]
 
-dataframe = pd.DataFrame(data)
-dataframe.to_csv("csv_paires.csv", sep=";")
+#Find child/parent pairs who both have valid jobs
+pairs = []
+
+for person in persons:
+    #Get parent id if it exists
+    parent_id = person.get("parent")
+    if parent_id is None:
+        continue
+
+    #Check if parent exists
+    parent = person_by_id.get(parent_id)
+    if not parent:
+        continue
+
+    child_jobs = get_valid_jobs(person["job_ids"])
+    parent_jobs = get_valid_jobs(parent["job_ids"])
+
+    if child_jobs and parent_jobs:
+        pairs.append({
+            "child_id": person["id"],
+            "child_name": f'{person["first_name"]} {person["last_name"]}',
+            "child_jobs": ','.join(map(str, child_jobs)),
+            "parent_id": parent["id"],
+            "parent_name": f'{parent["first_name"]} {parent["last_name"]}',
+            "parent_jobs": ','.join(map(str, parent_jobs)),
+        })
+
+df = pd.DataFrame(pairs)
+df.to_csv("out\\father_child_pairs_with_jobs.csv", sep=';', encoding='utf-8', index=False)

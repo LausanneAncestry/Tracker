@@ -1,6 +1,7 @@
 from db import Person, personToInfo, PersonInfo, CensusEntryInfo, get_all_person_entries, get_census_entries_of_person
 import json
 import os
+import sys
 from job_matcher import match_job_with_dictionary, get_job_metadata
 
 from dataclasses import dataclass, field, asdict
@@ -51,7 +52,7 @@ def export_job_set(job_set: Set[Tuple[int, str]]):
 	return jobs_metadata
 	
 
-def json_export(target="./out/export.json", indent=None, job_ids=True):
+def json_export(target="./out/tracked.json", indent=None, job_ids=True):
 	"""
 	Exports a list of people with their census entries to a JSON file.
 
@@ -106,5 +107,8 @@ def json_export(target="./out/export.json", indent=None, job_ids=True):
 		timer.tac()
 
 if __name__ == "__main__":
-	json_export()
+	if len(sys.argv) >= 2:
+		json_export(sys.argv[1])
+	else:
+		json_export()
 
